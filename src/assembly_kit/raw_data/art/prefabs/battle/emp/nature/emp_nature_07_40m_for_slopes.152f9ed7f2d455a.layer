@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="152f9ed7f2a452c">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_b/thorns_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.652923584 0 5.23828125" rotation="0.00603582803 -24.8534241 -0.0119404495" scale="0.800000012 0.800000012 0.800000072"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2a452e">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_f/thorns_f_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.635437012 0 -4.88061523" rotation="-88.1347046 -44.9430695 78.7066269" scale="0.799999833 0.800000012 0.799999833"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2a452f">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_d/thorns_d_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.402984619 0 4.76806641" rotation="20.9768639 45.0455322 15.1471748" scale="0.800000072 0.799999893 0.800000131"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2a4530">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="2.19349933 1.74456047e-010 -4.17936707" rotation="-0.314246833 46.9993172 -0.372354776" scale="0.50000006 0.50000006 0.49999997"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2b4532">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="6.09695435 0 -2.48815918" rotation="0 0 0" scale="1.26000547 1.26000595 1.260005"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2b4533">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-4.27862167 -0.00524571165 2.6298871" rotation="0.17604129 180 1.36603776e-005" scale="0.499999791 0.5 0.499999851"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2b4534">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="6.42060518 0.000636799436 -1.67953801" rotation="0.223797962 147.999924 359.932037" scale="0.499999881 0.49999997 0.499999523"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2b4535">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="1.23006737 0 -4.48503494" rotation="0 261.470123 0" scale="1.26000559 1.26000595 1.26000559"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2b4536">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="1.69735718 0 4.87902832" rotation="0 34.5681496 0" scale="1.26000595 1.26000595 1.26000392"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2b4537">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.81213379 0 -0.983520508" rotation="0 0 0" scale="1.26000524 1.26000571 1.26000476"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2b4538">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-4.33232927 0.0043640174 -4.6440773" rotation="0.182325065 138.000107 0.0398336612" scale="0.451823384 0.45182386 0.451823473"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2b4539">
+      <ECBuilding key="skull_terrain_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-5.53759766 0 -2.01330566" rotation="0 0 0" scale="1.07498252 1.07498276 1.07498252"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_02"/>
+    </entity>
+    <entity id="152f9ed7f2b453a">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-2.54754639 0 4.20678711" rotation="0 0 0" scale="1.260005 1.26000595 1.260005"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2b453b">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.862141788 0 -5.27595854" rotation="0 0 0" scale="1.26000559 1.26000559 1.2600044"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2b453c">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.22250319 0 -1.96215808" rotation="0 0 0" scale="1.46985579 1.46985674 1.46985531"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2b453d">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_rocksml_01/emp_rocksml_01_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.150268555 0.741833329 0.120605469" rotation="0.00754862698 -32.0000076 0.00716765365" scale="1.00000012 0.99999994 1.00000012"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2b453e">
+      <ECBuilding key="skull_terrain_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-6.03901196 0 3.08188796" rotation="0 0 0" scale="1.07498252 1.07498252 1.07498252"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_01"/>
+    </entity>
+    <entity id="152f9ed7f2b453f">
+      <ECBuilding key="skull_terrain_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-6.3327589 0 2.39976144" rotation="0 0 0" scale="1.07498264 1.07498264 1.07498264"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_02"/>
+    </entity>
+    <entity id="152f9ed7f2b4540">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.64364624 0 4.84106445" rotation="0 0 0" scale="1.26000571 1.26000607 1.260005"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2c4541">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="5.10498762 0.0017439283 -1.02878392" rotation="-0.200460121 -31.0000973 -0.0751909763" scale="0.403483152 0.403483003 0.403483093"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c4542">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_a/thorns_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="5.60321045 0 1.36254883" rotation="-3.64878249 169.481247 -24.4265575" scale="0.80000031 0.800000191 0.800000608"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c4543">
+      <ECBuilding key="skull_terrain_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-6.98934889 0 1.61328113" rotation="0 0 0" scale="1.07498264 1.07498264 1.07498264"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_01"/>
+    </entity>
+    <entity id="152f9ed7f2c4544">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="3.63506269 -0.00742233219 4.52038288" rotation="2.10940814 265.997284 357.808502" scale="0.401365042 0.401365072 0.401364893"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c4545">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_c/emp_stone_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-3.46917462 0.000187377736 -2.42180848" rotation="-0.0789358169 -6.00000238 -0.0205869842" scale="0.499999821 0.499999821 0.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c4546">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.33078003 0 -3.4699707" rotation="0 0 0" scale="1.26000559 1.26000583 1.26000488"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2c4547">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_c/thorns_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="5.69454956 0 1.49328613" rotation="20.2971745 21.5739689 26.4860973" scale="0.800000191 0.799999952 0.800000072"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c4548">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.93777466 0 -2.87231445" rotation="0 0 0" scale="1.26000559 1.26000595 1.26000488"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2c4549">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-2.32211852 0 3.07084918" rotation="0.264055103 222.999832 359.818604" scale="0.433194041 0.433194816 0.433194011"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c454a">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.128479004 0 6.89477539" rotation="0.304544449 232.999557 359.69693" scale="0.413152963 0.412609726 0.413152874"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c454b">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.963464439 0.00531722838 -5.34926462" rotation="-0.15663068 -0.000177616705 -0.129944906" scale="0.50000006 0.499999881 0.499999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2c454c">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.05975199 0 3.52191854" rotation="0 0 0" scale="1.260005 1.26000535 1.260005"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2c454d">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.80152416 0 -0.0993871689" rotation="0 0 0" scale="1.26000464 1.26000547 1.26000452"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2c454e">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.86276245 0 -3.22314453" rotation="0 0 0" scale="1.26000607 1.26000535 1.260005"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2d454f">
+      <ECNoGoRegion/>
+      <ECTransform position="1.64980984 0 -6.91809893" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-6.08284378" y="-0.0541272163"/>
+          <point x="-9.76897335" y="7.18336439"/>
+          <point x="-7.63811016" y="11.9003315"/>
+          <point x="0.153502941" y="13.7508564"/>
+          <point x="6.21284103" y="9.82666969"/>
+          <point x="5.05957222" y="3.54518676"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="152f9ed7f2d4550">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_e/thorns_e_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-5.89199829 0 0.942138672" rotation="-11.0620661 -56.6287155 42.6634979" scale="0.800000131 0.800000012 0.799999893"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2d4551">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-5.12896013 0 2.52001953" rotation="0 0 0" scale="1.26000535 1.26000547 1.26000524"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2d4552">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.59415126 0 4.51776552" rotation="0 19.6107388 0" scale="1.26000488 1.26000559 1.26000488"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2d4553">
+      <ECBuilding key="emp_death_statue_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.605316162 2.95399904 -0.426391602" rotation="0 -24.8252335 0" scale="0.999999702 1 0.999999702"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="death_statue_01"/>
+    </entity>
+    <entity id="152f9ed7f2d4554">
+      <ECBuilding key="skull_terrain_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.110902198 0 5.44851637" rotation="0 0 0" scale="1.07498264 1.07498264 1.07498264"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_02"/>
+    </entity>
+    <entity id="152f9ed7f2d4555">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.18548203 0 3.07876921" rotation="0 0 0" scale="1.26000595 1.26000547 1.26000547"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2d4556">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_g/thorns_g_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-4.05685425 0 -4.3729248" rotation="-0.525201142 46.9986458 -0.446905971" scale="0.800000191 0.800000191 0.800000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2d4557">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-7.37833309 0.000697749958 0.542587638" rotation="-0.19075866 -65.9999008 0.155111954" scale="0.462652832 0.462652385 0.462652743"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2d4558">
+      <ECBuilding key="skull_terrain_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.13090277 0 -2.27399039" rotation="0 0 0" scale="1.26000607 1.26000559 1.26000559"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_terrain_04"/>
+    </entity>
+    <entity id="152f9ed7f2d4559">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_c/emp_stone_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="6.92994595 -0.00766421296 2.68787479" rotation="-0.197246552 -31.0000477 -0.0474822968" scale="0.5 0.5 0.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9ed7f2a452d">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-4.42961597 0 -7.79684734" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-4.21452236" y="7.86179447"/>
+          <point x="-2.05918789" y="13.3198957"/>
+          <point x="6.36979151" y="15.2852831"/>
+          <point x="12.6817799" y="10.6058493"/>
+          <point x="10.3282661" y="1.64916372"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

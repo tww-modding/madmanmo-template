@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trees>
+	<group group_name="dwfsub_base_01_stone_blend">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.75</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.195</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+<!-- Main Blend#-->
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>9</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>7</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+	</group>
+	<group group_name="dwfsub_base_02_stone_blend">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.75</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.195</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+<!-- Main Blend#-->
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>12</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>14</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>16</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+	</group>
+	<group group_name="dwfsub_close_stone_blend">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.75</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.6</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.1</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>1</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>		
+			
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1</size_high>				<!-- top possible scale -->
+			
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.3</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+	</group>
+	<group group_name="dwfsub_stone_far_blend">
+	
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.75</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.01</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.5</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>30</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.5</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>30</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.5</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>30</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+	</group>
+
+	<group group_name="dwfsub_base_skull_blend">
+		<texture>mud01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.75</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.33</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+<!-- Main Blend#-->
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\skull_terrain_01\skull_terrain_01_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\skull_terrain_02\skull_terrain_02_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_03\skull_terrain_03_piece01_destruct01</model>		
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_04\skull_terrain_04_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+	</group>
+	<group group_name="dwfsub_close_skull_blend">
+		<texture>mud01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.75</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.33</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.3</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>4</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\skull_terrain_01\skull_terrain_01_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\skull_terrain_02\skull_terrain_02_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_03\skull_terrain_03_piece01_destruct01</model>		
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_04\skull_terrain_04_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+	</group>
+	<group group_name="dwfsub_far_skull_blend">
+		<texture>mud01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.75</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.33</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\skull_terrain_01\skull_terrain_01_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>20</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\skull_terrain_02\skull_terrain_02_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>20</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_03\skull_terrain_03_piece01_destruct01</model>		
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>20</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_04\skull_terrain_04_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>20</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+	</group>
+	<group group_name="dwfsub_base_dwf_rubble_blend">
+		<texture>scree02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>scree02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.1</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.5</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.33</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_01/dwf_debris_01_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_02/dwf_debris_02_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_03/dwf_debris_03_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_04/dwf_debris_04_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_05/dwf_debris_05_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_06/dwf_debris_06_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_07/dwf_debris_07_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_08/dwf_debris_08_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>8</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		
+	</group>	
+	<group group_name="dwfsub_near_dwf_rubble_blend">
+		<texture>scree02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>scree02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.1</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.5</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.33</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_01/dwf_debris_01_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_02/dwf_debris_02_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_03/dwf_debris_03_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_04/dwf_debris_04_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_05/dwf_debris_05_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_06/dwf_debris_06_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_07/dwf_debris_07_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_08/dwf_debris_08_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+	</group>
+		<group group_name="dwfsub_far_dwf_rubble_blend">
+		<texture>scree02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>scree02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.1</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.5</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.33</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_01/dwf_debris_01_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>10</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_02/dwf_debris_02_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>11</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_03/dwf_debris_03_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>12</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_04/dwf_debris_04_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>13</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_05/dwf_debris_05_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>14</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_06/dwf_debris_06_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>15</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_07/dwf_debris_07_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>16</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings/dwf_debris_08/dwf_debris_08_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.75</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>17</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+	</group>
+	<group group_name="dwfsub_base_mushroom_blend">
+		<texture>wetmud01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>wetmud01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.49</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.0</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.95</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>0</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>1.0</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+<!-- Main Blend#-->
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\cave_mushrooms_a\cave_mushrooms_a_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.7</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.49</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.0</blendmap_range_high>
+			<blendmap_range_falloff>0.95</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\cave_mushrooms_b\cave_mushrooms_b_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.7</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.49</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.0</blendmap_range_high>
+			<blendmap_range_falloff>0.95</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+		</prop>
+		<prop> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>Buildings\cave_mushrooms_c\cave_mushrooms_c_piece01_destruct01</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.7</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.49</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.0</blendmap_range_high>
+			<blendmap_range_falloff>0.95</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>dwf_subterranean</category>					
+			</categories>
+
+			<probability>0.33</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.1</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+		</prop>
+	</group>
+</trees>

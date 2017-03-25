@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="153f1bf282a0a30">
+      <ECBuilding key="chs_skull_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.230532497 8.3248148 -2.14977002" rotation="0 6.73415947 0" scale="1.20000005 1.20000017 1.20000005"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_skull_01"/>
+    </entity>
+    <entity id="153f1bf282b0a4f">
+      <ECNoGoRegion/>
+      <ECTransform position="-9.05094814 -9.15527344e-005 10.4223604" rotation="0 -3.99999428 0" scale="0.99999994 1 0.99999994"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-1.40820885" y="-21.1630287"/>
+          <point x="17.2114372" y="-22.2215691"/>
+          <point x="18.6933479" y="-0.738839149"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="153f1bf282b0a3d">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.20308352 -1.53216743 -4.28081369" rotation="0 29.5371246 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="153f1bf282a0a2e">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.94866967 0.569885194 -4.57512331" rotation="26.5137272 231.397919 11.5945187" scale="0.599999785 0.600000143 0.600000024"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="153f1bf282a0a32">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.65651369 -0.568579793 -2.63895583" rotation="27.1516266 136.790466 337.619171" scale="0.599999487 0.600000083 0.599999666"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="153f1bf282b0a35">
+      <ECDecal model_path="rigidmodels/Decals/lava fire/lava_crack_01.rigid_model_v2" parallax_scale="1" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-1.68569136 -9.15527344e-005 -6.52244139" rotation="0 59.3771667 0" scale="9.99999905 1 9.99999905"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="153f1bf282b0a4d">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="false"/>
+      <ECTransform position="-12.4939766 -9.15527344e-005 11.0674191" rotation="0 -3.99999428 0" scale="0.99999994 1 0.99999994"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-2.36708736" y="-23.869812"/>
+          <point x="23.7524376" y="-25.1490536"/>
+          <point x="24.8439693" y="0.0956907272"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="153f1bf282b0a4a">
+      <ECPointLight colour="194 70 12 255" colour_scale="25" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECTransform position="-1.82674479 0.400566101 -6.88056707" rotation="0 -3.99999428 0" scale="0.99999994 1 0.99999994"/>
+    </entity>
+    <entity id="153f1bf282b0a4e">
+      <ECBuilding key="glb_landscape_terrain_blend_50m_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.658133268 -18.1553535 9.69124508" rotation="0 -65 0" scale="1.20000017 1.20000005 1.20000017"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_landscape_terrain_blend_50m_a"/>
+    </entity>
+    <entity id="153f1bf282a0a2f">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.508894682 -0.553928018 5.12256622" rotation="28.4782333 -24.7723598 9.93935204" scale="0.799999952 0.799999893 0.800000012"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="153f1bf282b0a38">
+      <ECDecal model_path="rigidmodels/Decals/generic/crater_a.rigid_model_v2" parallax_scale="0.140000001" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.300727725 -9.15527344e-005 -0.188995838" rotation="0 -3.9999938 0" scale="19.9999981 1 19.9999981"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="153f1bf282b0a3c">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.87292957 -1.42366982 -3.01862621" rotation="0 -26.5286121 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="153f1bf282a0a33">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.11433363 -0.110214233 1.47601819" rotation="18.5191135 260.462189 44.8976021" scale="0.530708134 0.530708015 0.530708373"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="153f1bf282b0a3e">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.47444487 -1.53216457 1.6292634" rotation="0 122.449654 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="153f1bf282a0a2d">
+      <ECBuilding key="chs_obelisk_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.0842778832 -0.0757893324 -0.714258194" rotation="0 5.37922907 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_obelisk_01"/>
+    </entity>
+    <entity id="153f1bf282b0a4c">
+      <ECPointLight colour="194 70 12 255" colour_scale="20" radius="5" animation_type="LAT_RADIUS_SIN" animation_speed_scale="1 1" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECTransform position="-4.60996485 2.55399323 4.29069328" rotation="0 91.8799286 0" scale="0.99999994 1 0.99999994"/>
+    </entity>
+    <entity id="153f1bf282b0a39">
+      <ECDecal model_path="rigidmodels/Decals/generic/global_terrain_erossion_09.rigid_model_v2" parallax_scale="0.100000001" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="6.29366541 -9.15527344e-005 -0.722661495" rotation="0 20.6524372 0" scale="9.99999714 1 19.9999943"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="153f1bf282b0a3f">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.628163695 -1.53216565 6.34231472" rotation="0 122.449715 0" scale="1.5 1.49999988 1.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="153f1bf282b0a36">
+      <ECDecal model_path="rigidmodels/Decals/lava fire/lava_crack_01.rigid_model_v2" parallax_scale="1" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="4.87227201 -9.15527344e-005 2.18031359" rotation="0 -3.9999938 0" scale="9.99999905 1 9.99999905"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="153f1bf282a0a34">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.77539849 -1.42368412 3.60730696" rotation="0 -86.0001144 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="153f1bf282b0a3b">
+      <ECDecal model_path="rigidmodels/Decals/generic/global_terrain_erossion_09.rigid_model_v2" parallax_scale="0.100000001" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-1.2695415 -3.6239624e-005 10.3890591" rotation="0 -70.7303238 0" scale="9.99999809 1 19.9999962"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="153f1bf282b0a37">
+      <ECDecal model_path="rigidmodels/Decals/lava fire/lava_crack_01.rigid_model_v2" parallax_scale="1" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-4.57092047 -9.15527344e-005 5.0015564" rotation="0 -47.1881371 0" scale="10 1 10"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="153f1bf282b0a4b">
+      <ECPointLight colour="194 70 12 255" colour_scale="30" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECTransform position="6.25174427 1.90538502 -0.445459366" rotation="3.89714289 -0.90193516 -76.9891129" scale="0.99999994 0.999999881 0.99999994"/>
+    </entity>
+    <entity id="153f1bf282a0a31">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.57017374 -0.568579674 3.4500823" rotation="20.0987053 48.6871033 -6.95536184" scale="0.555489898 0.555489838 0.555489838"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="154191b8b0350c8">
+      <ECSoundMarker key="Sound_Environment_Rock_Slides"/>
+      <ECTransform position="11.9766312 0 10.9978447" rotation="0 0 0" scale="1 1 1"/>
+      <ECPointCloud>
+        <point_cloud>
+          <point x="0" y="0" z="0"/>
+          <point x="-5.72694874" y="0" z="1.64266968"/>
+          <point x="-13.2017679" y="0" z="4.10937691"/>
+          <point x="-19.0504875" y="0" z="6.11732101"/>
+          <point x="-27.7642097" y="0" z="3.69785118"/>
+          <point x="-31.4142036" y="0" z="-1.2759552"/>
+          <point x="-33.0191154" y="-3.81469727e-006" z="-8.68576431"/>
+          <point x="-30.7143917" y="0" z="-13.9521847"/>
+          <point x="-26.4614735" y="0" z="-18.4703217"/>
+          <point x="-21.4238815" y="0" z="-20.1124477"/>
+          <point x="-17.8862953" y="3.81469727e-006" z="-23.883173"/>
+          <point x="-12.96558" y="0" z="-27.8594227"/>
+          <point x="-8.08022785" y="-3.81469727e-006" z="-29.8388748"/>
+          <point x="-2.97638512" y="0" z="-28.3772049"/>
+          <point x="1.37082672" y="3.81469727e-006" z="-22.7258301"/>
+          <point x="3.51276875" y="0" z="-16.4951363"/>
+        </point_cloud>
+      </ECPointCloud>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

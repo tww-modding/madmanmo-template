@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="153e78fb32d4def">
+      <ECBuilding key="mtn_pass_lava_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.332199097 1.34340751 -0.301834106" rotation="0 -65 0" scale="0.700207293 0.00314500881 0.700207293"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mtn_pass_lava_04"/>
+    </entity>
+    <entity id="153e78fb32d4df0">
+      <ECTerrainHole procedural_exclusion_zone_margin="5"/>
+      <ECTransform position="-0.0867462158 1.86506402 0.269699097" rotation="0 0 0" scale="0.434959829 0.434959829 0.434959829"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="-8.9380703" y="-0.233582735"/>
+          <point x="-7.19477844" y="-4.94099379"/>
+          <point x="-4.00766945" y="-7.83840275"/>
+          <point x="0.684204102" y="-8.78876209"/>
+          <point x="5.03663635" y="-6.96803093"/>
+          <point x="7.31192875" y="-3.9359231"/>
+          <point x="8.23230553" y="0.330888271"/>
+          <point x="7.28520679" y="4.28713751"/>
+          <point x="4.10684967" y="7.66799784"/>
+          <point x="-0.327795029" y="8.75975418"/>
+          <point x="-5.9985466" y="6.48239994"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="153e78fb32d4df1">
+      <ECBuilding key="chs_battle_props_wheel_iron_standingb" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.107833862 1.68606949 0.234542847" rotation="89.9999924 -6.10666465e-012 -179.999985" scale="0.376098394 0.376098573 0.301537454"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_battle_props_wheel_iron_standingb"/>
+    </entity>
+    <entity id="153e78fb32d4df2">
+      <ECBuilding key="chs_battle_props_wheel_iron_flata" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.142913818 1.66955137 0.27444458" rotation="0 22.4999981 0" scale="0.401587278 0.340866387 0.401587307"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_battle_props_wheel_iron_flata"/>
+    </entity>
+    <entity id="153e78fb32d4df3">
+      <ECBuilding key="chs_battle_props_altair_lava" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.100830078 0 0.211212158" rotation="0 0 0" scale="0.148686513 0.260360569 0.148686454"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_battle_props_altair_lava"/>
+    </entity>
+    <entity id="153e78fb32d4df4">
+      <ECVFX vfx="wh_main_enviro_heat_haze" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.332199097 3.40844059 0.236053467" rotation="0 1.00179113e-005 0" scale="0.204251975 0.204251975 0.204251975"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153e78fb32d4df5">
+      <ECPointLight colour="255 85 0 255" colour_scale="30" radius="10" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+      <ECTransform position="-0.148574829 4.37282944 0.301834106" rotation="0 0 0" scale="0.434959829 0.434959829 0.434959829"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

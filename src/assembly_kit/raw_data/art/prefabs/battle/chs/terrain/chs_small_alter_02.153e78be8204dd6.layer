@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="153e78be8204dcf">
+      <ECPointLight colour="255 85 0 255" colour_scale="30" radius="10" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+      <ECTransform position="0.00640869141 3.11910844 0.0241394043" rotation="0 0 0" scale="0.434959829 0.434959829 0.434959829"/>
+    </entity>
+    <entity id="153e78be8204dd0">
+      <ECBuilding key="chs_teeth_01b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-2.31668091 0.0662466809 -0.687103271" rotation="-69.8370514 -74.0890579 178.376648" scale="0.365006268 0.365006596 0.365006089"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_01b"/>
+    </entity>
+    <entity id="153e78be8204dd1">
+      <ECBuilding key="chs_teeth_01a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.746337891 0.298702657 2.24707031" rotation="-83.0533905 193.961166 -177.407104" scale="0.3270621 0.314265639 0.304996848"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_01a"/>
+    </entity>
+    <entity id="153e78be8204dd2">
+      <ECBuilding key="chs_teeth_01b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.31668091 0.092384249 0.649032593" rotation="87.0025101 76.685379 -5.81982565" scale="0.4469015 0.446901917 0.446901321"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_01b"/>
+    </entity>
+    <entity id="153e78be8204dd3">
+      <ECBuilding key="chs_battle_props_altair_lava" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.0466003418 0 -0.0222625732" rotation="0 0 0" scale="0.148686513 0.115693994 0.148686454"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_battle_props_altair_lava"/>
+    </entity>
+    <entity id="153e78be8204dd4">
+      <ECBuilding key="chs_teeth_01a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.710739136 0.0528363511 -2.24707031" rotation="-78.9528198 17.7268639 -175.325653" scale="0.38808018 0.344775409 0.388080209"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_01a"/>
+    </entity>
+    <entity id="153e78be8204dd5">
+      <ECBuilding key="chs_battle_props_wheel_iron_flata" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.0173797607 0.0552549884 -0.0173950195" rotation="0 255.67955 0" scale="0.3129237 0.265608996 0.312923789"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_battle_props_wheel_iron_flata"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

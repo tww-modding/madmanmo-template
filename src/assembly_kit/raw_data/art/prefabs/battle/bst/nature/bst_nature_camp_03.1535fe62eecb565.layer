@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="1535c918308b360">
+      <ECBuilding key="bst_yurt_a" damage="100" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-26.2899151 9.53674316e-007 -9.2974596" rotation="0 128.998627 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="1535bbe8ffbcd6d">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_thornsb"/>
+      <ECTransform position="-27.3505516 3.81469727e-006 -2.5655632" rotation="0 169.959061 0" scale="1.86358523 1.86358559 1.86358523"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1535c91bb62b366">
+      <ECBuilding key="bst_yurt_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-1.95236588 9.53674316e-007 24.0496159" rotation="0 264.787231 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="1535b15d186ccc7">
+      <ECBuilding key="thorns_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-18.9473076 0 -3.43472576" rotation="2.17661786 25.4805355 -18.4422417" scale="1.23665273 1.23665154 1.23665321"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_d"/>
+    </entity>
+    <entity id="1535b22c8daccf2">
+      <ECBuilding key="glb_meteor_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.82650375 0 15.2511234" rotation="0 131.070496 0" scale="0.229676172 0.229676142 0.229676172"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_meteor_f"/>
+    </entity>
+    <entity id="1535c8f3a93b357">
+      <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.45130226 0 17.629921" rotation="0 15.7416363 0" scale="0.443134665 0.443134755 0.443134665"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_02"/>
+    </entity>
+    <entity id="1535b325883ccf6">
+      <ECBuilding key="glb_meteor_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.3598423 0 13.7461329" rotation="0 31.0700283 0" scale="0.354213119 0.354213119 0.354213119"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_meteor_f"/>
+    </entity>
+    <entity id="1535bde5ff8cea9">
+      <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-6.12327957 0 19.1884289" rotation="0 -54.243351 0" scale="0.638264537 0.638264716 0.638264537"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_02"/>
+    </entity>
+    <entity id="1535bded2f8ceab">
+      <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-8.9419632 0 -15.3928852" rotation="0 -73.0704727 0" scale="0.638265014 0.638264716 0.638265014"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_02"/>
+    </entity>
+    <entity id="1535c8ed94eb355">
+      <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-1.26695061 0 -14.4645634" rotation="0 125.553383 0" scale="0.341414094 0.341414154 0.341414034"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_02"/>
+    </entity>
+    <entity id="1535c907ce7b35d">
+      <ECBuilding key="bst_yurt_a" damage="58" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-2.97860527 9.53674316e-007 -21.1249218" rotation="0 42.1899605 0" scale="0.999999762 1 0.999999762"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="1535c8f0dc7b356">
+      <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.32752657 0 -11.4820118" rotation="0 94.8429489 0" scale="0.161145568 0.161145493 0.161145493"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_02"/>
+    </entity>
+    <entity id="1535c8f59b2b358">
+      <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="7.27230072 0 15.0759287" rotation="0 -54.243351 0" scale="0.269482225 0.269482344 0.269482225"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_02"/>
+    </entity>
+    <entity id="1535c909c60b35f">
+      <ECBuilding key="bst_yurt_a" damage="76" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-16.4662399 9.53674316e-007 -17.7847061" rotation="0 35.6617279 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="1535ff20e34b566">
+      <ECBuilding key="bst_yurt_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-28.6700363 9.53674316e-007 2.17109513" rotation="0 197.172409 0" scale="0.999999404 1 0.999999404"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="1535ff47f15b568">
+      <ECBuilding key="bst_yurt_a" damage="100" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-15.8074512 9.53674316e-007 22.7855968" rotation="0 228.937943 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="1535ff4938db569">
+      <ECBuilding key="bst_yurt_a" damage="35" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-24.8803234 9.53674316e-007 14.8814163" rotation="0 201.302063 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="15360042bdab577">
+      <ECBuilding key="thorns_g" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-1.71653402 0 18.6143265" rotation="0 -56.1948357 0" scale="2.10534596 2.10534573 2.10534596"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_g"/>
+    </entity>
+    <entity id="1536012456fb670">
+      <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0.100000001" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.642568767 -3.576278e-006 23.3462448" rotation="0 -88.3524094 0" scale="12.9281998 12.9282064 12.9282074"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153601259c4b671">
+      <ECDecal model_path="rigidmodels/decals/generic/dirt_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.793115199 0 -20.5669041" rotation="0 -88.3526535 0" scale="9.55029869 9.55029488 9.55029869"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1536015e024b676">
+      <ECDecal model_path="rigidmodels/decals/generic/scree_a_light.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-3.18540406 -8.11716563e-006 18.6075325" rotation="0 -1.47115707 0" scale="22.0792313 22.0792313 22.0792313"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1536012b01bb673">
+      <ECDecal model_path="rigidmodels/decals/generic/bst_mound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.784293532 -3.81469727e-006 -1.19510257" rotation="0 -44.148407 0" scale="26.848774 26.8487911 26.848793"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1535bdf4591ceac">
+      <ECBuilding key="bst_totem_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-12.923851 0 4.72314072" rotation="0 -88.0003128 0" scale="3.62594914 3.62595034 3.62594914"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_totem_a"/>
+    </entity>
+    <entity id="153602b3e94b8ad">
+      <ECBuilding key="glb_animal_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="26.2448483 9.53674316e-007 0.0618892908" rotation="0 1.10198236 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_02"/>
+    </entity>
+    <entity id="153602bc463b8d8">
+      <ECBuilding key="glb_animal_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.5280895 0 6.9472146" rotation="0 88.4439163 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_01"/>
+    </entity>
+    <entity id="1536027748db895">
+      <ECBuilding key="glb_deadbody_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="15.3855782 0 -4.79924154" rotation="0 -44.0143433 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_02"/>
+    </entity>
+    <entity id="153602bc463b8d6">
+      <ECBuilding key="glb_animal_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="20.9163532 9.53674316e-007 6.12176085" rotation="0 73.4531555 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_03"/>
+    </entity>
+    <entity id="153602bdf56b8dd">
+      <ECBuilding key="glb_animal_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.0857315 0 -11.6496401" rotation="0 88.4439163 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_01"/>
+    </entity>
+    <entity id="153602771beb891">
+      <ECBuilding key="glb_deadbody_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.8289719 0 -2.0706172" rotation="0 133.113144 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_02"/>
+    </entity>
+    <entity id="153602bc463b8da">
+      <ECBuilding key="glb_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.6974449 1.90734863e-006 8.270298" rotation="0 42.4929848 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_02"/>
+    </entity>
+    <entity id="153602b80f6b8c7">
+      <ECBuilding key="glb_animal_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.325386 9.53674316e-007 -7.07484818" rotation="0 160.576035 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_02"/>
+    </entity>
+    <entity id="153602b4e7cb8b6">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.7805233 -9.53674316e-007 3.97101569" rotation="0 25.0910645 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602d72abb8eb">
+      <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0.100000001" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-25.295826 -3.57627846e-006 13.520009" rotation="0 -88.3524094 0" scale="12.9281979 12.9282045 12.9282026"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff541a03d6edc" name="Reference">
+      <ECLayer export="false" bmd_export_type=""/>
+    </entity>
+    <entity id="153602bb4c5b8d2">
+      <ECBuilding key="glb_animal_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.7051086 0 3.88889837" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_01"/>
+    </entity>
+    <entity id="153602b80f6b8ca">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.8285809 -9.53674316e-007 -6.0495615" rotation="0 211.744324 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602673b8b887">
+      <ECBuilding key="bst_yurt_a" damage="100" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.3419285 9.53674316e-007 9.45052242" rotation="0 194.068329 0" scale="0.97815907 0.978159666 0.97815907"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="1536026d890b889">
+      <ECBuilding key="bst_yurt_a" damage="100" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.49783802 9.53674316e-007 -16.3201256" rotation="0 -49.4073792 0" scale="0.604302406 0.604302585 0.604302287"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="153602b6abcb8bd">
+      <ECBuilding key="glb_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="20.3063335 1.90734863e-006 -3.88905501" rotation="0 64.521286 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_02"/>
+    </entity>
+    <entity id="153602bb4c5b8d1">
+      <ECBuilding key="glb_animal_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.2077065 9.53674316e-007 5.20567799" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_02"/>
+    </entity>
+    <entity id="153602b80f6b8c2">
+      <ECBuilding key="glb_animal_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="16.3992558 9.53674316e-007 -5.70728445" rotation="0 145.585266 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_03"/>
+    </entity>
+    <entity id="153602b4e7cb8b3">
+      <ECBuilding key="glb_animal_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.089859 9.53674316e-007 1.8747623" rotation="0 116.181915 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_03"/>
+    </entity>
+    <entity id="153602bdf56b8df">
+      <ECBuilding key="glb_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="15.2550869 1.90734863e-006 -10.3265572" rotation="0 42.4929848 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_02"/>
+    </entity>
+    <entity id="1536027748db898">
+      <ECBuilding key="glb_deadbody_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="20.2113304 9.53674316e-007 -1.2582494" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_04"/>
+    </entity>
+    <entity id="153602b4e7cb8b5">
+      <ECBuilding key="glb_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="22.4227009 9.53674316e-007 0.927843809" rotation="0 191.412018 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_04"/>
+    </entity>
+    <entity id="153602b3e94b8ab">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="24.2329559 -9.53674316e-007 -1.18460822" rotation="0 255.020355 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602b3e93b8a9">
+      <ECBuilding key="glb_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="27.4358196 9.53674316e-007 -0.264694333" rotation="0 61.3413124 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_04"/>
+    </entity>
+    <entity id="153602bc463b8dc">
+      <ECBuilding key="glb_animal_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="22.8089352 9.53674316e-007 7.53538704" rotation="0 88.4439163 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_02"/>
+    </entity>
+    <entity id="153602e3365b8f1">
+      <ECBuilding key="emp_mtn_rock_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-21.003231 -3.81469727e-006 -3.52046967" rotation="7.52987337 258.894653 352.328064" scale="1.40444553 1.40444505 1.40444565"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mtn_rock_b"/>
+    </entity>
+    <entity id="1536020aff1b87d">
+      <ECBuilding key="bst_spoilheap_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.00333166 -0.00762163103 5.82780981" rotation="0 47.1826973 0" scale="1.47870541 1.47870517 1.47870541"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_spoilheap_b"/>
+    </entity>
+    <entity id="15360275168b88a">
+      <ECBuilding key="glb_deadbody_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.3803043 0 -2.272789" rotation="0 240.834045 0" scale="0.999999702 1 0.999999702"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_02"/>
+    </entity>
+    <entity id="153602b6abbb8bb">
+      <ECBuilding key="glb_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.1389332 9.53674316e-007 -7.12762928" rotation="0 170.711517 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_04"/>
+    </entity>
+    <entity id="153602d0d39b8e9">
+      <ECDecal model_path="rigidmodels/decals/generic/scree_a_light.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-5.78099251 -8.11716654e-006 -15.2310963" rotation="0 -1.47115743 0" scale="22.0792313 22.0792313 22.0792313"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602b4e7cb8b0">
+      <ECBuilding key="glb_animal_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.66255 0 3.33718228" rotation="0 131.172699 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_04"/>
+    </entity>
+    <entity id="153602771beb893">
+      <ECBuilding key="glb_deadbody_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="14.4791346 -1.90734863e-006 1.20378864" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_05"/>
+    </entity>
+    <entity id="153602b3e94b8ae">
+      <ECBuilding key="glb_animal_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="26.7729874 0 -1.2448554" rotation="0 1.10198236 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_01"/>
+    </entity>
+    <entity id="153602bdf56b8e0">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.0281181 -9.53674316e-007 -9.10954666" rotation="0 -17.637743 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602b4e7cb8b2">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.3742924 -9.53674316e-007 2.76926422" rotation="0 182.340973 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602bdf56b8e4">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.5451355 -9.53674316e-007 -10.2679615" rotation="0 139.612183 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="1536024d9b3b884">
+      <ECBuilding key="bst_banner_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.65091252 0 8.5067215" rotation="-17.6596317 245.539276 -344.092316" scale="4.41851711 4.41851759 4.41851664"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_banner_a"/>
+    </entity>
+    <entity id="1536027748db894">
+      <ECBuilding key="glb_deadbody_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.0569229 9.53674316e-007 -1.80560672" rotation="0 111.764229 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_03"/>
+    </entity>
+    <entity id="153602b80f6b8c5">
+      <ECBuilding key="glb_animal_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.372591 0 -6.03624725" rotation="0 160.576035 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_01"/>
+    </entity>
+    <entity id="1536026998fb888">
+      <ECBuilding key="bst_yurt_a" damage="58" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="12.8907919 9.53674316e-007 17.1639576" rotation="0 -29.2748871 0" scale="0.978158951 0.978159666 0.978158951"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="153602b6abcb8c1">
+      <ECBuilding key="glb_animal_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.5574188 9.53674316e-007 -6.71298027" rotation="0 95.4814148 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_03"/>
+    </entity>
+    <entity id="153602b6abbb8ba">
+      <ECBuilding key="glb_animal_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.5761986 0 -5.14253521" rotation="0 110.472198 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_04"/>
+    </entity>
+    <entity id="153602b4e7cb8b4">
+      <ECBuilding key="glb_animal_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="22.0993176 0 2.06603813" rotation="0 131.172699 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_01"/>
+    </entity>
+    <entity id="153602b3e94b8af">
+      <ECBuilding key="glb_animal_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="27.5691833 9.53674316e-007 -1.89421463" rotation="0 -13.8887901 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_03"/>
+    </entity>
+    <entity id="15360277727b89a">
+      <ECBuilding key="glb_deadbody_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.090313 9.53674316e-007 -0.151612088" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_03"/>
+    </entity>
+    <entity id="15360275168b88d">
+      <ECBuilding key="glb_deadbody_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.4306488 9.53674316e-007 2.09892988" rotation="0 117.038948 0" scale="0.999999702 1 0.999999702"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_04"/>
+    </entity>
+    <entity id="153602cb253b8e8">
+      <ECDecal model_path="rigidmodels/decals/generic/dirt_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="15.3563118 0 -10.7241354" rotation="0 -88.3526535 0" scale="9.55029869 9.55029488 9.55029869"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602275edb883">
+      <ECDecal model_path="rigidmodels/decals/generic/bst_mound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-11.3519745 -3.81469727e-006 -2.70863318" rotation="0 242.101028 0" scale="26.8487644 26.8487911 26.8487797"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602bb4c5b8cd">
+      <ECBuilding key="glb_animal_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.4139671 0 3.51536274" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_04"/>
+    </entity>
+    <entity id="15360224e2eb882">
+      <ECDecal model_path="rigidmodels/decals/generic/bst_mound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-8.64416504 -3.81469727e-006 6.37610531" rotation="0 -44.1483917 0" scale="26.8487701 26.8487911 26.8487911"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602d5bdfb8ea">
+      <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0.100000001" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-28.2493401 -3.57627846e-006 2.18358374" rotation="0 -88.3524094 0" scale="12.9281998 12.9282055 12.9282045"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602bb4c5b8d0">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.0656281 -9.53674316e-007 5.19700813" rotation="0 95.1682053 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602bdf56b8e1">
+      <ECBuilding key="glb_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="20.1769028 0 -10.4142838" rotation="0 42.4929848 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_03"/>
+    </entity>
+    <entity id="153602bb4c5b8d3">
+      <ECBuilding key="glb_animal_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.8463593 9.53674316e-007 2.87123251" rotation="0 29.009222 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_03"/>
+    </entity>
+    <entity id="153602b80f6b8c3">
+      <ECBuilding key="glb_animal_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.6161594 0 -4.71441126" rotation="0 160.576035 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_04"/>
+    </entity>
+    <entity id="153602bb4c5b8cb">
+      <ECBuilding key="glb_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.3330612 0 6.23512411" rotation="0 -1.95093119 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_03"/>
+    </entity>
+    <entity id="153602b3e93b8a7">
+      <ECBuilding key="glb_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="25.6359386 0 0.901355505" rotation="0 -44.8489456 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_03"/>
+    </entity>
+    <entity id="153602b80f6b8c9">
+      <ECBuilding key="glb_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.1899796 0 -7.64751673" rotation="0 114.625107 0" scale="0.999999762 1 0.999999762"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_03"/>
+    </entity>
+    <entity id="153602bc463b8d4">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.4704762 -9.53674316e-007 9.48730755" rotation="0 -17.637743 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602771beb890">
+      <ECBuilding key="glb_deadbody_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.65658 9.53674316e-007 -4.62674093" rotation="0 -40.8714523 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_03"/>
+    </entity>
+    <entity id="153602c39b4b8e6">
+      <ECDecal model_path="rigidmodels/decals/generic/bst_mound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="12.0757132 -3.81469704e-006 17.256588" rotation="0 -44.1483917 0" scale="12.343668 12.3436861 12.3436823"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602bb4c5b8ce">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="16.885376 -9.53674316e-007 5.66202164" rotation="0 -62.081665 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="1536020d0f4b87e">
+      <ECBuilding key="bst_spoilheap_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-2.62363648 -0.00762163103 -3.65633225" rotation="0 182.750183 0" scale="1.47870541 1.47870517 1.47870541"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_spoilheap_b"/>
+    </entity>
+    <entity id="153601d9386b878">
+      <ECBuilding key="bst_totem_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-6.84752369 -0.00762030669 2.9754281" rotation="0 -88.0002136 0" scale="2.84700108 2.84700108 2.84700108"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_totem_b"/>
+    </entity>
+    <entity id="153602ed50db8f3">
+      <ECBuilding key="emp_mtn_rock_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-20.0263386 -3.9654683e-006 7.60733461" rotation="-11.5665827 240.384125 -177.502853" scale="1.929389 2.39603901 1.9293884"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mtn_rock_a"/>
+    </entity>
+    <entity id="15360275168b88b">
+      <ECBuilding key="glb_deadbody_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="15.419591 0 -3.08086252" rotation="16.8745022 56.2569122 23.897047" scale="1 1 0.999999702"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_01"/>
+    </entity>
+    <entity id="153602b6abcb8bc">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.3333874 -9.53674316e-007 -3.80095458" rotation="0 4.39055681 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602b6abcb8c0">
+      <ECBuilding key="glb_animal_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="22.4340973 0 -6.17722654" rotation="0 110.472198 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_01"/>
+    </entity>
+    <entity id="15360214cccb880">
+      <ECBuilding key="bst_spoilheap_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-12.5976486 -0.00762096792 5.37411976" rotation="0 137.27446 0" scale="2.27092838 2.27092814 2.27092838"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_spoilheap_a"/>
+    </entity>
+    <entity id="153602b3e94b8aa">
+      <ECBuilding key="glb_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="25.320055 1.90734863e-006 -4.01109743" rotation="0 -44.8489456 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_02"/>
+    </entity>
+    <entity id="15360221ff0b881">
+      <ECDecal model_path="rigidmodels/decals/generic/bst_mound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="1.96972215 -3.81469727e-006 4.57108021" rotation="0 -44.1483917 0" scale="26.8487682 26.8487911 26.8487911"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602b6abcb8be">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.3781815 -9.53674316e-007 -5.06871891" rotation="0 161.640472 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602bdf56b8e5">
+      <ECBuilding key="glb_animal_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="16.9023857 0 -11.012249" rotation="0 88.4439163 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_04"/>
+    </entity>
+    <entity id="153602771beb892">
+      <ECBuilding key="glb_deadbody_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="14.0133476 0 -1.51256275" rotation="0 136.338104 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_01"/>
+    </entity>
+    <entity id="153602b4e7cb8b7">
+      <ECBuilding key="glb_animal_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.4392853 9.53674316e-007 1.62900281" rotation="0 131.172699 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_02"/>
+    </entity>
+    <entity id="153602d7dd9b8ec">
+      <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0.100000001" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-25.9601536 -3.57627778e-006 -9.57775211" rotation="0 -88.3524094 0" scale="12.9281969 12.9282036 12.9282017"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602bdf56b8e3">
+      <ECBuilding key="glb_animal_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.3665771 9.53674316e-007 -11.0614681" rotation="0 88.4439163 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_02"/>
+    </entity>
+    <entity id="153602b3e93b8a8">
+      <ECBuilding key="glb_animal_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="26.0814056 0 -2.39736938" rotation="0 1.10198236 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_04"/>
+    </entity>
+    <entity id="153602b80f6b8c6">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.7724895 -9.53674316e-007 -5.20205307" rotation="0 54.494381 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="153602b80f6b8c4">
+      <ECBuilding key="glb_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.7633495 1.90734863e-006 -2.93618059" rotation="0 114.625107 0" scale="0.999999762 1 0.999999762"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_02"/>
+    </entity>
+    <entity id="153602bc463b8db">
+      <ECBuilding key="glb_animal_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="20.3447437 0 7.58460522" rotation="0 88.4439163 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_04"/>
+    </entity>
+    <entity id="153602b6abbb8b9">
+      <ECBuilding key="glb_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="24.835947 0 -5.81637621" rotation="0 64.521286 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_03"/>
+    </entity>
+    <entity id="15360277727b89b">
+      <ECBuilding key="glb_deadbody_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.4268475 0 -0.509400547" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_02"/>
+    </entity>
+    <entity id="153602b4e7cb8b1">
+      <ECBuilding key="glb_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="20.9177494 1.90734863e-006 4.9586153" rotation="0 85.2217941 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_02"/>
+    </entity>
+    <entity id="153602771beb88f">
+      <ECBuilding key="glb_deadbody_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.2514954 9.53674316e-007 -3.62617517" rotation="0 118.122345 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_04"/>
+    </entity>
+    <entity id="153602df7e2b8f0">
+      <ECBuilding key="emp_mtn_rock_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-16.5314941 -3.81469727e-006 -10.6178274" rotation="0 -14.5032902 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mtn_rock_c"/>
+    </entity>
+    <entity id="1536033297db8f9">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_thornsa"/>
+      <ECTransform position="-6.54668283 0 16.9778633" rotation="0 -13.767149 0" scale="2.12759948 2.12759924 2.12759948"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153602b3e94b8ac">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="25.4141006 -9.53674316e-007 -0.721869707" rotation="0 52.270256 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="1536032ecaeb8f8">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_thornsa"/>
+      <ECTransform position="-13.5253582 0 -13.8205004" rotation="0 -13.767149 0" scale="2.12759948 2.12759924 2.12759948"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15360275168b88c">
+      <ECBuilding key="glb_deadbody_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="22.3343143 9.53674316e-007 1.03645706" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_03"/>
+    </entity>
+    <entity id="1536027748db897">
+      <ECBuilding key="glb_deadbody_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="16.8935089 0 -0.299883127" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_01"/>
+    </entity>
+    <entity id="153602bb4c5b8cc">
+      <ECBuilding key="glb_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.8578682 9.53674316e-007 4.15574455" rotation="0 104.239311 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_04"/>
+    </entity>
+    <entity id="153601d9386b87b">
+      <ECBuilding key="bst_banner_b" damage="100" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.02978182 -3.81469727e-006 -9.57804489" rotation="0 -52.1687851 0" scale="3.94002843 3.94002914 3.94002843"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_banner_b"/>
+    </entity>
+    <entity id="153602bc463b8d9">
+      <ECBuilding key="glb_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.6192608 0 8.18257046" rotation="0 42.4929848 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_03"/>
+    </entity>
+    <entity id="153602b80f6b8c8">
+      <ECBuilding key="glb_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.0955143 9.53674316e-007 -7.18659019" rotation="0 220.815369 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_04"/>
+    </entity>
+    <entity id="153602c7bcbb8e7">
+      <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0.100000001" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="18.4410019 -3.57627846e-006 8.86812115" rotation="0 -88.3524094 0" scale="12.9281998 12.9282064 12.9282055"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="153601d9386b87a">
+      <ECBuilding key="bst_spoilheap_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.850404739 -0.00762163103 8.7408762" rotation="0 -88.0000153 0" scale="1.47870541 1.47870529 1.47870541"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_spoilheap_b"/>
+    </entity>
+    <entity id="153602fa847b8f4">
+      <ECBuilding key="emp_mtn_rock_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-11.2981606 0 13.4915094" rotation="-9.22299576 126.247711 -12.7051764" scale="1.40444577 1.40444505 1.40444577"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mtn_rock_b"/>
+    </entity>
+    <entity id="15360277726b899">
+      <ECBuilding key="glb_deadbody_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="16.4619484 9.53674316e-007 -2.135427" rotation="0 -61.847683 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_04"/>
+    </entity>
+    <entity id="15360275168b88e">
+      <ECBuilding key="glb_deadbody_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="12.7920523 -1.90734863e-006 -4.31995344" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_05"/>
+    </entity>
+    <entity id="153602bb4c5b8cf">
+      <ECBuilding key="glb_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="15.7577705 1.90734863e-006 2.85144663" rotation="0 -1.95093095 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_02"/>
+    </entity>
+    <entity id="153602b6abcb8bf">
+      <ECBuilding key="glb_animal_bones_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.842041 9.53674316e-007 -6.11239147" rotation="0 110.472198 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_02"/>
+    </entity>
+    <entity id="15360277727b89d">
+      <ECBuilding key="glb_deadbody_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="22.0971489 -1.90734863e-006 -1.91255116" rotation="0 43.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_05"/>
+    </entity>
+    <entity id="1536020f162b87f">
+      <ECBuilding key="bst_spoilheap_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-11.1924114 -0.00762096792 -2.29612374" rotation="0 45.0990257 0" scale="2.27092814 2.27092814 2.27092814"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_spoilheap_a"/>
+    </entity>
+    <entity id="153602b4e7cb8b8">
+      <ECBuilding key="glb_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="24.4736633 0 1.5545795" rotation="0 85.2217941 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_03"/>
+    </entity>
+    <entity id="153602bdf56b8e2">
+      <ECBuilding key="glb_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.0955772 9.53674316e-007 -12.266304" rotation="0 148.683243 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_04"/>
+    </entity>
+    <entity id="153602bdf56b8de">
+      <ECBuilding key="glb_animal_bones_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.4739952 9.53674316e-007 -12.4750938" rotation="0 73.4531555 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_animal_bones_03"/>
+    </entity>
+    <entity id="1536027748db896">
+      <ECBuilding key="glb_deadbody_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.3579807 -1.90734863e-006 -1.4554733" rotation="0 88.305687 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_05"/>
+    </entity>
+    <entity id="153601d9386b879">
+      <ECBuilding key="bst_spoilheap_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.90488815 -0.00762096653 0.051219292" rotation="0 -48.3652306 0" scale="1.88130546 1.88130534 1.88130546"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_spoilheap_a"/>
+    </entity>
+    <entity id="1536025f59cb885">
+      <ECBuilding key="bst_yurt_a" damage="100" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="13.816246 9.53674316e-007 -10.9582024" rotation="0 237.194748 0" scale="0.999999642 1 0.999999642"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_yurt_a"/>
+    </entity>
+    <entity id="153602bc463b8d7">
+      <ECBuilding key="glb_bones_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="22.5379353 9.53674316e-007 6.33055115" rotation="0 148.683243 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_04"/>
+    </entity>
+    <entity id="15360277727b89c">
+      <ECBuilding key="glb_deadbody_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="16.8935089 0 1.87616122" rotation="0 137.634232 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_deadbody_01"/>
+    </entity>
+    <entity id="153602bc463b8d5">
+      <ECBuilding key="glb_bones_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.9874935 -9.53674316e-007 8.32889271" rotation="0 139.612183 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="glb_bones_01"/>
+    </entity>
+    <entity id="1536165e84cd3d3">
+      <ECBuilding key="thorns_g" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-11.1741772 0 14.1621389" rotation="-31.2871151 176.680206 -88.4046478" scale="2.10534668 2.1053462 2.10534668"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_g"/>
+    </entity>
+    <entity id="15361667eddd3d4">
+      <ECBuilding key="thorns_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-7.32996178 0 13.2487974" rotation="-52.9396591 130.944855 -64.1614838" scale="1.15131462 1.15131354 1.15131485"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_d"/>
+    </entity>
+    <entity id="1536166ef61d3d5">
+      <ECBuilding key="thorns_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-9.94901371 0 8.69710159" rotation="-51.2511139 184.152832 -104.416367" scale="1.15131497 1.1513139 1.15131509"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_d"/>
+    </entity>
+    <entity id="15361675e7fd3d6">
+      <ECBuilding key="thorns_g" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-22.3842468 4.59738146e-007 -2.10965776" rotation="8.15494537 145.473816 266.416809" scale="2.77313685 2.77313852 2.77313685"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_g"/>
+    </entity>
+    <entity id="15596486e7fac5d">
+      <ECNoGoRegion/>
+      <ECTransform position="-4.08377266 0 30.6346111" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-23.5640583" y="-10.6599331"/>
+          <point x="-29.3849468" y="-37.9409485"/>
+          <point x="-5.32996368" y="-57.3672752"/>
+          <point x="22.4419708" y="-43.1306534"/>
+          <point x="26.9303608" y="-17.3223934"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

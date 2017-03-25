@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="1539e3ad1d1a8ff">
+      <ECPointLight colour="255 225 194 255" colour_scale="20" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+      <ECTransform position="-33.3565903 36.2816696 24.0035648" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1539e3ad52fa900">
+      <ECPointLight colour="255 225 194 255" colour_scale="20" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+      <ECTransform position="6.65727043 36.2816849 10.8202448" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1539e3b0ee0a901">
+      <ECPointLight colour="255 225 194 255" colour_scale="20" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+      <ECTransform position="-8.39212036 36.2816849 -14.7047987" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1539e3b269fa902">
+      <ECPointLight colour="255 225 194 255" colour_scale="20" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+      <ECTransform position="-8.39212036 36.2816849 57.5723381" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

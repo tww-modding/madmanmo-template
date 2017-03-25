@@ -1,0 +1,3068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trees>
+
+<!-- INNER 0.9 # 1.0 #########################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+	<group group_name="chstree_inner_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.9</group_channel_range_low>	
+		<group_channel_range_high>1.1</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	
+		<height_range_low>-5000</height_range_low>	
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.09</probability>
+		<grouping_probability>0.5</grouping_probability>	
+		<grouping_radius>6</grouping_radius>	
+
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_b</model>
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.9</blendmap_range_low>	
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>		
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>	
+			<minimum_seperation>5.8</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 			
+			<model>trees\wh_chs_tree\chs_tree_c</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.9</blendmap_range_low>	
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>			
+			<minimum_seperation>5.6</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 			
+			<model>trees\wh_chs_tree\chs_tree_d</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>
+			<blendmap_range_low>0.9</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>	
+			<humidities>			
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>	
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>	
+			<minimum_seperation>5.4</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>	
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 	
+			<model>trees\wh_chs_tree\chs_tree_e</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.9</blendmap_range_low>	
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>		
+			<humidities>		
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>	
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>		
+			<minimum_seperation>5</minimum_seperation>	
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>			
+	</group>
+<!--group#-->	
+	<group group_name="chstree_lone_inner_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.9</group_channel_range_low>	
+		<group_channel_range_high>1.1</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	
+		<height_range_low>-5000</height_range_low>	
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.005</probability>
+		<grouping_probability>0.0</grouping_probability>	
+		<grouping_radius>0</grouping_radius>	
+
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_a</model>
+			<size_low>0.7</size_low>			
+			<size_high>1.1</size_high>				
+			<blendmap_range_low>0.9</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			
+			<humidities>						
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>						
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>1.0</probability>				
+			<minimum_seperation>6</minimum_seperation>		
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+	</group>	
+<!--group#-->
+	<group group_name="chsshrub01_inner_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.9</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.1875</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.1</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>1</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>			
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_01_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_01_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+	</group>
+	<group group_name="chsshrub02_inner_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.9</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.1875</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.1</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>1</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.112</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>			
+	</group>	
+<!--group#-->
+	<group group_name="chsmushroom_inner_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.9</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.375</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.2</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>2</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		
+		<prop> 								
+			<model>Buildings\flat_mushrooms_a\flat_mushrooms_a_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\flat_mushrooms_b\flat_mushrooms_b_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+		<prop> 								
+			<model>Buildings\flat_mushrooms_c\flat_mushrooms_c_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_a\funnel_blue_mushrooms_a_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_b\funnel_blue_mushrooms_b_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>			
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_c\funnel_blue_mushrooms_c_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.9</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+	</group>
+<!--group#-->
+	<group group_name="stones_inner_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.9</group_channel_range_low>	
+		<group_channel_range_high>1.1</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>
+		<height_range_low>-5000</height_range_low>		
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.02</probability>	
+		<grouping_probability>0.2</grouping_probability>	
+		<grouping_radius>5</grouping_radius>	
+	<prop>
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+				</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_d\dwf_stone_d_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_e\dwf_stone_e_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_f\dwf_stone_f_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+				</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>			
+	</group>
+	
+<!-- MIDDLE 0.7 # 0.9 #########################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+	<group group_name="chstree_middle_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.7</group_channel_range_low>	
+		<group_channel_range_high>0.9</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	
+		<height_range_low>-5000</height_range_low>	
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.130</probability>
+		<grouping_probability>0.5</grouping_probability>	
+		<grouping_radius>6</grouping_radius>	
+
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_c</model>
+			<size_low>0.7</size_low>			
+			<size_high>1.1</size_high>				
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			
+			<humidities>						
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>						
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>				
+			<minimum_seperation>6</minimum_seperation>		
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_d</model>
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>		
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>	
+			<minimum_seperation>6</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 			
+			<model>trees\wh_chs_tree\chs_tree_e</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>			
+			<minimum_seperation>6</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 			
+			<model>trees\wh_chs_tree\chs_tree_f</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>
+			<blendmap_range_low>0.9</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>	
+			<humidities>			
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>	
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>	
+			<minimum_seperation>6</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>	
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+	</group>
+<!--group#-->
+	<group group_name="chsshrub01_middle_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.7</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.9</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.2375</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.2</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>1</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_01_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_01_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+	</group>
+	<group group_name="chsshrub02_middle_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.7</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.9</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.2375</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.2</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>1</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.112</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>			
+	</group>	
+	<group group_name="chsmushroom_middle_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.7</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.9</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.375</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.6</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>2</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		
+		<prop> 								
+			<model>Buildings\flat_mushrooms_a\flat_mushrooms_a_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\flat_mushrooms_b\flat_mushrooms_b_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+		<prop> 								
+			<model>Buildings\flat_mushrooms_c\flat_mushrooms_c_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_a\funnel_blue_mushrooms_a_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_b\funnel_blue_mushrooms_b_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>			
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_c\funnel_blue_mushrooms_c_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.7</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+	</group>	
+<!--group#-->
+	<group group_name="stones_middle_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.7</group_channel_range_low>	
+		<group_channel_range_high>0.9</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>
+		<height_range_low>-5000</height_range_low>		
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.02</probability>	
+		<grouping_probability>0.2</grouping_probability>	
+		<grouping_radius>5</grouping_radius>	
+	<prop>
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+				</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_d\dwf_stone_d_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_e\dwf_stone_e_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_f\dwf_stone_f_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.7</blendmap_range_low>
+			<blendmap_range_high>0.9</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+				</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>			
+	</group>
+
+<!-- OUTER 0.5 # 0.7 #########################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+	<group group_name="chstree_medium_outer_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.5</group_channel_range_low>	
+		<group_channel_range_high>0.7</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	
+		<height_range_low>-5000</height_range_low>	
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.0575</probability>
+		<grouping_probability>0.8</grouping_probability>	
+		<grouping_radius>6</grouping_radius>	
+
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_d</model>
+			<size_low>0.7</size_low>			
+			<size_high>1.1</size_high>				
+			<blendmap_range_low>0.6</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			
+			<humidities>						
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>						
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.33</probability>				
+			<minimum_seperation>5</minimum_seperation>		
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_e</model>
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.6</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>		
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.33</probability>	
+			<minimum_seperation>4</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 			
+			<model>trees\wh_chs_tree\chs_tree_f</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.6</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.34</probability>			
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+	</group>
+	<group group_name="chstree_outer_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.5</group_channel_range_low>	
+		<group_channel_range_high>0.7</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	
+		<height_range_low>-5000</height_range_low>	
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.0725</probability>
+		<grouping_probability>0.8</grouping_probability>	
+		<grouping_radius>6</grouping_radius>	
+
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_f</model>
+			<size_low>0.7</size_low>			
+			<size_high>1.1</size_high>				
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			
+			<humidities>						
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>						
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.2</probability>				
+			<minimum_seperation>4</minimum_seperation>		
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 		
+			<model>trees\wh_chs_tree\chs_tree_g</model>
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>		
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.2</probability>	
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 			
+			<model>trees\wh_chs_tree\chs_tree_h</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>	
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>		
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.2</probability>			
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 			
+			<model>trees\wh_chs_tree\chs_tree_i</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>
+			<blendmap_range_low>0.9</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>	
+			<humidities>			
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>	
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.2</probability>	
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>	
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 	
+			<model>trees\wh_chs_tree\chs_tree_j</model>	
+			<size_low>0.7</size_low>	
+			<size_high>1.1</size_high>	
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>		
+			<humidities>		
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>	
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.2</probability>		
+			<minimum_seperation>1</minimum_seperation>	
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>			
+	</group>
+<!--group#-->
+	<group group_name="chsshrub01_outer_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.7</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.2375</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.1</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>2</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_02_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_01_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_01_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_03_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.125</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+	</group>
+	<group group_name="chsshrub02_outer_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.7</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.2375</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.1</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>2</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.112</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_bush_04_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_woodrush_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_chs_shrub\shrub_branches_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.111</probability>			<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>			
+	</group>		
+<!--group#-->
+	<group group_name="chsmushroom_outer_chsforestblend01">
+		<texture>forest01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>forest01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.7</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.375</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.2</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>2</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		
+		<prop> 								
+			<model>Buildings\flat_mushrooms_a\flat_mushrooms_a_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\flat_mushrooms_b\flat_mushrooms_b_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+		<prop> 								
+			<model>Buildings\flat_mushrooms_c\flat_mushrooms_c_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_a\funnel_blue_mushrooms_a_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_b\funnel_blue_mushrooms_b_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>			
+		<prop> 								
+			<model>Buildings\funnel_blue_mushrooms_c\funnel_blue_mushrooms_c_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+	</group>	
+<!--group#-->
+	<group group_name="stones_outer_chsforestblend01">
+		<texture>forest01</texture>	
+		<texture_for_probability>forest01</texture_for_probability>
+		<group_channel_range_low>0.5</group_channel_range_low>	
+		<group_channel_range_high>0.7</group_channel_range_high>	
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>
+		<height_range_low>-5000</height_range_low>		
+		<height_range_high>5000</height_range_high>	
+		<height_range_falloff>10000</height_range_falloff>	
+		<probability>0.02</probability>	
+		<grouping_probability>0.2</grouping_probability>	
+		<grouping_radius>5</grouping_radius>	
+	<prop>
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+				</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_d\dwf_stone_d_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_e\dwf_stone_e_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>
+		<prop>
+			<model>Buildings\dwf_stone_f\dwf_stone_f_piece01_destruct01</model>
+			<size_low>0.7</size_low>
+			<size_high>1.0</size_high>
+			<blendmap_range_low>0.5</blendmap_range_low>
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.1</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>10000</height_falloff>
+			
+			
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>chs_wastes</category>					
+				</categories>
+			<probability>0.167</probability>
+			<minimum_seperation>3</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</prop>			
+	</group>
+
+</trees>

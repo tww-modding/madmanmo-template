@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="152f4b5719b32db">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_rockmed_01/emp_rockmed_01_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-4.81506348 0 -2.54305267" rotation="0 242.74852 0" scale="0.837202609 0.837202728 0.837202609"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f4b5719b32dc">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_rockmed_02/emp_rockmed_02_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="1.30065918 1.26361847e-005 5.20323181" rotation="0 67.8610611 0" scale="0.669762015 0.669762135 0.669762015"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f4b5719b32dd">
+      <ECNoGoRegion/>
+      <ECTransform position="-2.45031214 3.19480896e-005 -9.02150726" rotation="0 0 0" scale="0.837202728 0.837202728 0.837202728"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="4.76837158e-007" y="0"/>
+          <point x="-6.78636122" y="0.123405457"/>
+          <point x="-10.5780087" y="4.94060421"/>
+          <point x="-10.8572083" y="13.2468271"/>
+          <point x="-0.830270767" y="21.2372475"/>
+          <point x="7.247859" y="22.5771465"/>
+          <point x="9.92747021" y="6.9637928"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="152f4b5719b32de">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_rocksml_01/emp_rocksml_01_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="2.71411133 1.26361847e-005 -1.07699585" rotation="0 184.196487 0" scale="0.418601424 0.418601364 0.418601424"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f4b5719b32df">
+      <ECProceduralExclusionZone2 exclude_vegetation="false" exclude_grass="true"/>
+      <ECTransform position="5.57333946 0.00227046013 -3.05018568" rotation="0 0 0" scale="0.837202728 0.837202728 0.837202728"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="1.78813934e-007" y="1.1920929e-007"/>
+          <point x="-9.50376129" y="-7.47487259"/>
+          <point x="-17.2696171" y="-6.97634697"/>
+          <point x="-21.9480724" y="4.3706708"/>
+          <point x="-10.6849079" y="14.6015425"/>
+          <point x="-1.87617922" y="15.482645"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

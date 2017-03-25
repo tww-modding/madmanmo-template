@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="15356f373a0feaa" name="no_terrain_clamp">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="15355d9216162dc">
+      <ECBuilding key="brt_menhir_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-6.61561584 0.78706032 -15.1365356" rotation="0.000108064669 86.9715881 -179.999878" scale="0.0999999344 0.0999999046 0.0999999419"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_03"/>
+    </entity>
+    <entity id="15355d92158622b">
+      <ECBuilding key="brt_menhir_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-13.7913742 0.787083209 -9.23775482" rotation="0 -38.9999886 0" scale="0.128125012 0.100000001 0.128125012"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_01"/>
+    </entity>
+    <entity id="15355d9215c6268">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="30.2185516 -2.68911886 -16.4222412" rotation="4.09811328e-005 255.073166 179.999985" scale="0.0999999642 0.0999999344 0.0999999642"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215b625f">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.2298431 8.82853603 28.2049179" rotation="-23.0207958 175.780579 -269.749847" scale="0.0999999866 0.0999999195 0.0999999419"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215e6298">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-37.0799255 7.347785 -12.8185997" rotation="-66.4886017 -3.23696017 -87.280426" scale="0.0999999866 0.0999999717 0.0999999866"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215a6242">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="24.1226959 -2.68913412 -24.4849396" rotation="0 264.898499 0" scale="0.100000016 0.100000001 0.100000016"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215b6264">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="16.9355545 -0.968570232 29.3925018" rotation="0 34.8403969 0" scale="0.100000001 0.100000001 0.100000001"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215d627b">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-10.5956993 10.3993578 -12.2113419" rotation="36.4074898 -6.83018879e-006 90.0000381" scale="0.099999994 0.0749999732 0.0999999866"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9216162d8">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="28.0784302 7.1079874 -20.0356178" rotation="52.9982262 -0.777685225 -94.1547241" scale="0.0999999791 0.0999999419 0.0999999791"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215b625e">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-34.7745705 -2.44932127 -16.6312943" rotation="0 258.222229 0" scale="0.100000001 0.100000001 0.100000001"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9216262ec">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="27.0605316 -0.968554974 25.8650894" rotation="1.36603776e-005 261.131195 179.999985" scale="0.0999999419 0.099999927 0.0999999493"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215b625a">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-39.7105026 -2.44930601 -7.1131897" rotation="-9.57178872e-006 37.7493668 179.999985" scale="0.0999999419 0.099999927 0.0999999419"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d92159623c">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.735466 10.3595343 -8.71928406" rotation="-54.3577576 -1.68840754 87.4454346" scale="0.0999999866 0.100000001 0.0999999642"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9216262ea">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.52945709 0.787083209 -11.6258202" rotation="0 -38.9999771 0" scale="0.100000016 0.100000001 0.100000016"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d921586225">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-13.4010086 0.787083209 9.61993408" rotation="0 73.0000305 0" scale="0.100000016 0.100000001 0.100000016"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d921636305">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="8.73542786 0.787098467 -2.88260651" rotation="-9.99793087e-007 -25.0284672 179.999985" scale="0.0999999866 0.0999999791 0.0999999866"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215d627c">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-16.3544044 10.5842047 4.45063019" rotation="64.864975 180.094864 94.2257156" scale="0.0999999568 0.0999999791 0.0999999791"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d92163630d">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-17.7035484 0.787098467 0.473648071" rotation="0.000108064007 86.9717255 -179.999878" scale="0.0999999642 0.0999999419 0.0999999642"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d921626303">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="-38.9050255 0 -9.00926971" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e62a1">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="3.739254 0 -39.8036537" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a624f">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbusha"/>
+      <ECTransform position="-32.9329948 0 -4.40584564" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162de">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-14.4135666 0 38.7294922" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c1">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="26.674881 0 26.5242081" rotation="0 -48.85569 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62b5">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-4.03262329 0 41.5411682" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596236">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-37.6182823 0 -29.5536499" rotation="0 104.295715 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d921646325">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-39.9333076 0 9.92458344" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d921626301">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="41.5246124 0 9.5730896" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646329">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushb"/>
+      <ECTransform position="-20.2486 0 5.52826691" rotation="0 243.878952 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636309">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbusha"/>
+      <ECTransform position="31.0432739 0 -15.0995827" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636319">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="6.5832901 0 -41.3416672" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9216262f5">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_k"/>
+      <ECTransform position="-24.2895584 0 -32.6573257" rotation="6.83018879e-005 249.000198 359.999969" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c3">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="-37.2468262 0 9.20716858" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062ba">
+      <ECBuilding key="brt_menhir_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.63133287 0 11.8981409" rotation="34.433239 0.942968965 -84.0158386" scale="0.116949178 0.0999999419 0.116949238"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_01"/>
+    </entity>
+    <entity id="15355d9216262ef">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-15.990284 0 8.05895233" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d921576214">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-21.6697922 0 -25.022995" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646328">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="2.20090103 0 -16.7111588" rotation="0 29.0000172 0" scale="1.99999988 2 1.99999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62a5">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="36.5956879 0 16.8335571" rotation="58.8273506 103.900955 59.5763931" scale="1.00000048 0.99999994 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d921596232">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-1.83559036 0 2.95470428" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92163631b">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulab"/>
+      <ECTransform position="5.17860413 0 8.88213348" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62af">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-36.881176 0 7.10388184" rotation="-1.36603776e-005 159.861771 -179.999985" scale="0.0999999419 0.099999927 0.0999999344"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d921636311">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="7.41666412 0 -32.222908" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215b6263">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-9.22107697 0 41.9215851" rotation="0 -8.72262573 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62b3">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="-21.1587791 0 -34.0715408" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92164632c">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-7.55659866 0 -0.106445313" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d92163631d">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="37.174118 0 -18.5371628" rotation="0 104.295753 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215a6245">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="12.2342224 0 29.6675339" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9216162d5">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-10.8898392 0 -7.3712616" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6257">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-12.3712463 0 40.6721954" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92163630a">
+      <ECBuilding key="brt_boldermed_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="9.84220123 0 6.64372253" rotation="4.32717752e-006 -8.99994659 -2.76613009e-005" scale="0.835783422 0.515576422 0.835783422"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="boldermed_01"/>
+    </entity>
+    <entity id="15355d921636307">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="28.3399963 0 22.444046" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921586220">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="39.8608093 0 9.89759827" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c6273">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.62245941 0 -17.208271" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9215f62a6">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-17.770359 0 -36.0137901" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921586229">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.1379776 0 -35.1918182" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9216062be">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="21.4835892 0 21.8819122" rotation="0 15.0000286 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6281">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-11.4464035 0 -10.0345459" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d921636310">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="0.719112396 0 10.7975311" rotation="0 -86.2505875 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646331">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-1.45298767 0 -8.67551422" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215f62b4">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-22.3686752 0 -31.556469" rotation="0 -75.2458649 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c5">
+      <ECBuilding key="brt_menhir_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="34.9973831 0 11.7919769" rotation="-1.36603776e-005 223.589798 -179.999985" scale="0.0999999344 0.100001253 0.100001283"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_03"/>
+    </entity>
+    <entity id="15355d9216062cf">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="4.04347229 0 8.88513947" rotation="0 145.780197 0" scale="1.49999988 1.5 1.49999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92163631e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="-25.4926338 0 7.27020264" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596240">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="-37.7417259 0 -13.0318108" rotation="0 -25.0196991 0" scale="2 2 2"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c626c">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="26.3166885 0 -29.5167351" rotation="0 62.5790253 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6299">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="21.6424408 0 -29.840065" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6255">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="-20.8841095 0 31.8185577" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6292">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.24858093 0 1.59289551" rotation="9.52313614 -38.0004692 -15.2419796" scale="0.999999881 0.999999881 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d9216162dd">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushb"/>
+      <ECTransform position="-24.0643845 0 -33.7891998" rotation="0 -3.39011359 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646321">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="27.961731 0 -24.0702896" rotation="0 70.6098175 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e628d">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-6.027565 0 32.6206512" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92164632e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-1.18869019 0 41.6814041" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92164631f">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-11.07267 0 32.2438202" rotation="0 -8.72262573 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92164632a">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="2.99061966 0 -37.180275" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062cd">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-5.00896835 0 13.3598022" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d921646323">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="18.8503952 0 17.4521179" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92159623a">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_j"/>
+      <ECTransform position="-23.6432114 0 -27.7580795" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921626300">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="2.85216904 0 -38.334919" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6254">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-5.06473541 0 34.7109528" rotation="0 20.7300911 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636313">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-12.7281914 0 34.282074" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d92163630f">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-3.53636551 0 -4.13037109" rotation="0 145.780197 0" scale="1.49999988 1.5 1.49999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646324">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulac"/>
+      <ECTransform position="-25.1065063 0 -27.4997711" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c6269">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="41.641983 0 9.66129303" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262f0">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-5.3405838 0 27.6457825" rotation="0 104.980255 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216062cb">
+      <ECBuilding key="brt_stone_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="1.81116486 0 -7.99293518" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_a"/>
+    </entity>
+    <entity id="15355d9216162e8">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-14.4864388 0 33.8375473" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215f62b0">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="6.18310547 0 -11.8892136" rotation="0 62.5790634 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636304">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulac"/>
+      <ECTransform position="-7.99041748 0 43.0515518" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636316">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowerb"/>
+      <ECTransform position="-9.27724457 0 39.1739578" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b625d">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="6.82486725 0 -37.0959396" rotation="0 62.579052 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921586221">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-14.4346199 0 10.5439453" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216062c2">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-25.0781555 0 -33.8462448" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d92163630c">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="8.60137177 0 -48.5623398" rotation="0 29.0000172 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e7">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushb"/>
+      <ECTransform position="-12.6725731 0 38.7248535" rotation="0 53.2772942 0" scale="0.999999583 1 0.999999583"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162df">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-37.5070152 0 -14.5152817" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d921596231">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.682724 0 40.4558334" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d92159623f">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="23.6032562 0 -21.7228813" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162d9">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.89080048 0 -34.7263145" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9215e629f">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.78227234 0 -3.85726929" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d921596233">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-39.4160385 0 0.039276123" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262ed">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="22.5775757 0 29.2817841" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62ad">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.35963821 0 9.63357544" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9216262f7">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-13.8061028 0 36.2586823" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646327">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.6425705 0 41.9945831" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215f62b6">
+      <ECBuilding key="brt_menhir_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="36.1610565 0 2.57606506" rotation="0 184.38179 0" scale="0.128125042 0.100000001 0.128125042"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_01"/>
+    </entity>
+    <entity id="15355d92158622f">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-25.6915665 0 -27.2230911" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9215b6259">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="35.3745117 0 13.0778503" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215c6266">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="26.9400253 0 -20.5084763" rotation="9.75359535 -38.6606483 -15.3849268" scale="1.00000036 0.999999881 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d921586226">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-12.4160423 0 44.4412766" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6261">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-21.6654358 0 33.4365692" rotation="0 -8.72262573 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a6244">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="2.64173889 0 10.0092392" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636314">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.5715714 0 22.4754639" rotation="0 104.295715 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d921636306">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbusha"/>
+      <ECTransform position="-15.1867485 0 -29.4681129" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6294">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-40.1149216 0 -6.49420166" rotation="0 -75.2458649 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6285">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowerb"/>
+      <ECTransform position="-22.5738907 0 -30.7056274" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6293">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-20.62883 0 12.1930237" rotation="0 181.878891 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92163630b">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="-20.431427 0 -29.6255608" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062bf">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="4.65441895 0 -37.5047798" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262f9">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="-21.0223007 0 31.8681641" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921586222">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_j"/>
+      <ECTransform position="40.9043884 0 10.1706924" rotation="0 31.0000286 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c6">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="-19.271019 0 -27.1258698" rotation="0 29.0000172 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92157621e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-1.23082733 0 -1.64661407" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c6274">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="40.5929718 0 7.15350342" rotation="0 29.0000172 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92157621b">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulab"/>
+      <ECTransform position="20.669632 0 -30.4250221" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92158622a">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-18.3039589 0 -33.8593864" rotation="0 104.980255 0" scale="0.999999702 1 0.999999702"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216062ce">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="-7.06061935 0 -1.44140625" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162da">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="-7.19757843 0 37.9774323" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6278">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbusha"/>
+      <ECTransform position="-31.1351967 0 18.4969406" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6279">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-39.3274002 0 -16.483696" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216262f2">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="33.6321411 0 4.25711823" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e628e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="17.5305557 0 -16.0651855" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92163631a">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="21.5039978 0 -30.9947128" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646322">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-20.9030457 0 3.66960144" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e629e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="43.2287903 0 8.68128204" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636318">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="21.2596741 0 15.7736664" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62b2">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="23.2050934 0 27.4241943" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596234">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-6.03106689 0 5.40189362" rotation="0 145.780197 0" scale="1.49999988 1.5 1.49999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92159623b">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowerb"/>
+      <ECTransform position="-23.668602 0 5.71148682" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62aa">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushb"/>
+      <ECTransform position="-1.79711151 0 0.240776062" rotation="0 207.780273 0" scale="0.999999702 1 0.999999702"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e0">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-9.87535858 0 38.5349655" rotation="0 -18.578331 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596239">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulac"/>
+      <ECTransform position="-4.16075516 0 -5.68004608" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262ee">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulab"/>
+      <ECTransform position="-22.6887207 0 33.9279175" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596241">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-37.9704819 0 2.49243164" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596235">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-0.223682404 0 0.986022949" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92159623e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="43.6950531 0 9.98193359" rotation="0 62.579052 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646333">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="22.3910828 0 -32.4634399" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c9">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-21.1338806 0 -24.7815323" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262eb">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="21.3913651 0 -14.780365" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62a9">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-31.4431267 0 16.3442993" rotation="0 136.109833 0" scale="0.0999999717 0.100000001 0.0999999717"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9216262fa">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="41.0057068 0 5.85733795" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215a6243">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-24.1359024 0 -24.7380943" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215a624e">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.286972 0 32.3345566" rotation="9.75360584 -38.6606331 -15.3849354" scale="1.00000048 0.999999821 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d9215a6249">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="23.3062439 0 -30.164566" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262fb">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="6.73130035 0 3.45495605" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215b6256">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.654697418 0 -42.2740936" rotation="-8.87355804 -46.2791595 7.69415998" scale="0.0999999642 0.0999999717 0.100000016"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215c626f">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-16.5303116 0 -29.6384964" rotation="0 -35.9374619 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e1">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulab"/>
+      <ECTransform position="38.8879929 0 9.31263733" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162d7">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="24.5602417 0 -10.6544647" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062bc">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="12.3698273 0 -38.3691254" rotation="0 29.0000172 0" scale="1.99999988 2 1.99999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a6250">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-15.3129463 0 -31.5915489" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c626e">
+      <ECBuilding key="brt_stone_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.95265198 0 -0.706970215" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_c"/>
+    </entity>
+    <entity id="15355d9215e629d">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.2602921 0 26.3807678" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d921636312">
+      <ECBuilding key="brt_stone_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.10323334 0 -9.75069427" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_c"/>
+    </entity>
+    <entity id="15355d9216062ca">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="4.76073456 0 11.5172729" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a624b">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="-10.0099335 0 11.0363235" rotation="0 -83.0196915 0" scale="1.99999988 2 1.99999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92157621c">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="40.6094437 0 7.2742157" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6253">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushb"/>
+      <ECTransform position="22.1656418 0 -19.4206696" rotation="0 -3.39011359 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596237">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="13.5054932 0 3.44181061" rotation="0 104.980255 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d921646334">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="11.4190598 0 -41.1675568" rotation="0 62.5790634 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6252">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="-18.2682953 0 -38.4388237" rotation="0 70.6098175 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a6251">
+      <ECBuilding key="brt_boldermed_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-21.9672546 0 -30.6574783" rotation="4.32717752e-006 -8.99994659 -2.76613009e-005" scale="0.835783422 0.515576422 0.835783422"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="boldermed_01"/>
+    </entity>
+    <entity id="15355d9215a624a">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="10.013916 0 -47.9171104" rotation="0 62.5790634 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6258">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="-11.3118477 0 36.1420898" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a624c">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bigleafb"/>
+      <ECTransform position="-6.40030289 0 35.3772888" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c6272">
+      <ECBuilding key="brt_boldersml_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.27410126 0 -14.9743118" rotation="-0.0114473961 103.000084 -0.00961690582" scale="0.766490042 0.766490579 0.766490042"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="boldersml_02"/>
+    </entity>
+    <entity id="15355d921646332">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-42.5849113 0 -4.08662415" rotation="0 -65.3901901 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596230">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="13.3571625 0 -41.2738838" rotation="0 104.295753 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d92164632b">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="0.432071686 0 -5.02933502" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b625c">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowerb"/>
+      <ECTransform position="23.6561356 0 -16.3371048" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c626a">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-11.0849113 0 -5.23178864" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162d2">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="4.98200989 0 39.1455612" rotation="0 -38.9999886 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a6246">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-38.1804886 0 10.3900833" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9215c6271">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-37.4879951 0 3.7747345" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215b625b">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="29.7077637 0 -11.9895935" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9215b6262">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansyb"/>
+      <ECTransform position="-40.009861 0 1.57429504" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215b6260">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="1.79126358 0 11.669075" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062b9">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-13.3024292 0 -6.86434937" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d92163630e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="23.4236221 0 -30.0763626" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e5">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="39.7223587 0 8.74295044" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062b8">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="41.3655548 0 10.2658157" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d921576212">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_c"/>
+      <ECTransform position="-9.35668182 0 3.45639777" rotation="0 -34.9999771 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e4">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-38.8104362 0 8.16657257" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921576211">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-36.696209 0 0.762794495" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e3">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_k"/>
+      <ECTransform position="7.91027832 0 10.9798889" rotation="0 221.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062cc">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-24.838665 0 -29.1488914" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62a4">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="19.9903107 0 -17.950325" rotation="0 -65.3901901 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162d3">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="7.67355347 0 12.5631027" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d921586227">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="-4.13710785 0 1.9862442" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62a3">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowerb"/>
+      <ECTransform position="-4.66843414 0 -1.6261673" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62a2">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowerb"/>
+      <ECTransform position="27.8938751 0 19.0978851" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921576215">
+      <ECBuilding key="brt_menhir_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="9.22340393 0 -38.1050377" rotation="0.139978185 -6.05998707 153.626709" scale="0.0999999419 0.0999998674 0.0999999419"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_02"/>
+    </entity>
+    <entity id="15355d9215e62a0">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-20.7662125 0 -2.13672638" rotation="0 104.295784 0" scale="1.00000048 1 1.00000048"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216062c7">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansyb"/>
+      <ECTransform position="-8.66966629 0 -7.64123535" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636315">
+      <ECNoGoRegion/>
+      <ECTransform position="11.5948639 0.787136614 36.3008957" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-45.2905006" y="-16.1492233"/>
+          <point x="-56.8528328" y="-40.094101"/>
+          <point x="-41.5427399" y="-72.5966263"/>
+          <point x="-3.86223602" y="-85.3899231"/>
+          <point x="21.657753" y="-58.5217361"/>
+          <point x="30.610321" y="-26.0155334"/>
+          <point x="20.7322617" y="-9.02945709"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15355d9215a6248">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.28271484 0 37.5861053" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216162d0">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulab"/>
+      <ECTransform position="2.01780319 0 -37.7652321" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062bd">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-10.4225922 0 2.89000702" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262e9">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bigleafb"/>
+      <ECTransform position="28.4091034 0 -16.0196838" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636317">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-10.3918457 0 0.588821411" rotation="0 175.23291 0" scale="1.50000024 1.5 1.50000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262fc">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-25.5258064 0 -32.4673843" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6284">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-21.5524406 0 -0.0433883667" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921626302">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-38.8801308 0 0.280738831" rotation="0 -65.3901901 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921576216">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="25.1304779 0 -18.929863" rotation="0 -65.3901901 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6291">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbusha"/>
+      <ECTransform position="-4.18409729 0 33.6820374" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e6">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="11.2956543 0 -3.06482697" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216262fe">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="25.0104218 0 -31.0563774" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921586223">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="28.459671 0 -21.6452599" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92164632d">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-20.2242317 0 -22.5698357" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d627a">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bigleafb"/>
+      <ECTransform position="-17.8209229 0 -30.3882103" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d627d">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="27.9549408 0 -12.4550934" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9216262fd">
+      <ECBuilding key="brt_menhir_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="5.5814209 0 6.40708923" rotation="0 -38.9999771 0" scale="0.100000016 0.100000001 0.100000016"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_03"/>
+    </entity>
+    <entity id="15355d921586228">
+      <ECBuilding key="brt_menhir_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-23.4884109 0 -30.5713196" rotation="21.7538776 -78.5016098 4.28299609e-006" scale="0.128125057 0.099999994 0.128125027"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_01"/>
+    </entity>
+    <entity id="15355d9215e628f">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-11.1725273 0 36.7670746" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d921646320">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansyb"/>
+      <ECTransform position="-22.2636108 0 -23.4879684" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921656335">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bigleafb"/>
+      <ECTransform position="-8.89952087 0 0.562301636" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d627e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-18.6807022 0 7.7437973" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c6265">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-30.2183914 0 17.2292633" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92158622c">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="6.25954437 0 11.9463425" rotation="0 1.00001264 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d627f">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-15.597496 0 25.7968674" rotation="9.52313614 -38.0004692 -15.2419796" scale="0.999999881 0.999999881 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d9215d6283">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_heathera"/>
+      <ECTransform position="33.4254837 0 26.432869" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92158621f">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_d"/>
+      <ECTransform position="10.5917358 0 2.83088684" rotation="0 118.980331 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6280">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="31.2336273 0 -9.4861908" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215e629a">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-25.0249329 0 -35.2412415" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6287">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-30.7141228 0 3.84251404" rotation="0 104.295753 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9216162d4">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-20.8309669 0 29.954277" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162d1">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="34.7058258 0 5.8835907" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9216262ff">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="27.2800598 0 -9.93094635" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92163631c">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-8.96677399 0 -5.94969177" rotation="0 145.780197 0" scale="1.49999988 1.5 1.49999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646326">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-22.7062111 0 32.9177704" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262f3">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-12.1147766 0 27.6589203" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215c6267">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="-18.1997528 0 12.6708069" rotation="0 -42.121151 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c6270">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.872695923 0 48.5623322" rotation="58.8273926 103.900955 59.5764313" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d9216162db">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="15.3225403 0 34.287796" rotation="0 15.0000229 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262f8">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="6.3585968 0 -38.3965836" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c626d">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="25.0961456 0 -10.413002" rotation="0 -65.3901749 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92164632f">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="30.4002533 0 -18.6049461" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215d6276">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-28.5608749 0 -35.7082977" rotation="9.52313614 -38.0004692 -15.2419796" scale="0.999999881 0.999999881 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d92158622d">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="7.5435791 0 -0.0802841187" rotation="0 44.0000305 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6286">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="32.9475708 0 5.43906403" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215e628a">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="-4.34986115 0 7.21910858" rotation="0 -78.2198257 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e628c">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bigleafa"/>
+      <ECTransform position="19.3006516 0 19.9926147" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a624d">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-18.5381775 0 5.20339966" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6290">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-14.9548759 0 10.4302597" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215d6288">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="6.1178894 0 10.0781021" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9215e6297">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-1.93358994 0 39.6663361" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c8">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansya"/>
+      <ECTransform position="-18.9499626 0 -24.2994728" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215c6275">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="4.77179718 0 -37.4165764" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c4">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="2.78782654 0 10.0239487" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62ab">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-28.6994743 0 -30.4337158" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921636308">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-27.4498215 0 -27.6676178" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215e6289">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulac"/>
+      <ECTransform position="-25.6468468 0 2.13682556" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262f6">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_flowera"/>
+      <ECTransform position="-23.4458847 0 31.3695526" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6295">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-4.40364075 0 -0.791938782" rotation="0 135.924469 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e6296">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansyb"/>
+      <ECTransform position="23.9664154 0 -9.11943817" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e629b">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallflowera"/>
+      <ECTransform position="-13.3723869 0 31.3272934" rotation="0 127.277359 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e629c">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="4.759552 0 9.80143738" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215a6247">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="-22.6267815 0 -36.0914078" rotation="0 -65.3901749 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921596238">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="23.8613586 0 -17.1879463" rotation="0 -75.2458649 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62a8">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_cloverb"/>
+      <ECTransform position="-19.4880638 0 30.2794113" rotation="0 119.246605 0" scale="1.50000036 1.5 1.50000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921586224">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbushc"/>
+      <ECTransform position="25.7985992 0 -15.2570305" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62a7">
+      <ECBuilding key="brt_menhir_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-16.3126564 0 -36.4700966" rotation="0.000108064705 86.9715881 -179.999878" scale="0.0999999419 0.0999999046 0.0999999419"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="menhir_03"/>
+    </entity>
+    <entity id="15355d921576210">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tallbusha"/>
+      <ECTransform position="-11.629631 0 1.13844299" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921576217">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulac"/>
+      <ECTransform position="21.0741348 0 -11.8489304" rotation="0 -65.3901901 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921646330">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="29.6997223 0 -15.2699661" rotation="0 -35.9374619 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216262f4">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.12306595 0 -43.2451973" rotation="9.75359821 -38.6606483 -15.3849287" scale="1.00000036 0.999999881 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d921576218">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-36.6546211 0 12.893486" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215d6277">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansyb"/>
+      <ECTransform position="-3.07641983 0 42.8807983" rotation="0 -8.72262573 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062bb">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bigleafb"/>
+      <ECTransform position="-25.7979355 0 9.97264099" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62ae">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-43.6950493 0 -4.32304382" rotation="0 -39.6844826 0" scale="1.00000036 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d921656336">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="21.2050934 0 -20.8727112" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92157621a">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="40.4057159 0 8.72705841" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9216262f1">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-3.53640366 0 41.2261047" rotation="0 -8.72262573 0" scale="1.50000012 1.5 1.50000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921576219">
+      <ECBuilding key="brt_stone_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-5.79834747 0 0.33808136" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_b"/>
+    </entity>
+    <entity id="15355d9215f62ac">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_tansyb"/>
+      <ECTransform position="5.59328461 0 42.2720032" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d921576213">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="16.3527603 0 32.6877899" rotation="0 -83.0196915 0" scale="1.99999988 2 1.99999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215e628b">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="18.2153625 0 34.7902527" rotation="0 -38.9999886 0" scale="1.5 1.5 1.5"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215d6282">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-5.24230194 0 40.1225739" rotation="0 241.123688 0" scale="1.00000048 1 1.00000048"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d92157621d">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-25.6571541 0 12.7507935" rotation="0 181.878891 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d92158622e">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="30.9170837 0 -17.2230225" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9215f62b7">
+      <ECBuilding key="brt_stone_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-40.9482231 0 1.87120056" rotation="9.75359821 -38.6606483 -15.3849287" scale="1.00000036 0.999999881 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_f"/>
+    </entity>
+    <entity id="15355d92159623d">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_clovera"/>
+      <ECTransform position="-34.2765617 0 -4.57623291" rotation="0 -35.9374771 0" scale="1.49999988 1.5 1.49999988"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216062c0">
+      <ECBuilding key="brt_stone_e" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="30.4806976 0 8.39379883" rotation="0 241.123688 0" scale="1.00000048 1 1.00000048"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_e"/>
+    </entity>
+    <entity id="15355d9215f62b1">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-6.3807106 0 -17.6528015" rotation="0 -38.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9215c626b">
+      <ECBuilding key="brt_stone_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.34847641 0 44.8066254" rotation="0 97.1434479 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="stone_d"/>
+    </entity>
+    <entity id="15355d9216162d6">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_bushbetulaa"/>
+      <ECTransform position="26.0057983 0 -8.2013092" rotation="0 -65.3901825 0" scale="1.00000024 1 1.00000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15355d9216162e2">
+      <ECVegetation key="trees/wh_brt_shrub/shrub_brackena"/>
+      <ECTransform position="-8.383255 0 -6.02046204" rotation="0 145.780197 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15356f76ea2feab">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="false"/>
+      <ECTransform position="3.21095896 0 17.5268326" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-17.8078785" y="-5.06323624"/>
+          <point x="-26.2625523" y="-25.4376411"/>
+          <point x="-9.51445961" y="-39.132576"/>
+          <point x="7.99746943" y="-29.6409302"/>
+          <point x="12.3360443" y="-11.8800354"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="15356f373a0feaa">
+        <to id="15355d9216162dc"/>
+        <to id="15355d92158622b"/>
+        <to id="15355d9215c6268"/>
+        <to id="15355d9215b625f"/>
+        <to id="15355d9215e6298"/>
+        <to id="15355d9215a6242"/>
+        <to id="15355d9215b6264"/>
+        <to id="15355d9215d627b"/>
+        <to id="15355d9216162d8"/>
+        <to id="15355d9215b625e"/>
+        <to id="15355d9216262ec"/>
+        <to id="15355d9215b625a"/>
+        <to id="15355d92159623c"/>
+        <to id="15355d9216262ea"/>
+        <to id="15355d921586225"/>
+        <to id="15355d921636305"/>
+        <to id="15355d9215d627c"/>
+        <to id="15355d92163630d"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

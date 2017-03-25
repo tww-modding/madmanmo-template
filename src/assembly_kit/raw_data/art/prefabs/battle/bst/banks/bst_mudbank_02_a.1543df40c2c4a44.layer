@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="1543df40c2c4a40">
+      <ECBuilding key="bst_cliff_bank_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-2.07714844 0 -13.9147339" rotation="0 0 0" scale="0.999999285 1 1.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_c"/>
+    </entity>
+    <entity id="1543df40c2c4a41">
+      <ECBuilding key="bst_cliff_bank_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.525390625 0 13.9146729" rotation="0 180 0" scale="0.999999285 1 1.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_c"/>
+    </entity>
+    <entity id="1543df40c2c4a42">
+      <ECBuilding key="bst_cliff_bank_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-24.6121826 2.38418579e-007 -2.07086182" rotation="0 90 0" scale="0.999998748 1 0.738467932"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_c"/>
+    </entity>
+    <entity id="1543df40c2c4a43">
+      <ECBuilding key="bst_cliff_bank_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="24.6120605 0 -2.07080078" rotation="0 -90 0" scale="0.999998987 1 0.73846817"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_c"/>
+    </entity>
+    <entity id="154587329a11505">
+      <ECBuilding key="mushroom_shelf_group_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="36.7201347 30.3569736 18.5408878" rotation="13.3821974 226.234894 5.93311167" scale="0.999999642 0.999999881 0.999999583"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_shelf_group_01"/>
+    </entity>
+    <entity id="154587400641506">
+      <ECBuilding key="mushroom_shelf_group_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="43.4526558 22.4905529 -14.9357996" rotation="21.3176746 -45.4177856 8.10181236" scale="0.999999881 0.999999762 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_shelf_group_02"/>
+    </entity>
+    <entity id="154587677561507">
+      <ECBuilding key="mushroom_shelf_group_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="11.7517481 34.1728058 48.3509293" rotation="39.7879562 223.884064 1.84096813" scale="1.00000024 0.999999762 1.00000012"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_shelf_group_03"/>
+    </entity>
+    <entity id="1545876eb7f1508">
+      <ECBuilding key="mushroom_shelf_group_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-28.7883873 37.1611481 -27.7999516" rotation="20.8298855 48.7003174 1.82383609" scale="1 1.00000012 1.00000012"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_shelf_group_01"/>
+    </entity>
+    <entity id="154587794901509">
+      <ECBuilding key="mushroom_shelf_group_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-48.8995285 19.9153461 7.87870026" rotation="18.3693562 130.178864 351.439941" scale="0.99999994 0.999999821 1.00000036"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_shelf_group_01"/>
+    </entity>
+    <entity id="15458780bdd150a">
+      <ECBuilding key="mushroom_shelf_group_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-18.2588482 38.9703636 38.1632652" rotation="21.3182087 163.903412 1.38076365" scale="0.999997795 0.999999523 0.999997199"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_shelf_group_03"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

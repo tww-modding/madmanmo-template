@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="1540f327f3169eb">
+      <ECSoundMarker key="Sound_Environment_Pond_Empire"/>
+      <ECTransform position="-13.6358891 0 -2.38195801" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1540f32843e69ec">
+      <ECSoundMarker key="Sound_Environment_Pond_Empire"/>
+      <ECTransform position="-30.394886 7.62939453e-006 -24.0189552" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1540f328a9669ed">
+      <ECSoundMarker key="Sound_Environment_Pond_Empire"/>
+      <ECTransform position="19.9419804 1.52587891e-005 -29.9975433" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1540f328f7669ee">
+      <ECSoundMarker key="Sound_Environment_Pond_Empire"/>
+      <ECTransform position="32.8904648 2.28881836e-005 11.4158993" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1540f32964c69ef">
+      <ECSoundMarker key="Sound_Environment_Pond_Empire"/>
+      <ECTransform position="7.22449493 0 29.7571239" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1540f329fc569f0">
+      <ECSoundMarker key="Sound_Environment_Pond_Empire"/>
+      <ECTransform position="-38.0947952 7.62939453e-006 5.32003689" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1540f32ceb569f1">
+      <ECSoundMarker key="Sound_Environment_Pond_Empire"/>
+      <ECTransform position="8.34681892 7.62939453e-006 -1.4148941" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1540f340dcf69f2">
+      <ECSoundMarker key="Sound_Environment_Waterfall_Mist_Small"/>
+      <ECTransform position="-14.3198957 28.6227303 16.7312927" rotation="0 0 0" scale="1 1 1"/>
+      <ECPointCloud>
+        <point_cloud>
+          <point x="0" y="0" z="0"/>
+          <point x="2.19865417" y="7.62939453e-006" z="22.8205872"/>
+        </point_cloud>
+      </ECPointCloud>
+    </entity>
+    <entity id="1540f35a15d69f5">
+      <ECSoundMarker key="Sound_Environment_Waterfall_Mist_Small"/>
+      <ECTransform position="-8.69322968 0 45.1290359" rotation="0 0 0" scale="1 1 1"/>
+      <ECPointCloud>
+        <point_cloud>
+          <point x="0" y="0" z="0"/>
+          <point x="5.98242188" y="0" z="-18.4170685"/>
+          <point x="1.33811951" y="0" z="-34.3946304"/>
+          <point x="5.76360321" y="0" z="-55.5007248"/>
+        </point_cloud>
+      </ECPointCloud>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

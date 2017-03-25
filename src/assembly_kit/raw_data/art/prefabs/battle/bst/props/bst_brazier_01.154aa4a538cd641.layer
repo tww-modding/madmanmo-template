@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="154aa4a538dd642" name="Reference">
+      <ECLayer export="false" bmd_export_type=""/>
+    </entity>
+    <entity id="154aa4a9badd645">
+      <ECBuilding key="bst_brazier_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0 -0.000244140625 0" rotation="0 0 0" scale="3 3 3"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_brazier_01"/>
+    </entity>
+    <entity id="154aa4dd70ad648">
+      <ECVFX vfx="wh_main_generic_fire_nosmoke_nolight_loop" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.239213228 15.2675009 0.442057967" rotation="0 0 0" scale="4 4 4"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="154aa4e4e51d649">
+      <ECPointLight colour="255 136 39 255" colour_scale="100" radius="75" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR" for_light_probes_only="false"/>
+      <ECTransform position="-0.385906219 28.8551521 -0.270809174" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1555f17147816b9">
+      <ECNoGoRegion/>
+      <ECTransform position="0.518997669 0 8.83634567" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-11.2563515" y="-6.67210913"/>
+          <point x="-7.44558954" y="-17.4206295"/>
+          <point x="6.53407145" y="-16.0589752"/>
+          <point x="7.73270559" y="-4.34879494"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

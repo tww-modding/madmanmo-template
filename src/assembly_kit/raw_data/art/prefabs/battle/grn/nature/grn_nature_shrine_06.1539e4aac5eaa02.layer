@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="1539e4ac3b3aa03">
+      <ECPointLight colour="255 225 194 255" colour_scale="20" radius="130" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR"/>
+      <ECTransform position="8.8712616 51.8602257 17.6790047" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="1539e4b084eaa04">
+      <ECPointLight colour="255 225 194 255" colour_scale="20" radius="130" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_LINEAR"/>
+      <ECTransform position="-74.9951935 51.8602257 -43.2638969" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

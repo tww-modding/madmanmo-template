@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="20">
+  <entities>
+    <entity id="1523aa438663a84" name="Vegetation Exclusion Zone 1">
+      <ECProceduralExclusionZone/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="13.7587509" y="-28.5908051"/>
+          <point x="52.556633" y="-31.863472"/>
+          <point x="85.0585327" y="-2.90086842"/>
+          <point x="62.0664368" y="41.1265335"/>
+          <point x="32.5049133" y="39.7204514"/>
+          <point x="8.69548035" y="23.7848911"/>
+          <point x="-1.98997498" y="7.90350342"/>
+        </polyline>
+      </ECPolyline>
+      <ECTransform position="-43.5040894 0 -8.53279877" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

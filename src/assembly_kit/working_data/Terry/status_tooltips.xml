@@ -1,0 +1,35 @@
+<status_tooltips version="0">
+	<widget name="View3D">
+		<!-- Basic -->
+		<tooltip>Tooltip</tooltip>
+		<tooltip tool="Select">LMB = Select/Deselect Object || LMB+Drag = Marquee Select || RMB = Context Menu</tooltip>
+		<tooltip tool="Translate,Rotate,Scale">
+			LMB+Drag Selected = Translate Selected X/Z || LShift+LMB+Drag Selected = Duplicate Selected || Ctrl+LMB+Drag Selected = Rotate Selected Z
+		</tooltip>
+		<tooltip tool="Paint Terrain,Terrain Height Painting,Terrain Texture Painting,Terrain Painting (Other),Terrain Forest Painting">
+			LMB = Paint || RMB = Exit Mode || Shift = Quick Smooth || Ctrl+Alt+Mouse Up/Down = Increase/Decrease Brush Scale || Ctrl+Alt+Mouse Left/Right = Rotate Brush || [ or ] = Increase/Decrease Scale
+		</tooltip>
+		
+		<!-- Advanced -->
+		<tooltip tool="Tape Measure"> LMB = Place Point, Place Second Point, Repeat </tooltip>
+		
+		<!-- Entity Creation Visual -->
+		<tooltip tool="Create Prefab,Create Building,Create Prop,Create Decal,Create VFX,Create Vegetation (Place),Create Point Light,Create Spot Light,Create Light Probe">
+			LMB = Place Asset || RMB = Exit Mode || Shift + Mouse Left/Right = Rotate Object || [ or ] = Increase/Decrease Scale
+		</tooltip>
+		<tooltip tool="Create Polygon Mesh,Create Terrain Hole">LMB = Orient Polygon(1st click)/Place Points || RMB = Exit Mode</tooltip>
+		<tooltip tool="Create Vegetation (Paint)">LMB = Paint || RMB = Exit Mode || [ or ] = Increase/Decrease Scale</tooltip>
+		<tooltip tool="Create Procedural Exclusion Zone">LMB = Place Points || RMB = Exit Mode</tooltip>
+		
+		<!-- Entity Creation Logical -->
+		<tooltip tool="Create AI Hint"> LMB = Set Starting Point/Set End Point || RMB = Exit Mode </tooltip>
+		<tooltip tool="Create No-Go Region,Create Go Region">LMB = Place Points || RMB = Exit Mode</tooltip>
+		<tooltip tool="Create Deployment Zone,Create Deployment Zone Region">LMB = Place Points/Resize || RMB = Exit Mode</tooltip>
+		<tooltip tool="Create Playable Area">LMB = Select Starting Point/End Editing || RMB = Cancel</tooltip>
+		
+		<!-- Entity Creation Other -->
+		<tooltip tool="Create Sound Marker">LMB = Place/Place Points/End Editing || RMB = Exit Mode</tooltip>
+		<tooltip tool="Create Camera Bounds">LMB = Set Starting Point/Set Extents/Set Height</tooltip>
+		
+	</widget>
+</status_tooltips>

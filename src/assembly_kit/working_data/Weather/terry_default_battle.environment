@@ -1,0 +1,154 @@
+<environment_file serialise_version='5' environment_prefab=''>
+	<lighting serialise_version='4' sun_colour_scale='10.000000' sea_bed_light_scatter_red='0.300000' sea_bed_light_scatter_green='0.900000' sea_bed_light_scatter_blue='0.800000' refraction_light_scatter='0.900000' use_custom_ambient_cube_colours='false' ambient_cube_hdr_scaler='1.000000' ambient_scale='1.000000' sun_direction_azimuth='278.625061' sun_direction_elevation='50.249928' auto_gen_cubemap_set='true' cloud_shadow_scroll_speed='1.000000' cloud_shadow_uv_scale='1.000000' cloud_shadow_lerp='0.000000' sky_colour_scale='4.000000'>
+		<sun_colour r='1.000000' g='1.000000' b='1.000000'/>
+		<deep_water_colour r='0.306901' g='0.370629' b='0.363945'/>
+		<shallow_water_colour r='0.236940' g='0.532510' b='0.545455'/>
+		<ambient_cube_left r='0.426384' g='0.486734' b='0.538462'/>
+		<ambient_cube_right r='0.372591' g='0.467121' b='0.524476'/>
+		<ambient_cube_top r='0.742445' g='0.831423' b='0.982517'/>
+		<ambient_cube_bottom r='0.470841' g='0.533418' b='0.559441'/>
+		<ambient_cube_front r='0.549568' g='0.618228' b='0.727273'/>
+		<ambient_cube_back r='0.521153' g='0.565802' b='0.629371'/>
+	</lighting>
+	<post_processing serialise_version='2' lut_texture_file='default' brightness_r='1.000000' brightness_g='1.000000' brightness_b='1.000000' contrast_r='1.000000' contrast_g='1.000000' contrast_b='1.000000' saturation_r='1.000000' saturation_g='1.000000' saturation_b='1.000000' hue='0.000000' sharpening_strength='0.000000'>
+		<overlay r='1.000000' g='1.000000' b='1.000000'/>
+	</post_processing>
+	<fog serialise_version='2' fog_distance_start='0.400000' fog_distance_strength='0.180000' fog_distance_scale='0.000000' fog_height_top='18.404909' fog_height_strength='0.000000' fog_clear_distance='1800.000000' fog_colour_blend='1.000000' fog_precipitation_intensity='1.000000' fog_precipitation_distance_modifier='0.135870' terrain_relative_height_fog='false'>
+		<volume_fog_colour r='0.876721' g='0.909756' b='0.940559' a='1.000000'/>
+	</fog>
+	<depth_of_field serialise_version='1' use_DOF='false' DOF_blur_size='3.000000'>
+		<DOF_focus value='0.300000' variation='40.000000'/>
+	</depth_of_field>
+	<audio serialise_version='1' environment='empire'/>
+	<hdr serialise_version='5' absolute_black_point='0.010000' max_black_point='2.000000' min_white_point='6.000000' absolute_white_point='40.000000' exposure_sensitivity='0.500000' auto_exposure_speed_down='0.020000' auto_exposure_speed_up='0.020000' low_tones_bias_red='0.330000' high_tones_bias_red='0.660000' low_tones_bias_green='0.330000' high_tones_bias_green='0.660000' low_tones_bias_blue='0.330000' high_tones_bias_blue='0.660000' lock_rgb_relative_tones='true' bloom_point_above_white_point='0.000000' whiteout_start='0.000000' whiteout_end='10.000000' bloom_strength='1.000000'/>
+	<weather serialise_version='4' wind_dir_random='true' wind_dir_degrees='0.000000' definition_name='none' snowing_intensity='0.000000' creep_intensity='0.000000'/>
+	<sun_mesh serialise_version='1' sun_texture='sundisk1.dds' sun_scale='0.100000' sun_flare='1.000000'/>
+	<sunsky serialise_version='2' sky_colour_scale='1.000000' circumsolar_decay='0.131868' circumsolar_colour_scale='0.950820' horizon_colour_scale='1.000000' horizon_opposite_colour_scale='1.000000' horizon_decay='0.554348' backscatter_colour_scale='2.000000' backscatter_decay='1.000000' render_skydome='true'>
+		<sky_colour r='0.229693' g='0.339836' b='0.426573'/>
+		<circumsolar_colour r='1.000000' g='1.000000' b='1.000000'/>
+		<horizon_colour r='0.692181' g='0.732897' b='0.874126'/>
+		<horizon_opposite_colour r='0.706167' g='0.795225' b='0.902098'/>
+		<backscatter_colour r='0.325697' g='0.413571' b='0.510490'/>
+	</sunsky>
+	<near_cloud_plane_mesh serialise_version='2' grid_size='20' height_scale='3.954802' cloud_velocity='0.000000' cloud_density='0.050000' flatten_factor='0.550000' sun_transmit_falloff='0.519400' cloud_shadow_gradient='0.570652' cloud_shadow_falloff='0.429348' horizon_alpha_start='0.950000' horizon_alpha_end='1.000000' cloud_height_variation='0.000000' cloudset='CLOUDSET_2' cloud_rotation='0.000000' seed='0'>
+		<sun_transmitted_colour r='0.905882' g='0.901961' b='0.843137'/>
+		<sun_reflected_colour r='0.894118' g='0.972549' b='1.000000'/>
+		<cloud_shadow_colour r='0.466032' g='0.738795' b='0.919580'/>
+		<cloud_plane_data>
+			<cloud_plane serialise_version='1' probability='1.000000' this_cloud_only='true'>
+				<clouds>
+					<cloud serialise_version='1' enabled='true' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='1' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='1' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='1' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='1' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='1' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='1' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='1.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='true' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='2' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='2' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='2' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='2' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='2' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='2' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+			<cloud_plane serialise_version='1' probability='0.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.400000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='1' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+		</cloud_plane_data>
+	</near_cloud_plane_mesh>
+	<far_cloud_plane_mesh serialise_version='2' grid_size='6' height_scale='1.468927' cloud_velocity='0.000000' cloud_density='0.059783' flatten_factor='0.208700' sun_transmit_falloff='0.805800' cloud_shadow_gradient='0.252400' cloud_shadow_falloff='0.936900' horizon_alpha_start='0.990000' horizon_alpha_end='1.000000' cloud_height_variation='0.000000' cloudset='CLOUDSET_2' cloud_rotation='0.000000' seed='0'>
+		<sun_transmitted_colour r='0.644955' g='0.775546' b='0.919580'/>
+		<sun_reflected_colour r='0.944056' g='0.937058' b='0.918425'/>
+		<cloud_shadow_colour r='0.631744' g='0.742697' b='0.846154'/>
+		<cloud_plane_data>
+			<cloud_plane serialise_version='1' probability='1.000000' this_cloud_only='false'>
+				<clouds>
+					<cloud serialise_version='1' enabled='true' scale='1.250000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='0' texture_row='0' texture_column='0'/>
+					<cloud serialise_version='1' enabled='false' scale='1.250000' offset_x='0.000000' offset_y='0.000000' offset_z='0.000000' texture_index='0' texture_row='0' texture_column='0'/>
+				</clouds>
+			</cloud_plane>
+		</cloud_plane_data>
+	</far_cloud_plane_mesh>
+	<ssao serialise_version='1' number_of_steps='5' number_of_directions='5' radius='1.000000' attenuation='0.780000' strength='3.000000' minimum_strength='0.170000' angle_bias='0.000000' contrast='1.000000' blur_radius='4' blur_sharpness='3.000000'/>
+</environment_file>

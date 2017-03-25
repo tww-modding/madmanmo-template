@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="1541a66cc981c27">
+      <ECBuilding key="bst_tree_giant_root_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="8.06750488 49.8647842 30.6525879" rotation="20.4207687 -81.5168839 161.187714" scale="1.00000036 1.0000006 1.00000131"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_root_01"/>
+    </entity>
+    <entity id="1541a66cc981c28">
+      <ECBuilding key="bst_tree_giant_root_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="45.6432114 79.2488327 83.1753769" rotation="-63.8797302 -12.949708 -72.5399551" scale="1.69170988 1.69171059 1.69171035"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_root_02"/>
+    </entity>
+    <entity id="1541a66cc991c3c">
+      <ECBuilding key="bst_tree_giant_root_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="49.5502434 99.9955215 103.521103" rotation="-81.9705353 -22.6561604 58.7662735" scale="1.75731456 1.75731695 1.75731623"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_root_01"/>
+    </entity>
+    <entity id="154295a141a87d9">
+      <ECBuilding key="bst_tree_giant_trunk_tall_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="49.9765739 49.5639648 42.8402443" rotation="-0.000232226419 231.18515 -359.999756" scale="3 3.00000048 3"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_trunk_tall_01"/>
+    </entity>
+    <entity id="15429e9b8f8d4a8">
+      <ECBuilding key="bst_tree_giant_medium_root_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="75.4226532 29.5756283 -72.1104279" rotation="-1.42841101 230.74231 -358.89389" scale="0.726443768 1 0.999999881"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_medium_root_01"/>
+    </entity>
+    <entity id="15429e9ce55d4a9">
+      <ECBuilding key="bst_tree_giant_medium_root_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="100.575203 30.3402424 -51.0144386" rotation="8.0662384 29.127306 16.2331638" scale="0.99999994 0.999999702 0.99999994"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_medium_root_02"/>
+    </entity>
+    <entity id="15429e9e20cd4ab">
+      <ECBuilding key="bst_tree_giant_medium_root_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="97.1242981 32.2295799 -70.4552002" rotation="0 -11.6410999 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_medium_root_04"/>
+    </entity>
+    <entity id="15429ee5c3cd4b2">
+      <ECBuilding key="bst_tree_giant_medium_root_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="67.7822266 36.9496269 -52.9625511" rotation="-31.6818581 117.8386 -34.9131393" scale="0.999998748 1 0.999998629"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_medium_root_03"/>
+    </entity>
+    <entity id="15438f1c2d98222" name="banks">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="1541a66cc981c30">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="99.8673706 17.0216064 47.6276588" rotation="4.00742435 -34.6268539 -7.02853203" scale="1.03354931 0.766149521 1.18556321"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1541a66cc981c2d">
+      <ECBuilding key="bst_cliff_bank_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="124.16993 -0.529182613 -34.9829369" rotation="0 -39.1570282 0" scale="0.766149163 0.766149759 0.766149163"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_f"/>
+    </entity>
+    <entity id="1541a66cc991c3a">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-50.7418594 22.3071346 88.9305649" rotation="0 -17.1275196 0" scale="0.766148388 0.76614964 0.766148388"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="15429d1d6767667">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="28.1777458 -22.0564308 21.5412292" rotation="0 54.335144 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1541a66cc991c35">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="28.9584961 50.1533661 133.571289" rotation="-0.511475146 9.02840614 -3.25595784" scale="0.999999881 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1541a66cc981c2a">
+      <ECBuilding key="bst_cliff_bank_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="27.0488281 7.12648153 -5.96130419" rotation="2.49922585 22.48843 1.61707112e-006" scale="0.766148806 0.766146481 0.766148865"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_a"/>
+    </entity>
+    <entity id="1541a66cc991c31">
+      <ECBuilding key="bst_cliff_bank_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-47.4441071 2.88055754 56.3255501" rotation="0 5.55216408 0" scale="0.946879208 0.946879566 0.946879148"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_f"/>
+    </entity>
+    <entity id="1541a66cc991c32">
+      <ECBuilding key="bst_cliff_bank_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-87.4221115 7.18576145 61.5385666" rotation="0 20.5637722 0" scale="0.766149342 0.766149521 0.766149342"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_c"/>
+    </entity>
+    <entity id="15429631d7a87da">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="136.035309 37.4446716 88.1274338" rotation="-0.564677894 -17.1184998 1.91774118" scale="0.766148448 0.76614964 0.766148508"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1542958e61287d1">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.68145943 5.65044594 88.2112961" rotation="0 9.0427599 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1541a66cc981c29">
+      <ECBuilding key="bst_cliff_bank_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="71.989502 44.5077896 36.7578125" rotation="0 -2.95723987 0" scale="0.5 0.5 0.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_f"/>
+    </entity>
+    <entity id="1541a66cc981c2e">
+      <ECBuilding key="bst_cliff_bank_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="86.1778946 7.84041071 -47.2540436" rotation="0 5.55216265 0" scale="1.20030427 1.06271327 1.16727746"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_f"/>
+    </entity>
+    <entity id="1541a66cc981c2b">
+      <ECBuilding key="bst_cliff_bank_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-7.71435738 38.3517685 116.654327" rotation="0 9.0427599 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_d"/>
+    </entity>
+    <entity id="1541a66cc981c2f">
+      <ECBuilding key="bst_cliff_bank_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-96.1764832 34.5847702 98.5222015" rotation="-1.5231688 -27.9081707 -1.39297438" scale="0.766149044 0.766147256 0.766149223"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_a"/>
+    </entity>
+    <entity id="1541a66cc991c34">
+      <ECBuilding key="bst_cliff_bank_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="50.5300293 53.1682739 108.847168" rotation="0 9.0427599 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_f"/>
+    </entity>
+    <entity id="15429d2f72f7668">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-79.8379669 -38.0928879 62.1387787" rotation="0 54.335144 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1541a66cc991c38">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="52.3854027 15.8966675 28.4062519" rotation="0 13.5058107 0" scale="0.766148627 0.76614964 1.35787106"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="15429d38dfd7669">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-27.5177517 -22.5852718 45.5284615" rotation="0 -55.8946686 0" scale="0.700000107 0.699999988 0.700000107"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1541a66cc981c2c">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="97.1898651 7.84580708 -15.808301" rotation="0 -17.1275291 0" scale="0.766148508 0.76614964 0.766148508"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="15429d604ca766b">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="87.0064316 -25.8836784 -59.570591" rotation="0 -17.1275253 0" scale="0.766148448 0.76614964 0.766148448"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="1541a66cc991c36">
+      <ECBuilding key="bst_cliff_bank_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="27.6466942 0 -28.7097187" rotation="0 19.6293163 0" scale="0.800000072 0.800000012 0.800000072"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_f"/>
+    </entity>
+    <entity id="1541a66cc991c39">
+      <ECBuilding key="bst_cliff_bank_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="58.8699875 -0.606384277 -39.2576828" rotation="0 26.5637722 0" scale="0.766149282 0.766149521 0.766149282"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_c"/>
+    </entity>
+    <entity id="1541a66cc991c37">
+      <ECBuilding key="bst_cliff_bank_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="11.7537823 10.2342043 10.691164" rotation="9.99201107 75.6643677 9.25843906" scale="0.766147971 0.766147852 0.766149044"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_a"/>
+    </entity>
+    <entity id="15438f483c98223">
+      <ECBuilding key="bst_cliff_bank_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-111.64286 -1.73806262 83.7138138" rotation="-1.39113569 14.6354799 -2.45759416" scale="0.766149104 0.766147137 0.766149342"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_d"/>
+    </entity>
+    <entity id="15438f58f818224">
+      <ECBuilding key="bst_cliff_bank_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-58.0879059 33.9017525 128.085327" rotation="0.336151987 14.6962242 4.35720778" scale="0.969972491 0.969970405 0.969972908"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_a"/>
+    </entity>
+    <entity id="15438f8ed58836d" name="Layer 1">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="15438f91340841b">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="36.2396622 1063.18445 8.75823212" rotation="73.9425201 126.891754 338.581482" scale="2.8005178 2.8005209 2.80051827"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438f9133f840e">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="40.5445976 818.471802 36.4700623" rotation="57.6206207 161.106339 353.624908" scale="3.46992421 3.46992588 3.46992493"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438f9133f840c">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="66.0067062 1077.60913 58.157238" rotation="68.3534775 236.844727 349.060089" scale="3.46992683 3.46992779 3.46992898"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438f9133f8403">
+      <ECBuilding key="bst_tree_giant_branch_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="185.781845 705.288757 199.218567" rotation="-53.9628334 224.891052 -262.879883" scale="1.49923825 1.49923825 1.49923825"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_02"/>
+    </entity>
+    <entity id="15438f9133f83fc">
+      <ECBuilding key="bst_tree_giant_branch_bare_07" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="42.1439552 911.575317 49.7776566" rotation="57.0835991 68.4445038 -13.213975" scale="3.39701796 3.39701986 3.39701676"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_07"/>
+    </entity>
+    <entity id="15438f913408412">
+      <ECBuilding key="bst_tree_giant_branch_bare_09" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="57.3806458 1155.45569 49.8598671" rotation="-72.442955 116.302666 -236.729401" scale="2.67213631 2.67213726 2.67213726"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_09"/>
+    </entity>
+    <entity id="15438f9133f8409">
+      <ECBuilding key="bst_tree_giant_branch_bare_07" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="44.5026054 1005.3501 56.7479858" rotation="68.190155 -5.57905722 1.29040158" scale="3.39701915 3.39702034 3.39701891"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_07"/>
+    </entity>
+    <entity id="15438f9133f8401">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="57.3740005 851.789612 45.229454" rotation="-4.19795322 -63.4067688 7.14509583" scale="3.35737467 3.35737848 3.35737324"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438f91340841c">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="84.8337784 1138.90247 -41.7031593" rotation="68.6885147 51.3594894 -61.718071" scale="2.35087442 2.35087466 2.35087442"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438f91340841a">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="130.141006 1028.07104 190.763382" rotation="36.0405426 161.734741 310.312256" scale="3.09956551 3.09956717 3.09956455"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438f9133f8402">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="33.1693344 666.486389 52.2824326" rotation="74.3730011 32.7188072 60.5942268" scale="2.01643562 2.01643562 2.01643562"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438f913408418">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="51.4951668 960.84491 67.1920853" rotation="12.1060724 177.90451 298.878052" scale="3.09956384 3.09956574 3.09956408"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438f913408416">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="52.9260254 777.004272 66.1854019" rotation="52.6007118 -49.4488373 9.29916096" scale="3.46992302 3.46992683 3.46992207"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438f9133f8408">
+      <ECBuilding key="bst_tree_giant_branch_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="138.543488 929.719421 -10.438755" rotation="-76.0104446 186.087021 -271.513245" scale="2.25737834 2.25737953 2.25737834"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_03"/>
+    </entity>
+    <entity id="15438f9133f840d">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="44.2602997 494.929047 58.3181038" rotation="68.9749908 236.778595 348.945099" scale="3.46992183 3.46992683 3.46992278"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438f9133f83fb">
+      <ECBuilding key="bst_tree_giant_branch_bare_07" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="19.5282402 864.316406 37.6369705" rotation="87.2036285 76.0804214 82.6471786" scale="2.73472452 2.734725 2.73472381"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_07"/>
+    </entity>
+    <entity id="15438f9133f83f9">
+      <ECBuilding key="bst_tree_giant_branch_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="50.7407265 1247.27466 42.4905243" rotation="-4.38172913 -61.7859001 19.7018642" scale="3.39591908 3.39592004 3.39591956"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_03"/>
+    </entity>
+    <entity id="15438f91340840f">
+      <ECBuilding key="bst_tree_giant_branch_bare_06" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-38.4442215 730.650879 78.1684647" rotation="37.885006 55.1875038 6.61205816" scale="1.90699553 1.90699732 1.90699589"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_06"/>
+    </entity>
+    <entity id="15438f91340841f">
+      <ECBuilding key="bst_tree_giant_branch_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="43.1922569 1272.86694 125.835091" rotation="-5.61050844 131.543976 -20.3614349" scale="2.58630157 2.58630037 2.58630371"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_04"/>
+    </entity>
+    <entity id="15438f9133f83f7">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="38.777298 935.280945 57.1329842" rotation="0 114.118011 0" scale="1.86395669 1.86395681 1.86395669"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438f9133f8400">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="33.0957413 1027.49255 72.7882767" rotation="0 98.4179001 0" scale="2.80051804 2.80052066 2.80051804"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438f9133f8407">
+      <ECBuilding key="bst_tree_giant_branch_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="52.7700424 1296.51965 47.2484627" rotation="18.2979507 35.4211044 -12.3369761" scale="3.17619085 3.17619133 3.17619348"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_04"/>
+    </entity>
+    <entity id="15438f913408417">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="32.1641121 957.448425 52.5299187" rotation="60.3730011 6.41184235 6.06833458" scale="3.46991992 3.46992588 3.46991944"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438f9133f83ff">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="49.93367 630.231628 63.9234543" rotation="2.53641796 226.889984 1.36603776e-005" scale="2.82907295 2.82907391 2.82907248"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438f9133f83fe">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="44.9118729 750.970032 62.7922745" rotation="0.267347246 175.860748 5.44855118" scale="1.9021647 1.90216422 1.90216458"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438f913408414">
+      <ECBuilding key="bst_tree_giant_branch_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="170.473679 1184.52551 68.4945908" rotation="28.0651646 -74.0001221 -35.7408295" scale="3.17618656 3.17619228 3.17618775"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_04"/>
+    </entity>
+    <entity id="15438f913408419">
+      <ECBuilding key="bst_tree_giant_branch_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="219.613007 1081.33801 217.727295" rotation="43.881752 233.237564 335.013184" scale="2.1195085 2.11950731 2.11950874"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_02"/>
+    </entity>
+    <entity id="15438f9133f840b">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="64.4512177 666.840271 47.148571" rotation="19.7043285 -64.1886444 9.83013248" scale="3.46992421 3.4699285 3.46992755"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438f913408413">
+      <ECBuilding key="bst_tree_giant_branch_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="178.611725 1192.17505 87.4815216" rotation="-3.97471905 211.15625 -281.714996" scale="2.22133422 2.22133374 2.22133446"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_02"/>
+    </entity>
+    <entity id="15438f9133f840a">
+      <ECBuilding key="bst_tree_giant_branch_bare_07" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="43.7484665 1104.6991 57.4297295" rotation="59.4788818 212.627823 3.58908677" scale="3.39701605 3.3970201 3.39701843"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_07"/>
+    </entity>
+    <entity id="15438f9133f83fa">
+      <ECBuilding key="bst_tree_giant_branch_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="40.7879944 745.907715 44.5661392" rotation="13.6481686 55.7471657 -0.315149337" scale="2.58630323 2.58630204 2.58630323"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_04"/>
+    </entity>
+    <entity id="15438f9133f83f8">
+      <ECBuilding key="bst_tree_giant_branch_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-120.33963 940.598389 71.6480408" rotation="-68.9897614 -2.37276673 -116.761185" scale="1.49923754 1.49923885 1.4992379"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_02"/>
+    </entity>
+    <entity id="15438f91340841e">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="39.5276299 1054.54993 52.9554024" rotation="-38.9535217 17.5803223 171.547318" scale="2.8005178 2.80052042 2.80051732"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438f9133f8406">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-39.4281693 1096.73315 56.9246902" rotation="-89.5782471 196.621353 -109.794952" scale="2.3508749 2.35087395 2.3508749"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438f9133f83fd">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="51.3801117 1041.02686 77.9550095" rotation="0 207.521698 0" scale="2.26885891 2.26885891 2.26885891"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438f9133f8404">
+      <ECBuilding key="bst_tree_giant_branch_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="55.1805534 746.768799 53.6536713" rotation="0 262.632355 0" scale="1.53714979 1.53715026 1.53714979"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_03"/>
+    </entity>
+    <entity id="15438f91340841d">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="123.03492 1198.83911 -39.7606926" rotation="-35.085289 -26.417017 -175.997208" scale="2.11063313 2.11063194 2.1106329"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438f913408415">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="34.862587 1267.47595 56.6305199" rotation="-47.9064941 182.699203 -153.07457" scale="2.57564497 2.57564402 2.57564473"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438f9133f8405">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-114.257523 1123.20813 73.8074188" rotation="-28.471199 8.36186314 -84.4091568" scale="2.11063385 2.11063194 2.1106329"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438f913408410">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-34.7486877 739.287476 83.0337753" rotation="0 -77.5107193 0" scale="1.65658081 1.65658069 1.65658081"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438f913408411">
+      <ECBuilding key="bst_tree_giant_branch_bare_11" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="14.5096245 608.38739 34.4520035" rotation="25.1484032 32.5069046 31.0816307" scale="1.9166919 1.91669428 1.91669381"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_11"/>
+    </entity>
+    <entity id="15438fa61938420" name="Layer 2">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="15438fae1c98421">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="88.0489044 689.891785 88.8810883" rotation="88.5736542 -12.2101364 12.9612637" scale="2.61514592 2.61514878 2.61514664"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438fae1c98422">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="67.5920868 461.377136 72.5309982" rotation="62.3120918 23.3954964 6.57273579" scale="3.24024391 3.24024534 3.24024463"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438fae1c98425">
+      <ECBuilding key="bst_tree_giant_branch_bare_07" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="58.0904236 561.193542 64.3840332" rotation="81.4376221 -67.9908524 -12.950201" scale="3.17216158 3.17216349 3.17216158"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_07"/>
+    </entity>
+    <entity id="15438fae1c98426">
+      <ECBuilding key="bst_tree_giant_branch_bare_09" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="47.5545197 776.055359 73.9465408" rotation="16.9514351 235.578552 139.050003" scale="2.49526215 2.49526334 2.49526405"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_09"/>
+    </entity>
+    <entity id="15438fae1c98427">
+      <ECBuilding key="bst_tree_giant_branch_bare_07" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="52.0670776 635.88562 61.076992" rotation="69.2816925 216.945038 358.392944" scale="3.17216301 3.1721642 3.17216325"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_07"/>
+    </entity>
+    <entity id="15438fae1c98428">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="50.4823074 492.489563 77.1284256" rotation="16.4039421 151.470932 329.74881" scale="3.13514352 3.13514662 3.13514352"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438fae1c98429">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="86.4691772 760.597839 154.280151" rotation="-1.88955808 230.855576 -240.584045" scale="2.19526553 2.19526601 2.19526601"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438fae1c9842a">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="34.9228897 319.451996 47.4851151" rotation="64.7067642 27.5127659 41.1604843" scale="1.28708208 1.28708196 1.28708196"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438fae1c9842b">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-98.2966232 655.353455 27.8803616" rotation="67.6757355 10.6261444 47.4548454" scale="2.89439845 2.89440036 2.89439821"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438fae1c98432">
+      <ECBuilding key="bst_tree_giant_branch_bare_06" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="43.2006645 302.555786 40.3248405" rotation="2.41881371 63.5096054 -9.05218792" scale="1.56468511 1.56468654 1.5646863"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_06"/>
+    </entity>
+    <entity id="15438fae1c98435">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="64.085022 656.562317 45.9214668" rotation="0 -39.0457916 0" scale="2.6151464 2.61514783 2.6151464"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438fae1ca8437">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="63.2197685 591.154602 56.1899414" rotation="66.5797348 228.620804 350.855713" scale="3.24023843 3.24024439 3.2402389"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438fae1ca8439">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="48.5237122 398.343445 46.0905685" rotation="-4.41642952 38.1746712 -6.91912603" scale="1.7762574 1.7762568 1.77625704"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438fae1ca843a">
+      <ECBuilding key="bst_tree_giant_branch_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-42.0262337 803.200989 132.520966" rotation="-0.327288985 146.147629 -348.82132" scale="2.96594882 2.96595407 2.96595001"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_04"/>
+    </entity>
+    <entity id="15438fae1ca843b">
+      <ECBuilding key="bst_tree_giant_branch_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-170.049561 706.843689 60.8596687" rotation="-36.2044411 106.852119 -60.6986847" scale="1.97921312 1.97921288 1.97921336"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_02"/>
+    </entity>
+    <entity id="15438fae1ca8440">
+      <ECBuilding key="bst_tree_giant_branch_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="308.512695 935.802551 -83.8523407" rotation="-27.6766338 7.50382757 -97.8778458" scale="1.48410356 1.48410559 1.48410356"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_02"/>
+    </entity>
+    <entity id="15438fae1ca8441">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="57.88451 681.828796 60.5458221" rotation="-32.6831779 155.485626 -171.14061" scale="2.61514568 2.61514807 2.61514544"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438fae1ca8442">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="128.357468 719.158508 10.855381" rotation="-32.657753 -44.2184868 100.40451" scale="2.19526529 2.19526529 2.19526601"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438fae1ca8443">
+      <ECBuilding key="bst_tree_giant_branch_bare_08" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="33.9466515 669.200867 50.8267784" rotation="0 70.0580521 0" scale="2.11867881 2.11867857 2.11867881"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_08"/>
+    </entity>
+    <entity id="15438fae1ca8445">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="58.9576149 816.5672 177.060303" rotation="-42.5564232 111.281036 -189.918503" scale="1.97092617 1.97092485 1.97092581"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438fae1ca8447">
+      <ECBuilding key="bst_tree_giant_branch_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="159.115143 745.9422 -41.537365" rotation="-71.5543747 189.922699 -268.412323" scale="1.97092617 1.97092557 1.97092605"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_01"/>
+    </entity>
+    <entity id="15438fae1ca8448">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="59.6896324 387.434174 64.7370071" rotation="0 145.025589 0" scale="1.54692817 1.54692817 1.54692817"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438fae1ca8449">
+      <ECBuilding key="bst_tree_giant_branch_bare_11" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="68.6058807 253.611084 43.9332924" rotation="73.5140457 242.161636 310.202789" scale="1.18373275 1.18373477 1.18373382"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_11"/>
+    </entity>
+    <entity id="15438fd209b844a">
+      <ECBuilding key="bst_cliff_bank_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="58.4705429 26.1152077 88.2843475" rotation="0 13.5058212 0" scale="0.766148388 0.76614964 1.35787117"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_cliff_bank_b"/>
+    </entity>
+    <entity id="15438fae1c98430">
+      <ECBuilding key="bst_tree_giant_branch_bare_05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="57.9651413 261.172882 39.9801254" rotation="63.5025673 27.7939892 -0.130423471" scale="3.26499391 3.26499367 3.26499319"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_05"/>
+    </entity>
+    <entity id="15438fae1c9842c">
+      <ECBuilding key="bst_tree_giant_branch_bare_10" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="40.6622086 594.326294 58.3051186" rotation="50.4542274 17.4179001 66.50811" scale="2.89439821 2.8943994 2.89439869"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_bare_10"/>
+    </entity>
+    <entity id="15438fae1c9842e">
+      <ECBuilding key="bst_tree_giant_branch_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="71.6599884 462.356537 52.4080849" rotation="1.30314875 -49.7026329 11.6112413" scale="2.55370879 2.55370831 2.55370831"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_tree_giant_branch_04"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="15438f1c2d98222">
+        <to id="1541a66cc981c30"/>
+        <to id="1541a66cc981c2d"/>
+        <to id="1541a66cc991c3a"/>
+        <to id="15429d1d6767667"/>
+        <to id="1541a66cc991c35"/>
+        <to id="1541a66cc981c2a"/>
+        <to id="1541a66cc991c31"/>
+        <to id="1541a66cc991c32"/>
+        <to id="15429631d7a87da"/>
+        <to id="1542958e61287d1"/>
+        <to id="1541a66cc981c29"/>
+        <to id="1541a66cc981c2e"/>
+        <to id="1541a66cc981c2b"/>
+        <to id="1541a66cc981c2f"/>
+        <to id="1541a66cc991c34"/>
+        <to id="15429d2f72f7668"/>
+        <to id="1541a66cc991c38"/>
+        <to id="15429d38dfd7669"/>
+        <to id="1541a66cc981c2c"/>
+        <to id="15429d604ca766b"/>
+        <to id="1541a66cc991c36"/>
+        <to id="1541a66cc991c39"/>
+        <to id="1541a66cc991c37"/>
+        <to id="15438f483c98223"/>
+        <to id="15438f58f818224"/>
+      </from>
+      <from id="15438f8ed58836d">
+        <to id="15438f91340841b"/>
+        <to id="15438f9133f840e"/>
+        <to id="15438f9133f840c"/>
+        <to id="15438f9133f8403"/>
+        <to id="15438f9133f83fc"/>
+        <to id="15438f913408412"/>
+        <to id="15438f9133f8409"/>
+        <to id="15438f9133f8401"/>
+        <to id="15438f91340841c"/>
+        <to id="15438f91340841a"/>
+        <to id="15438f9133f8402"/>
+        <to id="15438f913408418"/>
+        <to id="15438f913408416"/>
+        <to id="15438f9133f8408"/>
+        <to id="15438f9133f840d"/>
+        <to id="15438f9133f83fb"/>
+        <to id="15438f9133f83f9"/>
+        <to id="15438f91340840f"/>
+        <to id="15438f91340841f"/>
+        <to id="15438f9133f83f7"/>
+        <to id="15438f9133f8400"/>
+        <to id="15438f9133f8407"/>
+        <to id="15438f913408417"/>
+        <to id="15438f9133f83ff"/>
+        <to id="15438f9133f83fe"/>
+        <to id="15438f913408414"/>
+        <to id="15438f913408419"/>
+        <to id="15438f9133f840b"/>
+        <to id="15438f913408413"/>
+        <to id="15438f9133f840a"/>
+        <to id="15438f9133f83fa"/>
+        <to id="15438f9133f83f8"/>
+        <to id="15438f91340841e"/>
+        <to id="15438f9133f8406"/>
+        <to id="15438f9133f83fd"/>
+        <to id="15438f9133f8404"/>
+        <to id="15438f91340841d"/>
+        <to id="15438f913408415"/>
+        <to id="15438f9133f8405"/>
+        <to id="15438f913408410"/>
+        <to id="15438f913408411"/>
+      </from>
+      <from id="15438fa61938420">
+        <to id="15438fae1c98421"/>
+        <to id="15438fae1c98422"/>
+        <to id="15438fae1c98425"/>
+        <to id="15438fae1c98426"/>
+        <to id="15438fae1c98427"/>
+        <to id="15438fae1c98428"/>
+        <to id="15438fae1c98429"/>
+        <to id="15438fae1c9842a"/>
+        <to id="15438fae1c9842b"/>
+        <to id="15438fae1c98432"/>
+        <to id="15438fae1c98435"/>
+        <to id="15438fae1ca8437"/>
+        <to id="15438fae1ca8439"/>
+        <to id="15438fae1ca843a"/>
+        <to id="15438fae1ca843b"/>
+        <to id="15438fae1ca8440"/>
+        <to id="15438fae1ca8441"/>
+        <to id="15438fae1ca8442"/>
+        <to id="15438fae1ca8443"/>
+        <to id="15438fae1ca8445"/>
+        <to id="15438fae1ca8447"/>
+        <to id="15438fae1ca8448"/>
+        <to id="15438fae1ca8449"/>
+        <to id="15438fd209b844a"/>
+        <to id="15438fae1c98430"/>
+        <to id="15438fae1c9842c"/>
+        <to id="15438fae1c9842e"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

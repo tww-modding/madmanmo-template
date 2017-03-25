@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20" id="1538a06f395e1bd">
+  <pc type="QTU::TerryPrefab">
+    <data database="battle"/>
+  </pc>
+  <pc type="QTU::Scene">
+    <data version="22">
+      <entity id="1538a06f399e203" name="Default">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1539dcf0ec59084" name="polygon">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1539dd0dea19086" name="lights">
+        <ECFileLayer export="false" bmd_export_type=""/>
+      </entity>
+      <entity id="15410622d6c67ed" name="Sound">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+    </data>
+  </pc>
+  <pc type="QTU::Terrain"/>
+  <pc type="Terry::ProjectEnvironment"/>
+</project>

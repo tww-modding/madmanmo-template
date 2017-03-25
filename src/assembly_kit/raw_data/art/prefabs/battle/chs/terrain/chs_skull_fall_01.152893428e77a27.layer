@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="20">
+  <entities>
+    <entity id="152893428e77a22" name="wh_main_generic_fire_smoke_loop">
+      <ECVFX vfx="wh_main_generic_fire_smoke_loop" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="17.7508545 65.7706909 -25.1364746" rotation="0 0 0" scale="6 6 6"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152893428e77a23" name="dwf_underway_lava_pile_01">
+      <ECPrefab key="dwf_underway_lava_pile_01"/>
+      <ECTransform position="3.49121094 24.2897339 -7.28430176" rotation="0 0 0" scale="0.200000003 0.299999982 0.200000003"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152893428e77a24" name="wh_main_generic_fire_smoke_loop">
+      <ECVFX vfx="wh_main_generic_fire_smoke_loop" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-17.7508545 65.770874 -20.9916992" rotation="0 0 0" scale="6 6 6"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152893428e77a25" name="emp_skull_mtn_c">
+      <ECBuilding key="emp_skull_mtn_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="10.140625 38.5713501 25.1364746" rotation="0 13.0486383 0" scale="6.3132472 6.31324768 6.3132472"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="skull_mtn_c"/>
+    </entity>
+    <entity id="152893428e77a26" name="dwf_underway_lava_fall_01 1">
+      <ECPrefab key="dwf_underway_lava_fall_01"/>
+      <ECTransform position="-0.0826416016 0 -14.8823242" rotation="-0.48421523 -17.5464649 2.87308383" scale="1 1.00000012 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

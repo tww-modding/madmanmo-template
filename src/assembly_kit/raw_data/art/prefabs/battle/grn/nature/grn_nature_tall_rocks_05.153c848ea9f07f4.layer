@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="153c848ea9e07ee">
+      <ECBuilding key="grn_rock_of_tall_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-14.611969 21.6142883 -3.82000732" rotation="-10.2416906 223.52507 -356.218781" scale="4.00000048 4 4"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rock_of_tall_d"/>
+    </entity>
+    <entity id="153c848ea9f07ef">
+      <ECBuilding key="grn_rock_of_tall_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-23.9579468 19.2453537 13.582428" rotation="9.41369438 221.577271 356.861389" scale="3.99999928 4 3.99999928"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rock_of_tall_a"/>
+    </entity>
+    <entity id="153c848ea9f07f0">
+      <ECBuilding key="grn_rock_of_tall_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="9.73950195 46.3779449 12.0069275" rotation="-3.48870094e-006 -72.1872864 -5.83980608" scale="5.00000048 5 5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rock_of_tall_b"/>
+    </entity>
+    <entity id="153c848ea9f07f1">
+      <ECBuilding key="grn_rock_of_tall_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="37.7927246 14.7420883 7.05130005" rotation="9.76837964e-006 -72.1873016 7.69439125" scale="5.00000286 5 5.00000095"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rock_of_tall_a"/>
+    </entity>
+    <entity id="153c848ea9f07f2">
+      <ECBuilding key="grn_rock_of_tall_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.7850952 17.8739624 -13.5823975" rotation="7.55671363e-006 -70.1873093 -8.1099062" scale="4.99999952 5 5.00000048"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rock_of_tall_d"/>
+    </entity>
+    <entity id="153c848ea9f07f3">
+      <ECBuilding key="grn_rock_of_tall_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-37.7927856 0 -8.32196045" rotation="-7.14924049 221.659058 -357.612335" scale="4 4 4.00000048"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rock_of_tall_b"/>
+    </entity>
+    <entity id="153cbbe58e8201d">
+      <ECNoGoRegion/>
+      <ECTransform position="-51.8735313 0 -5.60792398" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="18.2257767" y="35.0495758"/>
+          <point x="27.3386669" y="41.7590637"/>
+          <point x="36.6518402" y="41.2583542"/>
+          <point x="101.844055" y="30.1426315"/>
+          <point x="114.461899" y="25.5361156"/>
+          <point x="118.267273" y="18.1256351"/>
+          <point x="99.7410736" y="-13.0184155"/>
+          <point x="64.2909241" y="-19.2271938"/>
+          <point x="38.1539612" y="-10.8153019"/>
+          <point x="11.5162888" y="-16.1228085"/>
+          <point x="3.70523453" y="-11.0155811"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

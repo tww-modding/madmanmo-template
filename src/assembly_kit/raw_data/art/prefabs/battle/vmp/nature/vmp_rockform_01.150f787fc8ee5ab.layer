@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="150f787fc8ee5a6">
+      <ECBuilding key="vmp_rocklrg_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="14.0974121 6.92427063 5.30493164" rotation="-21.8801441 10.7377539 48.2559166" scale="2.51112199 2.5111227 2.51112247"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rocklrg_01"/>
+    </entity>
+    <entity id="150f787fc8ee5a7">
+      <ECBuilding key="vmp_rocklrg_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-4.07128906 10.3397026 5.63439941" rotation="-63.5554543 -38.9008331 88.218071" scale="2.98508763 2.98508859 2.98508883"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rocklrg_01"/>
+    </entity>
+    <entity id="150f787fc8ee5a8">
+      <ECBuilding key="vmp_rocklrg_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-9.08618164 0 -5.63427734" rotation="-5.89002705 150.564301 -165.77681" scale="2.10732222 2.10733104 2.10732961"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rocklrg_01"/>
+    </entity>
+    <entity id="150f787fc8ee5a9">
+      <ECBuilding key="vmp_rockmed_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.36743164 4.01610184 -2.55053711" rotation="52.8238335 -90 0" scale="2.51112127 2.51112318 2.51112223"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_01"/>
+    </entity>
+    <entity id="150f787fc8ee5aa">
+      <ECBuilding key="vmp_rockmed_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-14.097168 3.99671555 5.2668457" rotation="85.2536011 143.760513 78.3253632" scale="2.93274021 2.93274021 2.93274212"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="rockmed_01"/>
+    </entity>
+    <entity id="156558a425e9b03">
+      <ECNoGoRegion/>
+      <ECTransform position="4.28539753 0 26.9802856" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="29.7885475" y="-14.7891397"/>
+          <point x="-2.60089302" y="-42.2814903"/>
+          <point x="-26.5898895" y="-34.4235992"/>
+          <point x="-22.1712227" y="-12.6561031"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="153c84bea94089c">
+      <ECNoGoRegion/>
+      <ECTransform position="-26.5817585 0 -1.43041122" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="16.0920982" y="30.2769794"/>
+          <point x="45.5346756" y="29.3233757"/>
+          <point x="56.6203308" y="8.70165348"/>
+          <point x="53.5211182" y="-14.4232817"/>
+          <point x="41.8394547" y="-21.93293"/>
+          <point x="4.17202568" y="-17.7609062"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="153c84c2b66089d">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-26.1049557 0 -1.07280433" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="8.82085609" y="6.07923555"/>
+          <point x="12.158473" y="5.36402988"/>
+          <point x="9.8936615" y="15.1384878"/>
+          <point x="13.8272848" y="25.2705479"/>
+          <point x="20.5025253" y="30.1577759"/>
+          <point x="31.1113853" y="30.7537804"/>
+          <point x="41.6010437" y="29.2041702"/>
+          <point x="47.9186783" y="23.4825382"/>
+          <point x="52.5675125" y="13.5888786"/>
+          <point x="53.4019127" y="3.09921503"/>
+          <point x="51.1371002" y="-1.78801"/>
+          <point x="53.8787155" y="-6.07923555"/>
+          <point x="54.2363167" y="-10.0128622"/>
+          <point x="52.3291168" y="-14.3040876"/>
+          <point x="47.2034836" y="-18.9529133"/>
+          <point x="39.336235" y="-17.7609062"/>
+          <point x="29.5617714" y="-15.376893"/>
+          <point x="24.7937489" y="-17.9993114"/>
+          <point x="17.6417046" y="-18.9529133"/>
+          <point x="9.29765892" y="-15.853694"/>
+          <point x="3.93362427" y="-11.3240709"/>
+          <point x="0.23840332" y="-5.36402988"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

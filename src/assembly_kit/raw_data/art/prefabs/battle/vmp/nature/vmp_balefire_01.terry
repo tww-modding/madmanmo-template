@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20" id="153604ae5d905d0">
+  <pc type="QTU::TerryPrefab">
+    <data database="battle"/>
+  </pc>
+  <pc type="QTU::Scene">
+    <data version="22">
+      <entity id="153604ae5dc0606" name="decal">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="154104bb059926a" name="sound">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="1541949fbfefba0" name="vfx">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+    </data>
+  </pc>
+  <pc type="QTU::Terrain"/>
+  <pc type="Terry::ProjectEnvironment"/>
+</project>

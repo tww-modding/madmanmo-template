@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="21">
+  <entities>
+    <entity id="152f9c839d5207e" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-12.651123 1.61399937 3.59750366" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d6207f" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-1.6027832 1.03679085 17.2245789" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62080" name="emp_stone_a_piece01_destruct01 4">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-17.6020508 1.55019093 10.4931335" rotation="-0.878266692 189.999954 -359.991333" scale="1 0.99999994 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62081" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="6.49975586 1.08235931 -11.8902893" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62082" name="emp_stone_a_piece01_destruct01 6">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="18.8530273 0.375901222 -9.14987183" rotation="-0.975952029 202.021515 -2.71971297" scale="0.999999881 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62083" name="emp_stone_a_piece01_destruct01 2">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-6.00952148 1.72174168 -19.1666565" rotation="-2.39656305 257.998871 -359.738953" scale="1 0.99999994 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62084" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-11.6967773 1.82226563 -13.1741028" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62085" name="emp_stone_c_piece01_destruct01 2">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_c/emp_stone_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-15.4631348 1.89877415 -14.7506104" rotation="-2.63012815 106.019722 -3.12127328" scale="1 0.99999994 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62086" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="17.0078125 0.398795128 -4.56497192" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62087" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="14.9765625 0.328887939 4.46261597" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62088" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-8.70092773 1.38661289 13.033905" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d62089" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-14.723877 1.79210758 -7.34829712" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d6208a" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-10.7739258 1.76077938 -9.75686646" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d6208b" name="emp_stone_e_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_e/emp_stone_e_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-19.1425781 1.57063675 9.1776123" rotation="0.367938757 -10.9914036 -2.72407961" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d6208c" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="15.2980957 0.199460983 9.49911499" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7208d" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="1.78710938 0.870743752 16.7590027" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7208e" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-2.66381836 1.56856823 -16.7115784" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7208f" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="17.0368652 0.160937309 6.58029175" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72090" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-15.7119141 1.67177391 1.69332886" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72091" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="0.617431641 1.06423855 10.1661072" rotation="0 151.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72092" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-15.7866211 1.63634491 4.18856812" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72093" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-14.4509277 1.83562946 -10.7418518" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72094" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="14.6018066 0.295124054 7.0796814" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72095" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="11.9052734 0.470007896 6.6289978" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72096" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="8.48364258 0.9643116 -10.6639709" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72097" name="emp_stone_b_piece01_destruct01 5">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="2.00146484 0.794732094 19.9935608" rotation="-30.0684738 267.725128 -333.077209" scale="0.99999994 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d72098" name="emp_death_statue_03">
+      <ECBuilding key="emp_death_statue_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="6.72753906 4.86173344 5.51119995" rotation="0 248.845032 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="death_statue_03"/>
+    </entity>
+    <entity id="152f9c839d72099" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="13.4379883 0.416924477 4.71469116" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7209a" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="6.9543457 0.619493484 14.1407166" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7209b" name="emp_stone_a_piece01_destruct01 5">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="8.74853516 0.470513344 15.9771729" rotation="-4.18191957 106.076668 -7.58757496" scale="0.99999994 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7209c" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="12.7705078 0.759623528 -13.0365295" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7209d" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-7.55395508 1.68267059 -10.3326721" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7209e" name="white_flowerb">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppyb"/>
+      <ECTransform position="7.68457031 0.658368111 10.1455994" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d7209f" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-13.8642578 1.79210758 -8.67263794" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d720a0" name="emp_stone_b_piece01_destruct01 4">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-11.3959961 1.40380192 15.5844116" rotation="-2.2876215 118.029091 -3.10283184" scale="1.00000012 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d720a1" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-5.31079102 1.20440578 16.8451843" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a2" name="emp_stone_f_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_f/emp_stone_f_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="20.0942383 0.00918292999 5.71786499" rotation="1.46483934 -65.2124023 -4.33829641" scale="0.999999821 1.00000012 0.999999583"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a3" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-13.7380371 1.69630337 -1.3586731" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a4" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-14.5910645 1.55678463 9.03805542" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a5" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="18.9750977 0.317471504 -6.03323364" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a6" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-12.8964844 1.69787502 -2.31814575" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a7" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-3.84399414 1.58998013 -13.9356995" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a8" name="emp_stone_d_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_d/emp_stone_d_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="7.52490234 0.506487846 17.9705811" rotation="0.517684281 -10.9861345 -3.12171435" scale="0.999999881 0.999999881 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820a9" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-14.7478027 1.58648109 7.17636108" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820aa" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-11.1481934 1.7430706 -7.88076782" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820ab" name="emp_stone_c_piece01_destruct01 4">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_c/emp_stone_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-6.05712891 1.17321491 19.7130127" rotation="3.0060873 65.9923706 0.712004304" scale="1 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820ac" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="17.2304688 0.234110832 2.80001831" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820ad" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-3.59106445 1.26002026 10.2712097" rotation="0 151.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820ae" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="13.6855469 0.448166847 2.53451538" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820af" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="14.7441406 0.59960556 -9.06057739" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820b0" name="emp_stone_a_piece01_destruct01 3">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-18.6237793 1.85244465 -10.1463013" rotation="-1.82687068 242.989105 -358.491241" scale="1 0.99999994 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820b1" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="9.99487305 0.413279533 14.9148865" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820b2" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="1.47949219 1.33536911 -12.0939026" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820b3" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-11.6682129 1.50429726 10.0420837" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820b4" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-2.5456543 1.57491112 -18.0445862" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820b5" name="red_flowerb">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesb"/>
+      <ECTransform position="12.1877441 0.311813354 13.217865" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d820b6" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="4.45117188 1.23226643 -16.412384" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920b7" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-1.38085938 1.15460205 10.6203308" rotation="0 151.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920b8" name="emp_death_statue_01">
+      <ECBuilding key="emp_death_statue_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-1.38183594 9.15604115 -0.230499268" rotation="0 182.212967 0" scale="1.00000298 1 1.00000298"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="death_statue_01"/>
+    </entity>
+    <entity id="152f9c839d920b9" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="10.2192383 0.902292252 -13.5040588" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920ba" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-7.88037109 1.72450733 -12.9801331" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920bb" name="shrubb_a">
+      <ECVegetation key="trees/wh_emp_shrub/shrubb_a"/>
+      <ECTransform position="-3.75097656 6.80584049 2.87591553" rotation="3.54762745 220.250641 12.6043625" scale="1.00000238 0.999996841 1.00000465"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920bc" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="14.0834961 0.46786499 0.400238037" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920bd" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-9.86132813 1.51322174 7.24215698" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920be" name="emp_stone_b_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="6.75463867 1.13684559 -19.2114868" rotation="0.436172754 -10.988658 -3.03016591" scale="0.99999994 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920bf" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="13.8132324 0.59833622 -5.67617798" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c0" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-8.0012207 1.32604504 15.2619324" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c1" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="6.91699219 1.1131258 -17.3085022" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c2" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="7.84570313 0.586379051 13.1194763" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c3" name="drya_a">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_drya_a"/>
+      <ECTransform position="2.95263672 7.86012363 -2.00610352" rotation="-2.95288181 199.975571 -358.990509" scale="1.00000072 0.999999642 1.00000024"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c4" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="1.35131836 0.979716301 12.5212097" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c5" name="emp_stone_b_piece01_destruct01 3">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-20.003418 1.76442814 -4.24301147" rotation="-1.19178605 139.0056 -0.712812185" scale="0.99999994 0.99999994 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c6" name="drya_a">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_drya_a"/>
+      <ECTransform position="2.6394043 7.48320293 2.95739746" rotation="15.4710751 193.611481 337.640564" scale="1.0000006 0.999999702 1.00000036"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c7" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="11.7255859 0.753229141 -8.15103149" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c8" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-5.97827148 1.34997654 10.3622742" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920c9" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="8.77172852 0.552713394 11.9373474" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920ca" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-11.0979004 1.50015068 9.6277771" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920cb" name="No-Go Region 1">
+      <ECNoGoRegion/>
+      <ECTransform position="0.349853516 1.79210758 21.7346802" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="21.7806225" y="-13.2019291"/>
+          <point x="19.931324" y="-33.8010483"/>
+          <point x="1.02738833" y="-45.1023178"/>
+          <point x="-19.2121506" y="-34.622963"/>
+          <point x="-19.468996" y="-11.0444155"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="152f9c839d920cc" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="4.01049805 0.872217178 10.5249939" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839d920cd" name="emp_stone_b_piece01_destruct01 7">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="21.5866699 0.0783891678 -1.12924194" rotation="-1.27456784 202.025955 -2.51516247" scale="0.999999762 1 0.999999762"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20ce" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-7.55664063 1.74314308 -15.8520813" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20cf" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-13.8706055 1.59024525 6.39535522" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d0" name="emp_stone_b_piece01_destruct01 2">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-11.0632324 1.86089039 -17.7518005" rotation="-0.598160625 184.006668 -1.27906215" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d1" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="19.1665039 0.243578911 -2.73806763" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d2" name="red_flowerb">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesb"/>
+      <ECTransform position="6.91430664 0.570124626 16.6720886" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d3" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="18.7497559 0.20808506 0.0384216309" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d4" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="15.6650391 0.52456665 -7.47036743" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d5" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="16.064209 0.525570869 -8.91470337" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d6" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-16.2629395 1.79210758 -5.85684204" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d7" name="emp_death_statue_02">
+      <ECBuilding key="emp_death_statue_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-10.2468262 3.62578869 -0.126739502" rotation="0 92.8575211 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="death_statue_02"/>
+    </entity>
+    <entity id="152f9c839da20d8" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-5.32666016 1.67414474 -16.7438049" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20d9" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="11.28125 0.80120945 -9.77493286" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20da" name="emp_stone_f_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_f/emp_stone_f_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="16.8786621 0.573208809 -16.4520569" rotation="0.625543118 -10.983222 -3.12754917" scale="1 1 0.999999881"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20db" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-0.0258789063 1.39532185 -11.0768127" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20dc" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="14.0720215 0.247490883 10.7220154" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20dd" name="emp_stone_b_piece01_destruct01 6">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_b/emp_stone_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="18.9846191 0 8.74682617" rotation="2.76939273 64.0048141 -0.452585936" scale="1 1 1.00000036"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20de" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-15.9804688 1.74696159 -3.65859985" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20df" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="7.22998047 1.0747242 -14.8625793" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20e0" name="drya_a">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_drya_a"/>
+      <ECTransform position="-8.51806641 5.71675396 1.45233154" rotation="-17.8286915 199.110779 -353.989166" scale="1.00000083 0.999999285 1.00000095"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20e1" name="emp_stone_a_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_a/emp_stone_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="1.34423828 1.41777134 -20.8019409" rotation="0.405246526 -10.9901924 -2.8192656" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839da20e2" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="9.82641602 0.532743454 9.76998901" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20e3" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-5.03393555 1.61141682 -11.6856995" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20e4" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-12.3178711 1.48650265 11.6990662" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20e5" name="emp_stone_c_piece01_destruct01 3">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_c/emp_stone_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-19.6723633 1.65185261 3.31866455" rotation="-5.73238611 261.959747 -354.233856" scale="1 0.99999994 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20e6" name="emp_stone_d_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_d/emp_stone_d_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="13.1796875 0.791119576 -18.2856445" rotation="0.517684221 -10.9861374 -3.12171483" scale="0.99999994 0.99999994 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20e7" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="0.373779297 1.41706657 -15.0410461" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20e8" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-3.91308594 1.56011677 -10.7888489" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20e9" name="shrubb_a">
+      <ECVegetation key="trees/wh_emp_shrub/shrubb_a"/>
+      <ECTransform position="-6.48876953 8.22855854 -5.18408203" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20ea" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="5.9519043 1.15194511 -16.0074768" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20eb" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="4.07299805 0.783341408 14.7106628" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20ec" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="4.4230957 1.1958847 -12.5102844" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20ed" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="-10.5214844 1.82105923 -15.2711487" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20ee" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="-12.3344727 1.73483086 -5.52700806" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20ef" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="13.4997559 0.54743576 -1.91751099" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f0" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-0.0759277344 1.45180511 -16.5005188" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f1" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-1.39477539 1.45037174 -10.4596252" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f2" name="red_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_nettlesa"/>
+      <ECTransform position="-9.10009766 1.78079033 -15.0162659" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f3" name="emp_stone_c_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_c/emp_stone_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="13.4033203 0.748661995 -15.1739197" rotation="0.612805545 -10.98318 -3.19974589" scale="1 0.99999994 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f4" name="shrubb_a">
+      <ECVegetation key="trees/wh_emp_shrub/shrubb_a"/>
+      <ECTransform position="-3.10668945 6.26831722 3.76855469" rotation="3.54764104 220.250641 350.432281" scale="1.00000119 0.999999225 1.00000226"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f5" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="2.29467773 1.32187557 -14.4916077" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f6" name="emp_seacliff_formation_02_piece01_destruct01">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/Buildings/emp_seacliff_formation_02/emp_seacliff_formation_02_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="true"/>
+      <ECTransform position="0.0329589844 1.27842712 -1.58184814" rotation="0 242.000153 0" scale="0.552864432 0.552865326 0.552864432"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f7" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="0.770507813 0.891955376 18.3811951" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839db20f8" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-10.6853027 1.79210758 -12.2132874" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839dc20f9" name="yellow_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_dryc_c"/>
+      <ECTransform position="-15.310791 1.67797756 0.994476318" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839dc20fa" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="17.7941895 0.258419037 0.168182373" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839dc20fb" name="emp_stone_e_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_stone_e/emp_stone_e_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.916259766 1.53041935 -21.7347107" rotation="0.367938638 -10.9913979 -2.72407961" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839dc20fc" name="Vegetation Exclusion Zone 8">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="false"/>
+      <ECTransform position="-21.5864258 1.79210758 -8.47781372" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="7.85546875" y="-11.5064697"/>
+          <point x="22.0236816" y="-15.411499"/>
+          <point x="35.7744141" y="-11.0144043"/>
+          <point x="44.232666" y="-0.34777832"/>
+          <point x="45.1508789" y="13.7102051"/>
+          <point x="38.2543945" y="25.2966309"/>
+          <point x="24.9714355" y="31.2060547"/>
+          <point x="10.4018555" y="28.2646484"/>
+          <point x="0.125976563" y="15.0853271"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="152f9c839dc20fd" name="white_flowera">
+      <ECVegetation key="trees/wh_emp_shrub/shrub_poppya"/>
+      <ECTransform position="12.3459473 0.354960442 10.7216492" rotation="0 22.9999962 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839dc20fe" name="shruba_a">
+      <ECVegetation key="trees/wh_emp_shrub/shruba_a"/>
+      <ECTransform position="-17.3371582 1.70266342 -0.130889893" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f9c839dc20ff" name="shrubc_a">
+      <ECVegetation key="trees/wh_mtn_shrub/shrub_dryf_a"/>
+      <ECTransform position="3.70068359 1.28247929 -18.1592102" rotation="0 200.000015 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

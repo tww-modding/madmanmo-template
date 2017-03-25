@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="15415ede28b353c">
+      <ECNoGoRegion/>
+      <ECTransform position="11.4463501 5.0818367 -13.0180054" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="13.437439" y="24.1530151"/>
+          <point x="4.68432617" y="33.6998291"/>
+          <point x="-28.0492554" y="18.4439697"/>
+          <point x="-42.3840942" y="-8.15881348"/>
+          <point x="-20.0457153" y="-13.9273071"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15415ede28b353d">
+      <ECPrefab key="emp_nature_rocks_01"/>
+      <ECTransform position="15.1396484 0 13.0180054" rotation="0 62.9999962 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15415ede28b353e">
+      <ECPrefab key="emp_nature_rocks_02"/>
+      <ECTransform position="-15.1397095 0 -10.4516602" rotation="0 -19.9999847 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="15415ede28b353f">
+      <ECPrefab key="emp_nature_rocks_05"/>
+      <ECTransform position="-1.72930908 0 -5.74035645" rotation="0 -43.9999886 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

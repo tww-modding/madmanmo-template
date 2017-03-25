@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<global 
+    deployment_min_area="1" 
+    deployment_split_width="1" 
+    deployment_coarseness="0.05"
+    map_border_for_outfield="32"
+    delete_invalid="false"
+  />
+
+	<!-- For debugging a single catchment area -->
+	<!-- <debug x="82" y="94" config="0" alliance="-1" /> -->
+	<!-- If you don't want your custom catchments to be removed, make sure the Procedural flag is unticked -->
+	<!-- Note that bca infield can contain either a tile variation path, a tile path, or a tile set name.-->
+
+	<bca type="land_ambush" boundary="2">
+		<infield>
+			brt_infield_forest
+			emp_infield_large
+			emp_infield_forest
+			grn_infield_large
+		</infield>
+	</bca>
+
+</root>
+
+<!-- UNUSED!
+	NOT USED BECAUSE OUR CITY TILES AREN'T CENTRED.
+	<bca type="settlement_standard" boundary="2">
+		<infield>
+			
+		</infield>
+		<infield_restriction>
+		</infield_restriction>
+	</bca>
+	
+	<bca type="settlement_unfortified" boundary="2">
+		<infield>
+			
+		</infield>
+	</bca>
+
+	<bca type="settlement_sally" boundary="2">
+		<infield>
+			
+		</infield>
+	</bca>
+
+	<bca type="settlement_relief" boundary="2">
+		<infield>
+			
+		</infield>
+	</bca>
+
+	<bca type="land_normal" boundary="4">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="land_bridge" boundary="1">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="unfortified_port" boundary="2">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="town_normal" boundary="2">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="naval_normal" boundary="2">
+		<infield>
+
+		</infield>
+	</bca>
+-->

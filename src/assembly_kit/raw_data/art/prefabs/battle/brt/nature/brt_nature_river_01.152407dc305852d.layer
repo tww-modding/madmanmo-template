@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="20">
+  <entities>
+    <entity id="14ff5c4be2b874f" name="wh_oak_d">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_e"/>
+      <ECTransform position="21.944952 1.70643425 -11.5369892" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c48c92874e" name="wh_oak_a">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_b"/>
+      <ECTransform position="14.8795767 2.8610234e-006 41.4685516" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c47254874d" name="wh_oak_b">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_c"/>
+      <ECTransform position="-29.6250916 3.08919907 19.473526" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c502de8754" name="wh_oak_g">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="15.0722198 0 -13.6005859" rotation="0 87.9999237 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5a596128709" name="wh_oak_g">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="21.5484066 1.81997585 -10.6292324" rotation="0 58.0000114 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c4efbb8752" name="wh_oak_g">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="8.51716995 0 33.2714691" rotation="0 66.9999924 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5a5b10d870a" name="wh_oak_g">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="15.972641 1.34320927 36.505619" rotation="0 103.999962 0" scale="1.00000012 1 1.00000012"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c4f93f8753" name="wh_oak_g">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_l"/>
+      <ECTransform position="-20.3794556 -1.90734863e-006 52.2921562" rotation="0 119.999992 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c51c6c8755" name="wh_oak_c">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_d"/>
+      <ECTransform position="21.4675083 3.57014799 -0.176671967" rotation="0 105.980202 0" scale="0.999999881 1 0.999999881"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff550abda6f2a" name="wh_oak_e">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_k"/>
+      <ECTransform position="27.6867065 1.30902278 -5.04940033" rotation="1.04725204e-005 -71.9998093 2.85729639e-005" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff550a6466f29" name="wh_oak_f">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_j"/>
+      <ECTransform position="24.2729626 3.88281107 0.863903999" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c4d1598750" name="wh_oak_f">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_j"/>
+      <ECTransform position="19.5630379 0 -16.040184" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="14ff5c4e0b08751" name="wh_oak_f">
+      <ECVegetation key="trees/wh_oak_tree/wh_oak_tree_j"/>
+      <ECTransform position="-32.089653 2.73198032 22.9138641" rotation="0 67.0000381 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1524081a23f852e" name="Vegetation Exclusion Zone 1">
+      <ECProceduralExclusionZone/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="64.0222321" y="19.6017609"/>
+          <point x="59.5865669" y="99.883667"/>
+          <point x="1.42851448" y="90.2917175"/>
+        </polyline>
+      </ECPolyline>
+      <ECTransform position="-33.1784363 0 -32.3038483" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

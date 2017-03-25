@@ -1,0 +1,243 @@
+victory_objectives
+{
+	//*****************************************//
+	//***************** ORION *****************//
+	//*****************************************//
+	
+	//**** SINGLE PLAYER ****//
+	victory_objective
+	{
+		faction wh_dlc05_wef_mini_wood_elves;
+		campaign_type sp_normal;
+		
+		//**** ULTIMATE CAMPAIGN ****//
+ 		mission
+		{
+			victory_type wh_dlc05_victory_type_ultimate;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+
+				objective													// Construct the Oak of Ages
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh_dlc05_wef_mini_wood_elves;
+					total 1;
+					building_level wh_dlc05_wef_oak_of_ages_mini_4;
+				}
+				
+				objective													// Do not lose the Oak of Ages
+				{
+					type DO_NOT_LOSE_REGION;
+					region wh_dlc05_oak_of_ages;
+				}
+				
+				objective													// Complete the final battle
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh_dlc05_qb_wef_mini_silver_spire;
+				}
+
+				objective
+                {
+                    type SCRIPTED;
+                    script_key delay_victory;
+                }
+			
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_dlc05_wef_mini_wood_elves;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 40;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 40;
+				}
+			
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_dlc05_wef_mini_wood_elves;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Construct the Oak of Ages 4
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh_dlc05_wef_mini_wood_elves;
+					total 1;
+					building_level wh_dlc05_wef_oak_of_ages_mini_4;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//*****************************************//
+	//***************** DURTHU ****************//
+	//*****************************************//
+	
+	//**** SINGLE PLAYER ****//
+	victory_objective
+	{
+		faction wh_dlc05_wef_mini_argwylon;
+		campaign_type sp_normal;
+		
+		//**** ULTIMATE CAMPAIGN ****//
+ 		mission
+		{
+			victory_type wh_dlc05_victory_type_ultimate;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Construct the Oak of Ages
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh_dlc05_wef_mini_argwylon;
+					total 1;
+					building_level wh_dlc05_wef_oak_of_ages_mini_4;
+				}
+				
+				
+				objective													// Do not lose the Oak of Ages
+				{
+					type DO_NOT_LOSE_REGION;
+					region wh_dlc05_oak_of_ages;
+				}
+				
+				objective													// Complete the final battle
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh_dlc05_qb_wef_mini_silver_spire;
+				}
+
+				objective
+                {
+                    type SCRIPTED;
+                    script_key delay_victory;
+                }
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_dlc05_wef_mini_argwylon;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 40;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 40;
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_dlc05_wef_mini_argwylon;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Construct the Oak of Ages 4
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh_dlc05_wef_mini_argwylon;
+					total 1;
+					building_level wh_dlc05_wef_oak_of_ages_mini_4;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+}

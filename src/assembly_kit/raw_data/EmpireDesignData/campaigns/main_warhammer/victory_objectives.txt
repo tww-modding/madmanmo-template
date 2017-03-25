@@ -1,0 +1,2642 @@
+victory_objectives
+{
+	//******************************************//
+	//******************************************//
+	//**************** DWARFS ******************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_dwf_dwarfs;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type AQUIRE_MISSION_CATEGORY_WEIGHT;						// Ensure total grudges severity is no more than 9
+					event_category Grudges;
+					value 9.0;
+					value_minimum false;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_grudges_threshold;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
+					total 19;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
+					
+					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
+					
+					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
+					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
+					
+					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
+					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
+					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
+					
+					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
+					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
+					
+					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
+					
+					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
+					
+					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
+					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
+					
+					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
+					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
+					
+					//region wh_main_gianthome_mountains_kraka_drak;				// wh_main_dwf_kraka_drak
+					//region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
+					//region wh_main_gianthome_mountains_sjoktraken;				// wh_main_dwf_kraka_drak
+					
+					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Greenskins faction
+					faction wh_main_grn_greenskins;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;								// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;								// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;					// Clear the book of grudges	
+					event_category Grudges;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
+					total 22;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
+					
+					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
+					
+					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
+					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
+					
+					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
+					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
+					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
+					
+					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
+					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
+					
+					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
+					
+					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
+					
+					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
+					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
+					
+					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
+					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
+					
+					region wh_main_gianthome_mountains_kraka_drak;				// wh_main_dwf_kraka_drak
+					region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
+					region wh_main_gianthome_mountains_sjoktraken;				// wh_main_dwf_kraka_drak				
+					
+					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Recapture all of the fallen Dwarf holds
+					total 7;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_reclaim;
+					region wh_main_northern_worlds_edge_mountains_karak_ungor;
+					region wh_main_rib_peaks_mount_gunbad;
+					region wh_main_death_pass_karak_drazh;
+					region wh_main_western_badlands_ekrund;
+					region wh_main_eastern_badlands_karak_eight_peaks;
+					region wh_main_blightwater_karak_azgal;
+					region wh_main_southern_badlands_galbaraz;
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Greenskins faction
+					faction wh_main_grn_greenskins;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;								// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;								// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_dwf_dwarfs;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_dwf_dwarfs;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//******************************************//
+	//******************************************//
+	//**************** EMPIRE ******************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_emp_empire;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;											// Conquer, ally with or assimilate all provinces of the Empire
+					total 11;
+					override_text mission_text_text_wh_main_objective_override_empire_control;
+					province wh_main_nordland;
+					province wh_main_ostland;
+					province wh_main_hochland;
+					province wh_main_middenland;
+					province wh_main_talabecland;
+					province wh_main_ostermark;
+					province wh_main_reikland;
+					province wh_main_stirland;
+					province wh_main_averland;
+					province wh_main_wissenland;
+					province wh_main_the_wasteland;
+				}
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					override_text mission_text_text_wh_main_objective_override_empire_sylvania;	// Reconquer Sylvannia
+					province wh_main_eastern_sylvania;
+					province wh_main_western_sylvania;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;												// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;												// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;											// Conquer, ally with or assimilate all provinces of the Empire
+					total 11;
+					override_text mission_text_text_wh_main_objective_override_empire_control;
+					province wh_main_nordland;
+					province wh_main_ostland;
+					province wh_main_hochland;
+					province wh_main_middenland;
+					province wh_main_talabecland;
+					province wh_main_ostermark;
+					province wh_main_reikland;
+					province wh_main_stirland;
+					province wh_main_averland;
+					province wh_main_wissenland;
+					province wh_main_the_wasteland;
+				}
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;											// Reconquer Sylvannia
+					total 2;
+					override_text mission_text_text_wh_main_objective_override_empire_sylvania;
+					province wh_main_eastern_sylvania;
+					province wh_main_western_sylvania;
+				}
+				objective
+				{
+					type DESTROY_FACTION;
+					faction wh_main_vmp_vampire_counts;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;												// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;												// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_emp_empire;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_emp_empire;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//******************************************//
+	//******************************************//
+	//************** GREENSKINS ****************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_grn_greenskins;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Conquer or assimilate all of the Greenskin tribes
+				{
+					type DESTROY_FACTION;
+					faction wh_main_grn_black_venom;
+					faction wh_main_grn_bloody_spearz;
+					faction wh_main_grn_broken_nose;
+					faction wh_main_grn_crooked_moon;
+					faction wh_main_grn_necksnappers;
+					faction wh_main_grn_orcs_of_the_bloody_hand;
+					faction wh_main_grn_red_eye;
+					faction wh_main_grn_red_fangs;
+					faction wh_main_grn_scabby_eye;
+					faction wh_main_grn_skullsmasherz;
+					faction wh_main_grn_teef_snatchaz;
+					faction wh_main_grn_top_knotz;
+				}
+				objective													// Occupy/loot/raze/sack at least 25 different settlements
+				{
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 25;
+				}
+				objective
+				{
+					type DESTROY_FACTION;									// Destroy the Empire and Dwarfs factions
+					faction wh_main_emp_empire;
+					faction wh_main_dwf_dwarfs;
+				}
+				objective													// Earn 10000 from raiding
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 10000;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Conquer or assimilate all of the Greenskin tribes
+				{
+					type DESTROY_FACTION;
+					faction wh_main_grn_black_venom;
+					faction wh_main_grn_bloody_spearz;
+					faction wh_main_grn_broken_nose;
+					faction wh_main_grn_crooked_moon;
+					faction wh_main_grn_necksnappers;
+					faction wh_main_grn_orcs_of_the_bloody_hand;
+					faction wh_main_grn_red_eye;
+					faction wh_main_grn_red_fangs;
+					faction wh_main_grn_scabby_eye;
+					faction wh_main_grn_skullsmasherz;
+					faction wh_main_grn_teef_snatchaz;
+					faction wh_main_grn_top_knotz;
+				}
+				objective													// Occupy/loot/raze/sack at least 50 different settlements
+				{
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 50;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;						// Capture all of the Dwarf provinces
+					override_text mission_text_text_wh_main_objective_override_greenskins_dwarfholds;
+					total 18;
+					region wh_main_northern_grey_mountains_karak_ziflin;
+					region wh_main_southern_grey_mountains_karak_norn;
+					region wh_main_the_vaults_karak_izor;
+					region wh_main_black_mountains_karak_hirn;
+					region wh_main_zhufbar_karag_dromar;
+					region wh_main_zhufbar_oakenhammer;
+					region wh_main_zhufbar_zhufbar;
+					region wh_main_the_silver_road_karaz_a_karak;
+					region wh_main_the_silver_road_the_pillars_of_grungni;
+					region wh_main_peak_pass_karak_kadrin;
+					region wh_main_blood_river_valley_barak_varr;
+					region wh_main_blood_river_valley_varenka_hills;
+					region wh_main_eastern_badlands_dringorackaz;
+					region wh_main_blightwater_kradtommen;
+					region wh_main_gianthome_mountains_kraka_drak;
+					region wh_main_gianthome_mountains_khazid_bordkarag;
+					region wh_main_gianthome_mountains_sjoktraken;
+					region wh_main_desolation_of_nagash_karak_azul;
+				}
+				objective													// Destroy the Empire and Dwarfs factions
+				{
+					type DESTROY_FACTION;
+					faction wh_main_emp_empire;
+					faction wh_main_dwf_dwarfs;
+				}
+				objective													// Earn 20000 from raiding
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 20000;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_grn_greenskins;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_grn_greenskins;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//******************************************//
+	//******************************************//
+	//************ VAMPIRE COUNTS **************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_vmp_vampire_counts;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;							// Capture at least 12 provinces
+					total 12;
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Empire faction
+					faction wh_main_emp_empire;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;								// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;								// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;							// Capture at least 12 provinces
+					total 20;
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Empire, Dwarfs and Bretonnia factions
+					faction wh_main_emp_empire;
+					faction wh_main_dwf_dwarfs;
+					faction wh_main_brt_bretonnia;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;								// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;								// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_vmp_vampire_counts;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_vmp_vampire_counts;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//******************************************//
+	//******************************************//
+	//************ Von CARSTEIN **************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_vmp_schwartzhafen;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;							// Capture at least 15 provinces
+					total 15;
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Empire faction
+					faction wh_main_emp_empire;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Own Castle Drankenhof
+					total 1;
+					region wh_main_eastern_sylvania_castle_drakenhof;
+				}	
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;							// Capture at least 20 provinces
+					total 20;
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Empire and Bretonnia factions
+					faction wh_main_emp_empire;
+					faction wh_main_brt_bretonnia;
+					faction wh_main_brt_bordeleaux;
+					faction wh_main_brt_carcassonne;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Own Castle Drankenhof & Mousillon
+					total 2;
+					region wh_main_eastern_sylvania_castle_drakenhof;
+					region wh_main_lyonesse_mousillon;
+				}	
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_vmp_schwartzhafen;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_vmp_schwartzhafen;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+
+	//******************************************//
+	//******************************************//
+	//**************** CHAOS *******************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_chs_chaos;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;		// Raze or sack 15 regions
+					total 15;
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Empire and Bretonnia factions
+					faction wh_main_emp_empire;
+					faction wh_main_brt_bretonnia;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	// Raze or sack 20 regions
+					total 40;
+				}
+				objective
+				{
+					type DESTROY_FACTION;									// Destroy the Empire, Bretonnia and Dwarfs factions
+					faction wh_main_emp_empire;
+					faction wh_main_brt_bretonnia;
+					faction wh_main_dwf_dwarfs;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_chs_chaos;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_chs_chaos;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 60;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//******************************************//
+	//******************************************//
+	//********** BEASTMEN - KHAZRAK ************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_dlc03_bst_beastmen;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 25;
+				}
+				objective
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 10000;
+				}
+				objective
+				{
+					type DESTROY_FACTION;
+					faction wh_main_emp_empire;
+					faction wh_main_brt_bretonnia;
+					faction wh_main_emp_averland;
+					faction wh_main_emp_hochland;
+					faction wh_main_emp_middenland;
+					faction wh_main_emp_nordland;
+					faction wh_main_emp_ostland;
+					faction wh_main_emp_ostermark;
+					faction wh_main_emp_stirland;
+					faction wh_main_emp_talabecland;
+					faction wh_main_emp_wissenland;
+				}
+				objective
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh_dlc03_qb_bst_the_final_battle;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 50;
+				}
+				objective
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 20000;
+				}
+				objective
+				{
+					type DESTROY_FACTION;
+					faction wh_main_emp_empire;
+					faction wh_main_brt_bretonnia;
+					faction wh_main_emp_averland;
+					faction wh_main_emp_hochland;
+					faction wh_main_emp_middenland;
+					faction wh_main_emp_nordland;
+					faction wh_main_emp_ostland;
+					faction wh_main_emp_ostermark;
+					faction wh_main_emp_stirland;
+					faction wh_main_emp_talabecland;
+					faction wh_main_emp_wissenland;
+					faction wh_main_dwf_dwarfs;
+				}
+				objective
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh_dlc03_qb_bst_the_final_battle;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_dlc03_bst_beastmen;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_dlc03_bst_beastmen;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 60;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//******************************************//
+	//******************************************//
+	//*************** BELEGAR ******************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_dwf_karak_izor;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					override_text mission_text_text_wh_dlc06_objective_override_dwarfs_belegar;
+					
+					region wh_main_eastern_badlands_karak_eight_peaks;
+				}
+				objective
+				{
+					type AQUIRE_MISSION_CATEGORY_WEIGHT;						// Ensure total grudges severity is no more than 9
+					event_category Grudges;
+					value 9.0;
+					value_minimum false;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_grudges_threshold;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
+					total 19;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
+					
+					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
+					
+					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
+					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
+					
+					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
+					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
+					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
+					
+					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
+					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
+					
+					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
+					
+					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
+					
+					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
+					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
+					
+					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
+					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
+					
+					//region wh_main_gianthome_mountains_kraka_drak;			// wh_main_dwf_kraka_drak
+					//region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
+					//region wh_main_gianthome_mountains_sjoktraken;			// wh_main_dwf_kraka_drak
+					
+					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Greenskins faction
+					faction wh_main_grn_greenskins;
+					faction wh_main_grn_crooked_moon;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;								// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;								// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					override_text mission_text_text_wh_dlc06_objective_override_dwarfs_belegar;
+					
+					region wh_main_eastern_badlands_karak_eight_peaks;
+				}
+				objective
+				{
+					type HAVE_NO_ACTIVE_MISSIONS_OF_CATEGORY;					// Clear the book of grudges	
+					event_category Grudges;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Unite the Dwarfholds under your rule
+					total 22;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_unite;
+					
+					region wh_main_the_silver_road_karaz_a_karak;				// wh_main_dwf_dwarfs
+					
+					region wh_main_blood_river_valley_barak_varr;				// wh_main_dwf_barak_varr
+					region wh_main_blood_river_valley_varenka_hills;			// wh_main_dwf_barak_varr
+					
+					region wh_main_eastern_badlands_dringorackaz;				// wh_main_dwf_karak_azul
+					region wh_main_blightwater_kradtommen;						// wh_main_dwf_karak_azul
+					region wh_main_blightwater_misty_mountain;					// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_karak_azul;				// wh_main_dwf_karak_azul
+					region wh_main_desolation_of_nagash_spitepeak;				// wh_main_dwf_karak_azul
+					
+					region wh_main_black_mountains_karak_hirn;					// wh_main_dwf_karak_hirn
+					region wh_main_black_mountains_mighdal_vongalbarak;			// wh_main_dwf_karak_hirn
+					
+					region wh_main_the_vaults_karak_izor;						// wh_main_dwf_karak_izor
+					
+					region wh_main_peak_pass_karak_kadrin;						// wh_main_dwf_karak_kadrin
+					
+					region wh_main_southern_grey_mountains_karak_norn;			// wh_main_dwf_karak_norn
+					region wh_main_southern_grey_mountains_grimhold;			// wh_main_dwf_karak_norn
+					
+					region wh_main_northern_grey_mountains_karak_ziflin;		// wh_main_dwf_karak_ziflin
+					region wh_main_northern_grey_mountains_blackstone_post;		// wh_main_dwf_karak_ziflin
+					
+					region wh_main_gianthome_mountains_kraka_drak;				// wh_main_dwf_kraka_drak
+					region wh_main_gianthome_mountains_khazid_bordkarag;		// wh_main_dwf_kraka_drak
+					region wh_main_gianthome_mountains_sjoktraken;				// wh_main_dwf_kraka_drak				
+					
+					region wh_main_zhufbar_karag_dromar;						// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_oakenhammer;							// wh_main_dwf_zhufbar
+					region wh_main_zhufbar_zhufbar;								// wh_main_dwf_zhufbar
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;							// Recapture all of the fallen Dwarf holds
+					total 7;
+					override_text mission_text_text_wh_main_objective_override_dwarfs_reclaim;
+					region wh_main_northern_worlds_edge_mountains_karak_ungor;
+					region wh_main_rib_peaks_mount_gunbad;
+					region wh_main_death_pass_karak_drazh;
+					region wh_main_western_badlands_ekrund;
+					region wh_main_blightwater_karak_azgal;
+					region wh_main_southern_badlands_galbaraz;
+				}
+				objective
+				{
+					type DESTROY_FACTION;										// Destroy the Greenskins faction
+					faction wh_main_grn_greenskins;
+					faction wh_main_grn_crooked_moon;
+				}
+				objective
+				{
+					type LIMIT_FACTION_TO_REGIONS;								// Defeat the Chaos Invasion
+					faction wh_main_chs_chaos;
+					faction wh_dlc03_bst_beastmen_chaos;
+					region wh_main_chaos_wastes;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;								// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_dwf_karak_izor;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_dwf_karak_izor;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//******************************************//
+	//******************************************//
+	//*************** SKARSNIK *****************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_grn_crooked_moon;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					override_text mission_text_text_wh_dlc06_objective_override_greenskins_skarsnik;
+					
+					region wh_main_eastern_badlands_karak_eight_peaks;
+				}
+				objective													// Conquer or assimilate all of the Greenskin tribes
+				{
+					type DESTROY_FACTION;
+					faction wh_main_grn_greenskins;
+					faction wh_main_grn_black_venom;
+					faction wh_main_grn_bloody_spearz;
+					faction wh_main_grn_broken_nose;
+					faction wh_main_grn_necksnappers;
+					faction wh_main_grn_orcs_of_the_bloody_hand;
+					faction wh_main_grn_red_eye;
+					faction wh_main_grn_red_fangs;
+					faction wh_main_grn_scabby_eye;
+					faction wh_main_grn_skullsmasherz;
+					faction wh_main_grn_teef_snatchaz;
+					faction wh_main_grn_top_knotz;
+				}
+				objective													// Occupy/loot/raze/sack at least 25 different settlements
+				{
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 25;
+				}
+				objective
+				{
+					type DESTROY_FACTION;									// Destroy the Empire and Dwarfs factions
+					faction wh_main_emp_empire;
+					faction wh_main_dwf_dwarfs;
+					faction wh_main_dwf_karak_izor;
+				}
+				objective													// Earn 10000 from raiding
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 7500;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					override_text mission_text_text_wh_dlc06_objective_override_greenskins_skarsnik;
+					
+					region wh_main_eastern_badlands_karak_eight_peaks;
+				}
+				objective													// Conquer or assimilate all of the Greenskin tribes
+				{
+					type DESTROY_FACTION;
+					faction wh_main_grn_greenskins;
+					faction wh_main_grn_black_venom;
+					faction wh_main_grn_bloody_spearz;
+					faction wh_main_grn_broken_nose;
+					faction wh_main_grn_necksnappers;
+					faction wh_main_grn_orcs_of_the_bloody_hand;
+					faction wh_main_grn_red_eye;
+					faction wh_main_grn_red_fangs;
+					faction wh_main_grn_scabby_eye;
+					faction wh_main_grn_skullsmasherz;
+					faction wh_main_grn_teef_snatchaz;
+					faction wh_main_grn_top_knotz;
+				}
+				objective													// Occupy/loot/raze/sack at least 50 different settlements
+				{
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 50;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;						// Capture all of the Dwarf provinces
+					override_text mission_text_text_wh_main_objective_override_greenskins_dwarfholds;
+					total 18;
+					region wh_main_northern_grey_mountains_karak_ziflin;
+					region wh_main_southern_grey_mountains_karak_norn;
+					region wh_main_the_vaults_karak_izor;
+					region wh_main_black_mountains_karak_hirn;
+					region wh_main_zhufbar_karag_dromar;
+					region wh_main_zhufbar_oakenhammer;
+					region wh_main_zhufbar_zhufbar;
+					region wh_main_the_silver_road_karaz_a_karak;
+					region wh_main_the_silver_road_the_pillars_of_grungni;
+					region wh_main_peak_pass_karak_kadrin;
+					region wh_main_blood_river_valley_barak_varr;
+					region wh_main_blood_river_valley_varenka_hills;
+					region wh_main_eastern_badlands_dringorackaz;
+					region wh_main_blightwater_kradtommen;
+					region wh_main_gianthome_mountains_kraka_drak;
+					region wh_main_gianthome_mountains_khazid_bordkarag;
+					region wh_main_gianthome_mountains_sjoktraken;
+					region wh_main_desolation_of_nagash_karak_azul;
+				}
+				objective													// Destroy the Empire and Dwarfs factions
+				{
+					type DESTROY_FACTION;
+					faction wh_main_emp_empire;
+					faction wh_main_dwf_dwarfs;
+					faction wh_main_dwf_karak_izor;
+				}
+				objective													// Earn 20000 from raiding
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 15000;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_grn_crooked_moon;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_grn_crooked_moon;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+
+
+	//******************************************//
+	//******************************************//
+	//**************** WURRZAG *****************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_grn_orcs_of_the_bloody_hand;
+		campaign_type sp_normal;
+		
+		// SHORT CAMPAIGN
+		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Conquer or assimilate all of the Greenskin tribes
+				{
+					type DESTROY_FACTION;
+					faction wh_main_grn_greenskins;
+					faction wh_main_grn_black_venom;
+					faction wh_main_grn_bloody_spearz;
+					faction wh_main_grn_broken_nose;
+					faction wh_main_grn_crooked_moon;
+					faction wh_main_grn_necksnappers;
+					faction wh_main_grn_red_eye;
+					faction wh_main_grn_red_fangs;
+					faction wh_main_grn_scabby_eye;
+					faction wh_main_grn_skullsmasherz;
+					faction wh_main_grn_teef_snatchaz;
+					faction wh_main_grn_top_knotz;
+				}
+				objective													// Occupy/loot/raze/sack at least 25 different settlements
+				{
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 25;
+				}
+				objective
+				{
+					type DESTROY_FACTION;									// Destroy the Empire and Dwarfs factions
+					faction wh_main_emp_empire;
+					faction wh_main_dwf_dwarfs;
+				}
+				objective													// Earn 10000 from raiding
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 10000;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Conquer or assimilate all of the Greenskin tribes
+				{
+					type DESTROY_FACTION;
+					faction wh_main_grn_greenskins;
+					faction wh_main_grn_black_venom;
+					faction wh_main_grn_bloody_spearz;
+					faction wh_main_grn_broken_nose;
+					faction wh_main_grn_crooked_moon;
+					faction wh_main_grn_necksnappers;
+					faction wh_main_grn_red_eye;
+					faction wh_main_grn_red_fangs;
+					faction wh_main_grn_scabby_eye;
+					faction wh_main_grn_skullsmasherz;
+					faction wh_main_grn_teef_snatchaz;
+					faction wh_main_grn_top_knotz;
+				}
+				objective													// Occupy/loot/raze/sack at least 50 different settlements
+				{
+					type OCCUPY_LOOT_RAZE_OR_SACK_X_SETTLEMENTS;
+					total 50;
+				}
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;						// Capture all of the Dwarf provinces
+					override_text mission_text_text_wh_main_objective_override_greenskins_dwarfholds;
+					total 18;
+					region wh_main_northern_grey_mountains_karak_ziflin;
+					region wh_main_southern_grey_mountains_karak_norn;
+					region wh_main_the_vaults_karak_izor;
+					region wh_main_black_mountains_karak_hirn;
+					region wh_main_zhufbar_karag_dromar;
+					region wh_main_zhufbar_oakenhammer;
+					region wh_main_zhufbar_zhufbar;
+					region wh_main_the_silver_road_karaz_a_karak;
+					region wh_main_the_silver_road_the_pillars_of_grungni;
+					region wh_main_peak_pass_karak_kadrin;
+					region wh_main_blood_river_valley_barak_varr;
+					region wh_main_blood_river_valley_varenka_hills;
+					region wh_main_eastern_badlands_dringorackaz;
+					region wh_main_blightwater_kradtommen;
+					region wh_main_gianthome_mountains_kraka_drak;
+					region wh_main_gianthome_mountains_khazid_bordkarag;
+					region wh_main_gianthome_mountains_sjoktraken;
+					region wh_main_desolation_of_nagash_karak_azul;
+				}
+				objective													// Destroy the Empire and Dwarfs factions
+				{
+					type DESTROY_FACTION;
+					faction wh_main_emp_empire;
+					faction wh_main_dwf_dwarfs;
+				}
+				objective													// Earn 20000 from raiding
+				{
+					type EARN_X_AMOUNT_FROM_RAIDING;
+					total 20000;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Archaon
+					override_text mission_text_text_wh_main_objective_override_archaon_wounded;
+					start_pos_character 2140782858;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_grn_orcs_of_the_bloody_hand;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_grn_orcs_of_the_bloody_hand;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//******************************************//
+	//******************************************//
+	//***************** ORION ******************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_dlc05_wef_wood_elves;
+		campaign_type sp_normal;
+		
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_dlc03_victory_type_ultimate;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Construct the Oak of Ages 5
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh_dlc05_wef_wood_elves;
+					total 1;
+					building_level wh_dlc05_wef_oak_of_ages_5;
+				}
+				
+				objective													// Complete the final battle
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh_dlc05_qb_wef_grand_defense_of_the_oak;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_dlc05_wef_wood_elves;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_dlc05_wef_wood_elves;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//******************************************//
+	//******************************************//
+	//**************** DURTHU ******************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_dlc05_wef_argwylon;
+		campaign_type sp_normal;
+		
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_dlc03_victory_type_ultimate;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective													// Construct the Oak of Ages 5
+				{
+					type CONSTRUCT_N_BUILDINGS_INCLUDING;
+					faction wh_dlc05_wef_argwylon;
+					total 1;
+					building_level wh_dlc05_wef_oak_of_ages_5;
+				}
+				
+				objective													// Complete the final battle
+				{
+					type FIGHT_SET_PIECE_BATTLE;
+					set_piece_battle wh_dlc05_qb_wef_grand_defense_of_the_oak;
+				}
+				
+				//
+				
+				payload
+				{
+				game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_dlc05_wef_argwylon;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_dlc05_wef_argwylon;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	
+	//******************************************//
+	//******************************************//
+	//************** BRETONNIA *****************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_brt_bretonnia;
+		campaign_type sp_normal;
+		
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_dlc03_victory_type_ultimate;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective // Attain Chivalrous Chivalry.
+				{
+					override_text mission_text_text_mis_activity_attain_chivalry_1000;
+                    type SCRIPTED;
+                    script_key attain_chivalry_1000;
+				}
+				
+				objective // Complete the final Errantry War battle.
+				{
+					override_text mission_text_text_mis_activity_win_errantry_war;
+                    type SCRIPTED;
+                    script_key win_errantry_war;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_brt_bretonnia;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_brt_bretonnia;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	
+	//******************************************//
+	//******************************************//
+	//************* CARCASSONNE ****************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_brt_carcassonne;
+		campaign_type sp_normal;
+		
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_dlc03_victory_type_ultimate;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective // Attain Chivalrous Chivalry.
+				{
+					override_text mission_text_text_mis_activity_attain_chivalry_1000;
+                    type SCRIPTED;
+                    script_key attain_chivalry_1000;
+				}
+				
+				objective // Complete the final Errantry War battle.
+				{
+					override_text mission_text_text_mis_activity_win_errantry_war;
+                    type SCRIPTED;
+                    script_key win_errantry_war;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_brt_carcassonne;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_brt_carcassonne;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	
+	//******************************************//
+	//******************************************//
+	//************** BORDELEAUX ****************//
+	//******************************************//
+	//******************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_main_brt_bordeleaux;
+		campaign_type sp_normal;
+		
+		// LONG CAMPAIGN
+ 		mission
+		{
+			victory_type wh_dlc03_victory_type_ultimate;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective // Attain Chivalrous Chivalry.
+				{
+					override_text mission_text_text_mis_activity_attain_chivalry_1000;
+                    type SCRIPTED;
+                    script_key attain_chivalry_1000;
+				}
+				
+				objective // Complete the final Errantry War battle.
+				{
+					override_text mission_text_text_mis_activity_win_errantry_war;
+                    type SCRIPTED;
+                    script_key win_errantry_war;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+		
+	//** MULTIPLAYER HEAD-TO-HEAD VERSUS **
+	victory_objective
+	{
+		faction wh_main_brt_bordeleaux;
+		campaign_type mp_vs_normal;
+		mission
+		{
+			victory_type wh_main_victory_type_mp_versus;
+			key wh_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type RAZE_OR_OWN_X_SETTLEMENTS;
+					total 60;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER CO-OP **
+	victory_objective
+	{
+		faction wh_main_brt_bordeleaux;
+		campaign_type mp_co_op_normal;
+		
+		mission
+		{
+			victory_type wh_main_victory_type_mp_coop;
+			key wh_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ALL_PLAYERS_RAZE_OR_OWN_X_SETTLEMENTS;
+					total 80;
+				}								
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x_coop;
+					total 12;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_mil_top;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+}

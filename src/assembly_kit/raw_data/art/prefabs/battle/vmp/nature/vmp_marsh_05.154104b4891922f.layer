@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="154104b6c449230">
+      <ECSoundMarker key="Sound_Environment_Swamp_Vampire"/>
+      <ECTransform position="7.80487823 0 1.07174301" rotation="0 0 0" scale="1 1 1"/>
+      <ECPointCloud>
+        <point_cloud>
+          <point x="0" y="0" z="0"/>
+          <point x="-6.6378479" y="0" z="4.75909042"/>
+          <point x="-11.6645088" y="0" z="-0.0788545609"/>
+          <point x="-9.68027878" y="0" z="-8.80011845"/>
+        </point_cloud>
+      </ECPointCloud>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

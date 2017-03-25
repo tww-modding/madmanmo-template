@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="154a51fa6d4d024" name="Reference">
+      <ECLayer export="false" bmd_export_type=""/>
+    </entity>
+    <entity id="154a530858d6576">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.29205179 -0.197437078 -2.53889585" rotation="1.98474312 -34.8180504 21.803133" scale="0.0744076744 0.0744077191 0.0744076967"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a530d3266577">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.66251707 0 1.90546989" rotation="10.4034014 4.29046679 19.6727238" scale="0.0922290161 0.0922290459 0.0922290459"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a53125946578">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.02393532 -1.37835741e-007 -1.53245354" rotation="-39.7706451 -78.5032578 30.1837521" scale="0.0819459781 0.0819459707 0.0819459707"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a5318c696579">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.55538249 -1.2613169 0.954346001" rotation="9.69986057 0 0" scale="0.150751069 0.159737393 0.150751084"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a5320389657a">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.28856611 8.61916902e-008 5.54619455" rotation="-12.5165806 199.187546 -11.2370815" scale="0.0394192487 0.0394192897 0.039419245"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a533ea93657c">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-2.17098808 -9.53674316e-007 -5.01081753" rotation="0 162.000244 0" scale="0.682504356 0.682504535 0.552842379"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a5348b71657d">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="3.31149769 0 1.15461779" rotation="0 0 0" scale="0.805473328 0.805473328 0.805473447"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a534a1f6657e">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-1.55467987 0 2.31326914" rotation="0 0 0" scale="1 1 1.00000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a5412f15657f">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-3.88031197 0 -2.70384026" rotation="0 -62.0000267 0" scale="0.69245559 0.809369266 0.809369206"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a54296746580">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.99901247 0.557889342 -3.57472897" rotation="-43.2870979 -46.426899 21.8210239" scale="0.0361110307 0.0361110568 0.0361110345"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a54317036581">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.73366213 0 1.2191236" rotation="-6.92900753 -59.6395836 -22.5959244" scale="0.0460007489 0.0460007861 0.0460007563"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a54954106582">
+      <ECBuilding key="mushroom_puffball_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-2.03160119 -1.3448298e-006 -4.33527088" rotation="30.6906223 211.643951 3.63340092" scale="0.047849562 0.0478496365 0.0478495732"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="mushroom_puffball_02"/>
+    </entity>
+    <entity id="154a54d1f5d6587">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-6.62687302 9.53674316e-007 -2.12412834" rotation="0 162.000244 0" scale="0.499569476 0.499569297 0.499569476"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a55002ff6588">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-4.93955469 9.53674316e-007 3.05767274" rotation="0 151.62442 0" scale="0.499569505 0.499569297 0.499569505"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a55020f26589">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="2.11516285 0 5.37863207" rotation="0 -34.0000038 0" scale="0.576915085 0.576915085 0.576915205"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a550f647658a">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="3.79402113 9.53674316e-007 -2.57852364" rotation="0 -66.0000687 0" scale="0.586740553 0.586740375 0.586740553"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a551c62b658b">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="1.22655201 9.53674316e-007 -1.66375446" rotation="0 235.982239 0" scale="0.586740613 0.586740375 0.586740613"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a5646a736594">
+      <ECBuilding key="bst_hagtree_00" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.174060822 -5.7220459e-006 0.106243134" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="bst_hagtree_00"/>
+    </entity>
+    <entity id="154a565cb8f659a">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.658344865 6.31812763 -2.03143406" rotation="-70.2821426 2.44716907 83.2060318" scale="0.369213223 0.369212806 0.369213134"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="154a56657b8659b">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/chs_tumor_00/chs_tumor_00.wsmodel" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.640285909 10.9110155 0.459490299" rotation="48.1156158 2.4471879 83.2060471" scale="0.369213045 0.369212627 0.369213045"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

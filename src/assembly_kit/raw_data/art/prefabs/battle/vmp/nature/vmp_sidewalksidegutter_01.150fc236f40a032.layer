@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="150fc236f3fa026">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_dead_b"/>
+      <ECTransform position="-1.57189941 0 -0.144042969" rotation="0 0 0" scale="0.600000024 0.600000024 0.600000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f3fa027">
+      <ECDecal model_path="rigidmodels/Decals/mud/mud_border_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-1.73657238 0.172554821 0.32409668" rotation="0 0 0" scale="4.76346588 0.807235003 2.40430832"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f3fa028">
+      <ECDecal model_path="rigidmodels/Decals/sewergrid/glb_sewergridiron_02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="1.43676758 0.152692184 0.187561035" rotation="0 0 0" scale="2.39110208 0.807235003 2.39110208"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a029">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_dead_b"/>
+      <ECTransform position="3.75317383 0 -0.327636719" rotation="0 0 0" scale="0.600000024 0.600000024 0.600000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a02a">
+      <ECDecal model_path="rigidmodels/Decals/mud/mud_border_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="4.92456055 0.172554806 0.324035645" rotation="0 0 0" scale="4.76346588 0.807235003 2.40430832"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a02b">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_dead_b"/>
+      <ECTransform position="-3.41257715 0 -0.065207243" rotation="0 0 0" scale="0.600000024 0.600000024 0.600000024"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a02c">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_bush_d"/>
+      <ECTransform position="2.62252069 0 0.324824333" rotation="0 0 0" scale="0.800000012 0.800000012 0.800000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a02d">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_flowers_b"/>
+      <ECTransform position="-1.20166016 0 0.106323242" rotation="0 0 0" scale="0.800000012 0.800000012 0.800000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a02e">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_flowers_b"/>
+      <ECTransform position="0.473632813 0 0.394226074" rotation="0 0 0" scale="0.800000012 0.800000012 0.800000012"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a02f">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_bush_a"/>
+      <ECTransform position="6.11462402 0 0.550842285" rotation="0 -34.4397354 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a030">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_dead_b"/>
+      <ECTransform position="4.6295166 0 -0.550842583" rotation="0 256.703674 0" scale="0.599999964 0.599999964 0.599999964"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="150fc236f40a031">
+      <ECVegetation key="trees/wh_vmp_shrub/shrub_bush_d"/>
+      <ECTransform position="-1.61285007 -4.76837158e-007 0.0622806549" rotation="0 73.9332809 0" scale="0.799999952 0.800000012 0.799999952"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building_logic>
+    <building_defence_type>open</building_defence_type>
+    <ef_lines>
+        <ef_line name="EFline_piece04_destruct01_line53" action="Overflow">
+            <end x="-1.502" y="0.79" z="11.105"/>
+            <end x="1.502" y="0.79" z="11.105"/>
+            <direction x="0.0" y="0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece04_destruct01_line53" action="Overflow">
+            <end x="-1.502" y="0.839" z="17.181"/>
+            <end x="1.502" y="0.839" z="17.181"/>
+            <direction x="0.0" y="0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece04_destruct01_line05" action="Overflow">
+            <end x="-1.502" y="-1.273" z="17.181"/>
+            <end x="1.502" y="-1.273" z="17.181"/>
+            <direction x="0.0" y="0.381" z="0.0"/>
+        </ef_line>
+    </ef_lines>
+    <docking_lines/>
+</building_logic>

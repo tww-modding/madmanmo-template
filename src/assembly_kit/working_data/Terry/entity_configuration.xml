@@ -1,0 +1,333 @@
+<configuration version="1">
+  <entity type="AIHint">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECAIHint" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="AISeparator">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECAISeparator" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="BattleCatchmentArea">
+    <default_name>BCA</default_name>
+    <allow_if project_type="tile_map" tile_database="battle" />
+    <component type="ECBattleCatchmentArea" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECRectangle" readonly="true" />
+    <component type="ECTileAlignment" /> <!-- Doesn't recognise "Terry::ECTileAlignment" because of a bug to do with static initialization order -->
+  </entity>
+  <entity type="BattleCatchmentAreaBoundary">
+    <default_name>Boundary</default_name>
+    <allow_if_child_of type="BattleCatchmentArea" />
+    <component type="ECBattleCatchmentAreaBoundary" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECRectangle" />
+  </entity>
+  <entity type="BattlefieldZone">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECBattlefieldZone" />
+    <component type="ECTerryBattlefieldZone" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="Building">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECBuilding" />
+    <component parameter="wall">
+      <component value="true" type="ECWall" />
+    </component>
+    <component type="ECMeshRenderSettings" />
+    <component type="ECTransform" />
+    <component type="ECTerrainClamp" />
+    <component parameter="project_type">
+      <component value="prefab" type="ECPrefabOverride" />
+    </component>
+  </entity>
+  <entity type="BuildingProjectileEmitter">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECBuildingProjectileEmitter" />
+    <component type="ECTransform" />
+  </entity>
+  <entity type="Camera">
+    <component type="ECCamera" />
+    <component type="ECTransform" />
+  </entity>
+  <entity type="CameraBounds">
+    <allow_if project_type="tile" tile_database="battle" />
+    <component type="ECCameraBounds" />
+    <component type="ECTransform" />
+    <component type="ECBox" />
+  </entity>
+  <entity type="CameraZone">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECCameraZone" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="CaptureLocation">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECCaptureLocation" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component parameter="shape">
+      <component value="circle" type="ECCircle"/>
+      <component value="rectangle" type="ECRectangle"/>
+      <component value="polyline" type="ECPolyline" />
+    </component>
+  </entity>
+  <entity type="CompositeScene">
+    <allow_if project_type="tile,prefab,tile_map" tile_database="battle,campaign" />
+    <component type="ECCompositeScene" />
+    <component type="ECTransform" />
+  </entity>
+  <entity type="Decal">
+    <component type="ECDecal" />
+    <component parameter="tile_database">
+      <component value="battle" type="ECBattleProperties" />
+      <component value="campaign" type="ECCampaignProperties" />
+    </component>
+    <component parameter="tile_database"> 
+      <component value="campaign" type="ECDLCMask" /> 
+    </component>
+    <component type="ECTransform" />
+    <component type="ECTerrainClamp" />
+  </entity>
+  <entity type="DeploymentZone">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECDeploymentZone" />
+  </entity>
+  <entity type="DeploymentZoneRegion">
+    <allow_if_child_of type="DeploymentZone" />
+    <component type="ECDeploymentZoneRegion" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component parameter="shape">
+      <component value="circle" type="ECCircle" />
+      <component value="rectangle" type="ECRectangle" />
+      <component value="polyline" type="ECPolyline" />
+    </component>
+  </entity>
+  <entity type="EnvironmentVolume">
+    <allow_if project_type="tile_map" />
+    <component type="ECEnvironmentVolume" />
+    <component type="ECTransform" />
+    <component parameter="shape">
+      <component value="doublesphere" type="ECDoubleSphere" />
+      <component value="doublecylinder" type="ECDoubleCylinder" />
+    </component>
+  </entity>
+  <entity type="EFLine">
+    <allow_if_child_of type="BattlefieldZone" />
+    <component type="ECEFLine" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="FactionPrefab">
+    <component type="ECFactionPrefab" />
+    <component type="ECTransform" />
+    <component type="ECTerrainClamp" />
+  </entity>
+  <entity type="FileLayer">
+    <component type="ECFileLayer" />
+  </entity>
+  <entity type="GoRegion">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECGoRegion" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="Group">
+    <component type="ECGroup" />
+    <component type="ECTransform" />
+  </entity>
+  <entity type="Layer">
+    <component type="ECLayer" />
+  </entity>
+  <entity type="Layout">
+    <allow_if project_type="tile" tile_database="battle" />
+    <component type="ECLayout" />
+    <component type="ECTransform" />
+    <component parameter="shape">
+      <component value="polyline" type="ECPolyline" /> 
+      <component value="spline2d" type="ECSpline2D" />
+      <component value="circle" type="ECCircle" />
+      <component value="rectangle" type="ECRectangle" />
+    </component> 
+  </entity>
+  <entity type="LightProbe">
+    <component type="ECLightProbe" />
+    <component type="ECTransform" />
+    <component type="ECSphere" />
+  </entity>
+  <entity type="LiteBuildingOutline">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECLiteBuildingOutline" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="Marker">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECMarker" />
+    <component type="ECTransform" />
+    <component type="ECMesh">
+      <property model_path="RigidModels/Tools/marker.rigid_model_v2" />
+    </component>
+    <component type="ECTerrainClamp" />
+  </entity>
+  <entity type="NoGoRegion">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECNoGoRegion" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="PlayableArea">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECRectangle" />
+	<component type="ECPlayableArea" />
+  </entity>
+  <entity type="PointLight">
+    <component type="ECPointLight" />
+    <component parameter="tile_database">
+      <component value="campaign" type="ECCampaignProperties" />
+    </component>
+    <component type="ECTransform" />
+  </entity>
+  <entity type="PolygonMesh">
+    <component type="ECPolygonMesh" />
+    <component parameter="tile_database">
+      <component value="campaign" type="ECCampaignProperties" />
+    </component>
+    <component type="ECTransform" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="Prefab">
+    <component type="ECPrefab" />
+    <component type="ECTransform" />
+    <component type="ECTerrainClamp" />
+  </entity>
+  <entity type="ProceduralExclusionZone">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECProceduralExclusionZone2" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="Prop">
+    <component type="ECPropMesh" />
+    <component type="ECMesh" />
+    <component type="ECMeshRenderSettings" />
+    <component parameter="tile_database">
+      <component value="battle" type="ECBattleProperties" />
+      <component value="campaign" type="ECCampaignProperties" />
+    </component>
+    <component parameter="tile_database"> 
+      <component value="campaign" type="ECDLCMask" /> 
+    </component>
+    <component type="ECTransform" />
+    <component type="ECTerrainClamp" />
+  </entity>
+  <entity type="RawSpline">
+    <component type="ECRawSpline" />
+    <component type="ECTransform" />
+    <component type="ECSpline" />
+  </entity>
+  <entity type="River">
+    <component type="ECRiver" />
+    <component type="ECTransform" />
+    <component type="ECRiverSpline" />
+  </entity>
+  <entity type="SiegeAINode">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECSiegeAINode" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECRectangle" />
+  </entity>
+  <entity type="SiegeAIEdge">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECSiegeAIEdge" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="SiegeAIBoundary">
+    <allow_if_child_of type="SiegeAINode" />
+    <allow_if_child_of type="SiegeAIEdge" />
+    <component type="ECSiegeAIBoundary" />
+    <component type="ECTransform" />
+    <component type="ECTransform2D" />
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="SoundMarker"> 
+    <component type="ECSoundMarker" /> 
+    <component type="ECTransform" /> 
+    <component parameter="shape"> 
+      <component value="polyline" type="ECTransform2D" /> 
+    </component> 
+    <component parameter="shape"> 
+      <component value="box" type="ECBox" /> 
+      <component value="sphere" type="ECSphere" /> 
+      <component value="polyline" type="ECPolyline" /> 
+      <component value="cloud" type="ECPointCloud" /> 
+    </component> 
+    <component parameter="tile_database"> 
+      <component value="campaign" type="ECCampaignProperties" /> 
+    </component>
+    <component parameter="tile_database"> 
+      <component value="campaign" type="ECDLCMask" /> 
+    </component>
+  </entity>
+  <entity type="SpotLight">
+    <component type="ECSpotLight" />
+    <component parameter="tile_database">
+      <component value="campaign" type="ECCampaignProperties" />
+    </component>
+    <component type="ECTransform" />
+  </entity>
+  <entity type="TerrainHole">
+    <component type="ECTerrainHole" />
+    <component type="ECTransform" />
+    <component parameter="tile_database">
+      <component value="campaign" type="ECCampaignProperties" />
+    </component>
+    <component type="ECPolyline" />
+  </entity>
+  <entity type="Unit">
+    <allow_if tile_database="battle"/>
+    <component type="ECUnit" />
+    <component type="ECTransform" />
+  </entity>
+  <entity type="Vegetation">
+    <allow_if project_type="tile,prefab" tile_database="battle" />
+    <component type="ECVegetation" />
+    <component type="ECTransform" />
+    <component type="ECTerrainClamp" />
+  </entity>
+  <entity type="VFX">
+    <component type="ECVFX" />
+    <component parameter="tile_database">
+      <component value="battle" type="ECBattleProperties" />
+      <component value="campaign" type="ECCampaignProperties" />
+    </component>
+    <component parameter="tile_database">
+      <component value="campaign" type="ECDLCMask" />
+    </component>
+    <component type="ECTransform" />
+    <component type="ECTerrainClamp" />
+  </entity>
+</configuration>

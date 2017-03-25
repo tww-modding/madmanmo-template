@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="152f96b24001c11">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_f/thorns_f_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-3.20294189 0 -2.42773438" rotation="16.8152199 21.015625 66.2273254" scale="0.541637599 0.541637599 0.541637659"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f96b24001c12">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_c/thorns_c_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-1.9614563 0 -2.22375488" rotation="82.2563477 187.611115 242.222488" scale="0.54163748 0.541637182 0.54163754"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f96b24001c13">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_b/thorns_b_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-3.26879883 0 1.15905762" rotation="60.2804184 206.69043 313.941284" scale="0.541638136 0.541637599 0.541637957"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f96b24001c14">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/emp_rockmed_02/emp_rockmed_02_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.336791992 0 0.144775391" rotation="0.389080197 -10.9998302 -0.0457177646" scale="0.541637897 0.541637599 0.541637599"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f96b24001c15">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_e/thorns_e_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="1.08184814 0 -1.30004883" rotation="43.0100136 151.575821 301.246613" scale="0.541637361 0.54163748 0.541637242"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f96b24001c16">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-3.1036377 0.0230541229 2.42767334" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="5.69815063" y="0.130004883"/>
+          <point x="6.14157104" y="-3.85739136"/>
+          <point x="1.11734009" y="-5.8347168"/>
+          <point x="-0.926818848" y="-4.90460205"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="152f96b24001c17">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_g/thorns_g_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.814910889 0 2.09643555" rotation="6.08631897 -66.9421616 58.7606277" scale="0.541637421 0.541637421 0.541637301"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="152f96b24001c18">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/thorns_a/thorns_a_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="3.26882935 0 0.244384766" rotation="5.649755 172.381424 300.197998" scale="0.54163748 0.541637778 0.54163754"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1537510c3df455a">
+      <ECNoGoRegion/>
+      <ECTransform position="-3.75834584 0 3.13973522" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="6.80444717" y="-0.10080719"/>
+          <point x="7.74530935" y="-5.20834064"/>
+          <point x="2.08333778" y="-7.56049538"/>
+          <point x="-1.41129136" y="-5.02352905"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

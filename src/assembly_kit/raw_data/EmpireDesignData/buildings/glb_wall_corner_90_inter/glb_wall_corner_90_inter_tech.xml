@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building_logic>
+    <building_defence_type>open</building_defence_type>
+    <ef_lines>
+        <ef_line name="EFline_piece01_destruct01_line01" action="Low wall">
+            <end x="0.0" y="-9.0" z="15.012"/>
+            <end x="10.499" y="-8.999" z="15.012"/>
+            <direction x="0.0" y="-0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line05" action="Low wall">
+            <end x="11.0" y="-19.999" z="15.012"/>
+            <end x="10.999" y="-9.5" z="15.012"/>
+            <direction x="-0.381" y="0.0" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line06" action="Overflow">
+            <end x="12.8" y="-19.999" z="15.012"/>
+            <end x="12.799" y="-7.5" z="15.012"/>
+            <direction x="-0.381" y="0.0" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line07" action="Overflow">
+            <end x="14.6" y="-19.999" z="15.012"/>
+            <end x="14.599" y="-6.0" z="15.012"/>
+            <direction x="-0.381" y="0.0" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line08" action="Overflow">
+            <end x="16.4" y="-19.999" z="15.012"/>
+            <end x="16.399" y="-4.0" z="15.012"/>
+            <direction x="-0.381" y="0.0" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line09" action="Overflow">
+            <end x="25.199" y="4.499" z="15.012"/>
+            <end x="25.2" y="-19.999" z="15.012"/>
+            <direction x="0.381" y="0.0" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line02" action="Overflow">
+            <end x="0.0" y="-7.2" z="15.012"/>
+            <end x="12.499" y="-7.199" z="15.012"/>
+            <direction x="0.0" y="-0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line03" action="Overflow">
+            <end x="0.0" y="-5.4" z="15.012"/>
+            <end x="13.999" y="-5.399" z="15.012"/>
+            <direction x="0.0" y="-0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line04" action="Overflow">
+            <end x="0.0" y="-3.6" z="15.012"/>
+            <end x="15.999" y="-3.599" z="15.012"/>
+            <direction x="0.0" y="-0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line12" action="Low wall">
+            <end x="26.499" y="7.0" z="15.012"/>
+            <end x="0.0" y="6.999" z="15.012"/>
+            <direction x="0.0" y="0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line11" action="Overflow">
+            <end x="24.499" y="5.2" z="15.012"/>
+            <end x="0.0" y="5.199" z="15.012"/>
+            <direction x="0.0" y="0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line10" action="Low wall">
+            <end x="26.999" y="6.499" z="15.012"/>
+            <end x="27.0" y="-19.999" z="15.012"/>
+            <direction x="0.381" y="0.0" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line13" action="Overflow">
+            <end x="22.999" y="3.4" z="15.012"/>
+            <end x="0.0" y="3.399" z="15.012"/>
+            <direction x="0.0" y="0.381" z="0.0"/>
+        </ef_line>
+        <ef_line name="EFline_piece01_destruct01_line14" action="Overflow">
+            <end x="23.399" y="2.999" z="15.012"/>
+            <end x="23.4" y="-19.999" z="15.012"/>
+            <direction x="0.381" y="0.0" z="0.0"/>
+        </ef_line>
+    </ef_lines>
+    <docking_lines/>
+</building_logic>

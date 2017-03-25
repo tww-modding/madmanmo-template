@@ -1,0 +1,75 @@
+victory_objectives
+{
+	//*****************************************//
+	//************** BEASTMEN *****************//
+	//*****************************************//
+	
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		faction wh_dlc03_bst_mini_khazrak_herd;
+		campaign_type sp_normal;
+
+		// MAJOR CAMPAIGN
+ 		mission
+		{
+			victory_type wh_dlc03_victory_type_major;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type DESTROY_FACTION;
+					faction wh_dlc03_emp_carroburg;
+					faction wh_dlc03_emp_cult_of_ulric;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Boris Todbringer
+					override_text mission_text_text_wh_dlc03_objective_override_boris_wounded;
+					start_pos_character 2140783708;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type wh_dlc03_victory_type_ultimate;
+			key wh_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{ 
+				objective
+				{
+					type DESTROY_FACTION;									// Destroy Hochland
+					faction wh_dlc03_emp_hochland;
+					faction wh_dlc03_emp_carroburg;
+					faction wh_dlc03_emp_cult_of_ulric;
+					faction wh_dlc03_emp_middenland;
+				}
+				objective
+				{
+					type HAVE_CHARACTER_WOUNDED;							// Defeat Boris Todbringer
+					override_text mission_text_text_wh_dlc03_objective_override_boris_wounded;
+					start_pos_character 2140783708;
+				}				
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+
+	}
+}

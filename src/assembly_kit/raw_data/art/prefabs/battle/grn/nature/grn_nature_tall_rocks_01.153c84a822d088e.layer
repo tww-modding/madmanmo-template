@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="153c84addc8088f">
+      <ECNoGoRegion/>
+      <ECTransform position="53.1210251 0 -22.4454975" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-19.8268547" y="-13.4673023"/>
+          <point x="-91.2783813" y="-18.3305111"/>
+          <point x="-112.975708" y="13.8413744"/>
+          <point x="-90.9042816" y="57.2360306"/>
+          <point x="-10.1004791" y="55.7396622"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="153c84b23800890">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-35.9128075 0 31.797802" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="74.8183441" y="-1.8704586"/>
+          <point x="81.177887" y="-35.9128151"/>
+          <point x="79.6815186" y="-54.9914932"/>
+          <point x="66.214241" y="-63.5955887"/>
+          <point x="40.027813" y="-37.7832718"/>
+          <point x="29.5532513" y="-34.7905235"/>
+          <point x="23.5677776" y="-46.3873711"/>
+          <point x="15.3377686" y="-60.9769669"/>
+          <point x="3.74092102" y="-66.9624329"/>
+          <point x="-19.4527702" y="-38.1573715"/>
+          <point x="-4.11500168" y="-22.8195953"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

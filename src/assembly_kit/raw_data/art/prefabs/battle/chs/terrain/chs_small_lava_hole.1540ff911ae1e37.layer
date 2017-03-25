@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="1540ff936461e38">
+      <ECSoundMarker key="Sound_Environment_Lava_Lake"/>
+      <ECTransform position="-2.04788017 0 0.836877823" rotation="0 0 0" scale="1 1 1"/>
+      <ECPointCloud>
+        <point_cloud>
+          <point x="0" y="0" z="0"/>
+          <point x="2.26983452" y="0" z="-2.86496162"/>
+          <point x="3.9702301" y="0" z="0.780767441"/>
+        </point_cloud>
+      </ECPointCloud>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

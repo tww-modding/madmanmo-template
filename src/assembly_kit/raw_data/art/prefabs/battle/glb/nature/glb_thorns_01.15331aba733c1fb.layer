@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="15331aba732c1f5">
+      <ECBuilding key="thorns_g" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.53723145 4.0247736 -1.81225586" rotation="-89.7352448 150.981155 -217.929947" scale="3.00000024 3.00000024 3.00000024"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_g"/>
+    </entity>
+    <entity id="15331aba732c1f6">
+      <ECBuilding key="thorns_d" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-2.7244873 0 -2.12231445" rotation="0 0 0" scale="2 2 2"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_d"/>
+    </entity>
+    <entity id="15331aba732c1f7">
+      <ECBuilding key="thorns_f" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.24194336 0.475052834 -1.94152832" rotation="0 -6.12656689 0" scale="2.5 2.5 2.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_f"/>
+    </entity>
+    <entity id="15331aba732c1f8">
+      <ECBuilding key="thorns_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="3.53710938 7.68855095 -3.11096191" rotation="82.6714325 1.31859255 10.1444063" scale="1 1 0.999999881"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_a"/>
+    </entity>
+    <entity id="15331aba733c1f9">
+      <ECBuilding key="thorns_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.565429688 6.09624195 -3.41784668" rotation="-75.267189 24.0000019 -1.86914315e-006" scale="1.5 1.50000012 1.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_b"/>
+    </entity>
+    <entity id="15331aba733c1fa">
+      <ECBuilding key="thorns_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-3.22497559 5.94962311 3.41772461" rotation="-78.6627808 -39.8953552 -7.32775211" scale="1.25 1.25000024 1.25"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="thorns_c"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

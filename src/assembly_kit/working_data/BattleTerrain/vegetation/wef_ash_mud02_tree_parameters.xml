@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trees>
+
+<!-- INNER 0.6 # 1.0 #########################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+
+	<group group_name="redbrown_shrub_inner_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.6</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.1</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.3</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_redflowera</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 										<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_redflowerb</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_redflowerc</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_drya_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_drya_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_drya_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_dryf_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_dryf_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_dryf_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+	</group>
+	
+	<group group_name="sticky_shrub_inner_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.6</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.1</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.3</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesa</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesb</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesc</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+				<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesa</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesb</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_dryb_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_dryb_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_dryb_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+	</group>
+	<group group_name="stones_inner_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.6</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.1</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.1</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		<prop> 								
+			<model>Buildings\wef_boulder_01\wef_boulder_01_piece01_destruct01</model>		
+			<size_low>0.6</size_low>				<!-- lowest possible scale -->
+			<size_high>0.9</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_02\wef_boulder_02_piece01_destruct01</model>		
+			<size_low>0.6</size_low>				<!-- lowest possible scale -->
+			<size_high>0.9</size_high>					<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_03\wef_boulder_03_piece01_destruct01</model>		
+			<size_low>0.6</size_low>				<!-- lowest possible scale -->
+			<size_high>0.9</size_high>					<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_04\wef_boulder_04_piece01_destruct01</model>		
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>0.5</size_high>					<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_05\wef_boulder_05_piece01_destruct01</model>		
+			<size_low>0.2</size_low>				<!-- lowest possible scale -->
+			<size_high>0.4</size_high>					<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\wef_boulder_02\wef_boulder_02_piece01_destruct01</model>		
+			<size_low>0.6</size_low>				<!-- lowest possible scale -->
+			<size_high>0.9</size_high>					<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\wef_boulder_04\wef_boulder_04_piece01_destruct01</model>		
+			<size_low>0.2</size_low>				<!-- lowest possible scale -->
+			<size_high>0.5</size_high>					<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+	</group>
+	<group group_name="space_inner_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.6</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.1</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.2</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>3</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>3</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>4</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>3</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.6</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.3</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+	</group>	
+	
+<!-- OUTER 0.3 # 0.6 ########################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+
+	<group group_name="redbrown_shrub_middle_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.3</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.7</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.3</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.3</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_redflowera</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 										<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_redflowerb</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_redflowerc</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_drya_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_drya_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_drya_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_dryf_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_dryf_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_mtn_shrub\shrub_dryf_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>	
+	</group>
+	
+	<group group_name="sticky_shrub_middle_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.3</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.6</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.3</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.3</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+
+
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesa</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesb</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesc</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+				<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesa</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_branchesb</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_dryb_a</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_dryb_b</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>
+		<tree> 								<!-- type of object, may be tree, prop, decal or vfx. Needs corresponding closing tag -->
+			<model>trees\wh_emp_shrub\shrub_dryb_c</model>		<!-- path to the object, tree in this case -->
+
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.3</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>			<!-- // -->
+
+			<humidities>						<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+
+			<categories>						<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.4</probability>				<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+
+			<enable_debug_lines>false</enable_debug_lines>		<!-- debug lines to visualise more easily what has been chosen, this was hooked up in TEd, though may still need to be in Terry -->
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>	
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</tree>		
+	</group>
+	<group group_name="stones_middle_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.3</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.6</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.3</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.1</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		<prop> 								
+			<model>Buildings\wef_boulder_01\wef_boulder_01_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_02\wef_boulder_02_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_03\wef_boulder_03_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_04\wef_boulder_04_piece01_destruct01</model>		
+			<size_low>0.3</size_low>				<!-- lowest possible scale -->
+			<size_high>0.7</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\wef_boulder_05\wef_boulder_05_piece01_destruct01</model>		
+			<size_low>0.4</size_low>				<!-- lowest possible scale -->
+			<size_high>0.9</size_high>				<!-- top possible scale -->
+
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\wef_boulder_03\wef_boulder_03_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+	
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\wef_boulder_02\wef_boulder_02_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+	
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.167</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+	</group>
+	<group group_name="space_middle_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.3</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.6</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.3</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.3</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>3</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>3</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>4</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>3</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.3</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>0.7</blendmap_range_high>
+			<blendmap_range_falloff>0.2</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>wef</category>					
+			</categories>
+			<probability>0.2</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>5</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+	</group>	
+
+<!-- OUTER 0.5 # 0.69 ########################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+
+<!-- LOWOUTER 0.3 # 0.49 #####################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+
+<!-- DECALGEN ################################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+
+	<group group_name="decal_stone_wef_ashmudblend02">
+		<texture>mud02</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>mud02</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.3</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>0.45</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.19</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.005</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>0</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		<decal>
+			<model>generic/brt_stones_01</model>
+			<parallax>0.2</parallax>
+			<base_scale_x>1</base_scale_x>
+			<base_scale_y>1</base_scale_y>
+			<base_scale_z>1</base_scale_z>
+			<decal_flags apply_to_terrain="true" apply_to_objects="false" render_above_snow="false" blend_normals="false" />
+			
+			<size_low>0.55</size_low>
+			<size_high>5</size_high>
+			<blendmap_range_low>0.3</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>wef</category>
+				<category>default</category>
+			</categories>
+			<probability>0.1</probability>
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</decal>
+		<decal>
+			<model>generic/brt_stones_03</model>
+			<parallax>0.2</parallax>
+			<base_scale_x>1</base_scale_x>
+			<base_scale_y>1</base_scale_y>
+			<base_scale_z>1</base_scale_z>
+			<decal_flags apply_to_terrain="true" apply_to_objects="false" render_above_snow="false" blend_normals="false" />
+			<size_low>0.55</size_low>
+			<size_high>5</size_high>
+			<blendmap_range_low>0.3</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>wef</category>
+				<category>default</category>
+			</categories>
+			<probability>0.1</probability>
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</decal>
+		<decal>
+			<model>generic/brt_stones_04</model>
+			<parallax>0.2</parallax>
+			<base_scale_x>1</base_scale_x>
+			<base_scale_y>1</base_scale_y>
+			<base_scale_z>1</base_scale_z>
+			<decal_flags apply_to_terrain="true" apply_to_objects="false" render_above_snow="false" blend_normals="false" />
+			<size_low>0.55</size_low>
+			<size_high>5</size_high>
+			<blendmap_range_low>0.3</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>wef</category>
+				<category>default</category>
+			</categories>
+			<probability>0.1</probability>
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</decal>
+		<decal>
+			<model>generic/brt_stones_02</model>
+			<parallax>0.2</parallax>
+			<base_scale_x>1</base_scale_x>
+			<base_scale_y>1</base_scale_y>
+			<base_scale_z>1</base_scale_z>
+			<decal_flags apply_to_terrain="true" apply_to_objects="false" render_above_snow="false" blend_normals="false" />
+			<size_low>7</size_low>
+			<size_high>9</size_high>
+			<blendmap_range_low>0.3</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>wef</category>
+				<category>default</category>
+			</categories>
+			<probability>0.1</probability>
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</decal>
+		<decal>
+			<model>generic/brt_stones_05</model>
+			<parallax>0.2</parallax>
+			<base_scale_x>1</base_scale_x>
+			<base_scale_y>1</base_scale_y>
+			<base_scale_z>1</base_scale_z>
+			<decal_flags apply_to_terrain="true" apply_to_objects="false" render_above_snow="false" blend_normals="false" />
+			<size_low>3</size_low>
+			<size_high>6</size_high>
+			<blendmap_range_low>0.3</blendmap_range_low>
+			<blendmap_range_high>1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>
+			<humidities>
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>
+				<category>wef</category>
+				<category>default</category>
+			</categories>
+			<probability>0.1</probability>
+			<minimum_seperation>1</minimum_seperation>
+			<enable_debug_lines>false</enable_debug_lines>
+			<debug_lines_red>1.0</debug_lines_red>
+			<debug_lines_green>0.65</debug_lines_green>
+			<debug_lines_blue>0.90</debug_lines_blue>
+		</decal>		
+	</group>	
+
+</trees>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="20">
+  <entities>
+    <entity id="152220065e33077" name="chs_teeth_04a">
+      <ECBuilding key="chs_teeth_04a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.2232666 25.8140221 -41.4914551" rotation="0 -34.0001411 0" scale="5 5.00000048 5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_04a"/>
+    </entity>
+    <entity id="152220065e33078" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-19.0657959 26.411911 -46.8325195" rotation="48.90765 188.000198 359.999969" scale="2.00000072 1.99999988 2"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="152220065e33079" name="chs_teeth_04a">
+      <ECBuilding key="chs_teeth_04a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="23.6737061 25.8140182 17.227417" rotation="0 -84.0001678 0" scale="5 5 5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_04a"/>
+    </entity>
+    <entity id="152220065e3307a" name="chs_seacliff_a">
+      <ECBuilding key="chs_seacliff_02_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-23.673584 1.33278656 -39.5721436" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_seacliff_02_a"/>
+    </entity>
+    <entity id="152220065e3307b" name="chs_seacliff_a">
+      <ECBuilding key="chs_seacliff_02_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="11.3660889 0 37.6838379" rotation="0 245.999969 0" scale="0.999999523 1 0.999999523"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_seacliff_02_a"/>
+    </entity>
+    <entity id="152220065e3307c" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="15.2624512 23.6286774 46.8323975" rotation="48.9076462 64.0002747 -1.16857445e-005" scale="2.00000048 1.99999952 1.99999952"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- #INNER 0.5 # 1.0 #########################################################################################################-->
+<!--##########################################################################################################################-->
+<!--##########################################################################################################################-->
+<trees>
+	<group group_name="stones_inner_chsscreeblend01">
+		<texture>scree01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>scree01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.06</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>3</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		<prop> 								
+			<model>Buildings\dwf_stone_a\dwf_stone_a_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.143</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_b\dwf_stone_b_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.143</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.143</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_c\dwf_stone_c_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.143</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\dwf_stone_d\dwf_stone_d_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.143</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\dwf_stone_e\dwf_stone_e_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.143</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\dwf_stone_f\dwf_stone_f_piece01_destruct01</model>		
+			<size_low>0.5</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.143</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+	</group>
+	<group group_name="bones_inner_chsscreeblend01">
+		<texture>scree01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>scree01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.04</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.15</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>3</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		
+		<prop> 								
+			<model>Buildings\skull_terrain_01\skull_terrain_01_piece01_destruct01</model>		
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+
+			<probability>0.112</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_02\skull_terrain_02_piece01_destruct01</model>		
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_03\skull_terrain_03_piece01_destruct01</model>		
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\skull_terrain_04\skull_terrain_04_piece01_destruct01</model>		
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\glb_animal_bones_01\glb_animal_bones_01_piece01_destruct01</model>		
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\glb_animal_bones_02\glb_animal_bones_02_piece01_destruct01</model>		
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model>Buildings\glb_animal_bones_04\glb_animal_bones_04_piece01_destruct01</model>		
+			<size_low>1.0</size_low>				<!-- lowest possible scale -->
+			<size_high>1.0</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+		<prop> 								
+			<model>Buildings\glb_bones_03\glb_bones_03_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>0.8</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>	
+		<prop> 								
+			<model>Buildings\glb_bones_01\glb_bones_01_piece01_destruct01</model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>0.8</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>				
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>0.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>			
+	</group>		
+	<group group_name="space_inner_chsscreeblend01">
+		<texture>scree01</texture>					<!-- texture channel that must exist in order to pick group (well, actually the value must be above 0.05) --> 
+		<texture_for_probability>scree01</texture_for_probability>	<!-- texture channel to use for probability, if not defined texture is used -->
+
+		<group_channel_range_low>0.5</group_channel_range_low>		<!-- bottom of blend map value range -->
+		<group_channel_range_high>1.1</group_channel_range_high>		<!-- top of blend map value range -->
+		<group_channel_range_falloff>0.0</group_channel_range_falloff>	<!-- range within the defined range that is always the top probability, in this case the whole range -->
+
+		<height_range_low>-5000</height_range_low>			<!-- bottom of height map range -->
+		<height_range_high>5000</height_range_high>			<!-- top of height map range -->
+		<height_range_falloff>10000</height_range_falloff>			<!-- range within the defined range that is always the top probability, in this case only the very centre -->
+		
+		<probability>0.9</probability>					<!-- the base probability which is adjusted based upon the above -->
+		
+		<grouping_probability>0.5</grouping_probability>		<!-- the probability of swapping out near objects with objects from the same group -->
+		<grouping_radius>5</grouping_radius>				<!-- the radius within which objects may be swapped out -->
+		
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+
+			<probability>0.25</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>6.2</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.111</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>12.6</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>24.7</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>
+		<prop> 								
+			<model></model>		
+			<size_low>0.8</size_low>				<!-- lowest possible scale -->
+			<size_high>1.2</size_high>				<!-- top possible scale -->
+			<blendmap_range_low>0.5</blendmap_range_low>		<!-- // same as at group level but for object within group -->
+			<blendmap_range_high>1.1</blendmap_range_high>
+			<blendmap_range_falloff>0.0</blendmap_range_falloff>
+			<height_low>-5000</height_low>
+			<height_high>5000</height_high>
+			<height_falloff>0</height_falloff>				<!-- // -->
+			<humidities>									<!-- Supported humidities, not actually used, we may want to remove this -->
+				<humidity>arid</humidity>
+				<humidity>humid</humidity>
+			</humidities>
+			<categories>									<!-- Supported categories, these categories are defined in generation_categories.xml -->
+				<category>chs_wastes</category>					
+			</categories>
+			<probability>0.25</probability>					<!-- Base probability of choosing this object -->
+			<minimum_seperation>32.0</minimum_seperation>		<!-- Minimum distance this must be from other objects if chosen -->
+		</prop>		
+	</group>
+
+</trees>

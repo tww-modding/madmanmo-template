@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="20">
+  <entities>
+    <entity id="14f6535a10d4fe0" name="chs_teeth_base_02">
+      <ECBuilding key="chs_teeth_base_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="65.9085693 -3.71438217 -53.7791138" rotation="0.000110063789 -52.0000381 -1.58702027e-011" scale="2.99999976 3 2.99999976"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_02"/>
+    </entity>
+    <entity id="14f6535a10d4fe1" name="chs_webbing_03_b">
+      <ECBuilding key="chs_webbing_03_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-61.838974 3.47385836 -43.8779755" rotation="12.2864046 55.9804955 -1.52602627e-006" scale="0.749999821 0.999999762 0.999999523"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_03_b"/>
+    </entity>
+    <entity id="14f6535a10d4fe2" name="chs_webbing_01_b">
+      <ECBuilding key="chs_webbing_01_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="57.6254883 2.18954897 43.2206573" rotation="21.9573231 232.712128 0.000136603776" scale="0.849999547 0.999998808 1.00000072"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_01_b"/>
+    </entity>
+    <entity id="14f6535a10d4fe4" name="chs_webbing_02_b">
+      <ECBuilding key="chs_webbing_02_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-74.578949 -0.416315079 32.0315857" rotation="26.0872231 110.474586 0.000218566041" scale="1.00000012 1.10000002 1.10000122"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_02_b"/>
+    </entity>
+    <entity id="14f6535a10d4fe5" name="Point Light 1">
+      <ECPointLight colour="255 90 7 255" colour_scale="10" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH"/>
+      <ECTransform position="52.8676453 11.2553558 8.06677055" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="14f6535a10d4fe6" name="chs_teeth_base_01">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-76.3807373 -3.25902653 -36.1203766" rotation="2.67493269e-005 63.5959244 1.49768175e-005" scale="4.50000048 4.50000048 4.50000048"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="14f6535a10d4fe7" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.1349659 29.3059998 -29.0651722" rotation="4.21470451 138.000214 2.73207552e-005" scale="1.99999976 1.99999976 1.99999988"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10d4fe8" name="Point Light 1">
+      <ECPointLight colour="255 90 7 255" colour_scale="10" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH"/>
+      <ECTransform position="2.77619743 15.4013176 55.4813995" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="14f6535a10d4fed" name="Point Light 1">
+      <ECPointLight colour="255 90 7 255" colour_scale="10" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH"/>
+      <ECTransform position="-24.2734241 7.09355927 26.5390301" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="14f6535a10d4fee" name="chs_teeth_01a">
+      <ECBuilding key="chs_teeth_01a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-67.6161346 9.27959728 46.7450867" rotation="-82.3636475 44.2107201 179.698013" scale="4.99999762 4.99999857 5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_01a"/>
+    </entity>
+    <entity id="14f6535a10e4ff5" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-1.9185009 16.9555492 29.7352276" rotation="0.145451173 -4.13142395 0.145693436" scale="2.49999928 2.5 2.49999928"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10e4ff6" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-32.6485138 21.5345802 18.6480999" rotation="32.2273445 128.000351 359.999969" scale="2.00000095 1.99999964 1.99999988"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10e4ff8" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-16.3626804 52.2483444 -15.2921009" rotation="19.797081 -85.2527771 4.53116322" scale="2.49999928 2.49999928 2.49999905"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10e4ffa" name="chs_webbing_02_b">
+      <ECBuilding key="chs_webbing_02_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-31.5657063 9.20276642 37.0184937" rotation="1.58840144 136.473709 359.999969" scale="1.00000048 0.999999046 0.99999994"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_02_b"/>
+    </entity>
+    <entity id="14f6535a10e4ffc" name="chs_webbing_02_c">
+      <ECBuilding key="chs_webbing_02_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="33.2333069 13.5184803 -27.5319538" rotation="41.4533081 -75.6052551 -9.99248886" scale="1.09999967 1.0999999 0.999999166"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_02_c"/>
+    </entity>
+    <entity id="14f6535a10e4ffd" name="chs_webbing_03_b">
+      <ECBuilding key="chs_webbing_03_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="37.677681 -0.335015297 -76.546051" rotation="21.786171 -29.1207218 4.39789073e-006" scale="1 1 0.999999702"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_03_b"/>
+    </entity>
+    <entity id="14f6535a10e4ffe" name="Point Light 1">
+      <ECPointLight colour="255 90 7 255" colour_scale="10" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH"/>
+      <ECTransform position="42.8144608 10.6240749 -38.8762817" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="14f6535a10e4fff" name="chs_webbing_03_b">
+      <ECBuilding key="chs_webbing_03_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="18.860487 -0.334703445 71.6749725" rotation="21.7862263 186.711945 4.09811328e-005" scale="0.75000149 0.999999523 1.00000107"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_03_b"/>
+    </entity>
+    <entity id="14f6535a10e5000" name="Point Light 1">
+      <ECPointLight colour="255 90 7 255" colour_scale="10" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH"/>
+      <ECTransform position="-47.5147018 5.89486694 -7.13057137" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="14f6535a10e5001" name="chs_webbing_01_b">
+      <ECBuilding key="chs_webbing_01_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="77.3712616 2.18933105 -43.917099" rotation="24.6038857 -67.1210632 4.17240408e-005" scale="0.999999702 0.999999702 0.999999583"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_01_b"/>
+    </entity>
+    <entity id="14f6535a10e5002" name="chs_webbing_02_c">
+      <ECBuilding key="chs_webbing_02_c" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="38.0451279 -0.440460205 19.0261669" rotation="23.2147884 241.923309 5.25889015" scale="0.750000238 1.39999998 0.75000006"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_02_c"/>
+    </entity>
+    <entity id="14f6535a10e5003" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-10.6140308 75.9517059 -13.8516865" rotation="0.000204905664 135.514175 0.000136603776" scale="2.50000048 2.5 2.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10e5004" name="chs_webbing_01_a">
+      <ECBuilding key="chs_webbing_01_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-16.518755 0.683839798 -36.29953" rotation="9.74891758 13.896163 1.71892858" scale="0.999999762 1.0999999 0.99999994"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_01_a"/>
+    </entity>
+    <entity id="14f6535a10f500a" name="chs_webbing_01_b">
+      <ECBuilding key="chs_webbing_01_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-15.4174213 2.18946648 76.2960968" rotation="26.4823895 168.474411 2.73207552e-005" scale="0.99999994 1.10000002 0.999999523"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_01_b"/>
+    </entity>
+    <entity id="14f6535a10f500c" name="Point Light 1">
+      <ECPointLight colour="255 46 10 255" colour_scale="15" radius="140" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH"/>
+      <ECTransform position="0.0768489838 28.3332291 -4.35431099" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+    <entity id="14f6535a10f500e" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-12.9109974 11.2275782 50.7898865" rotation="-21.3159866 -10.0000086 0" scale="1.75722969 1.7572298 1.75722969"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10f500f" name="chs_webbing_02_b">
+      <ECBuilding key="chs_webbing_02_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="57.7880936 0.196201324 2.90147209" rotation="7.79862785 240.879211 0.000150264153" scale="1.00000012 0.999999106 0.999999464"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_02_b"/>
+    </entity>
+    <entity id="14f6535a10f5012" name="chs_teeth_01a">
+      <ECBuilding key="chs_teeth_01a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-77.2407227 3.8158741 -36.4538574" rotation="-81.7363663 117.430725 -179.530579" scale="4.00000095 4 4"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_01a"/>
+    </entity>
+    <entity id="14f6535a10f5014" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-18.0609226 35.1423912 -29.9084492" rotation="9.93907261 188.742355 351.904938" scale="2.00000095 2 2.00000119"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10f5015" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="56.0291138 1.58143139 -38.3873138" rotation="-15.7400341 123.711739 -357.992645" scale="2.92871761 2.92871737 2.92871714"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f6535a10f5016" name="chs_webbing_01_b">
+      <ECBuilding key="chs_webbing_01_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-17.0173969 2.18896675 -65.4728012" rotation="5.66552591 -4.00006819 -6.6863953e-007" scale="0.999999762 0.999999464 0.999999583"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_01_b"/>
+    </entity>
+    <entity id="14f6535a10f5017" name="chs_webbing_01_a">
+      <ECBuilding key="chs_webbing_01_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="17.8059826 0.68447876 17.6298962" rotation="14.6489792 252.536804 354.43222" scale="1.00000048 0.850000381 1.0000006"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_01_a"/>
+    </entity>
+    <entity id="14f653f3b985132" name="chs_webbing_02_a">
+      <ECBuilding key="chs_webbing_02_a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0.497655869 -0.30728054 -28.6327534" rotation="6.90087843 -14.1123095 -0.503382087" scale="1.25000072 1.50000107 1.5000006"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_02_a"/>
+    </entity>
+    <entity id="14f65429efe5135" name="chs_webbing_03_b">
+      <ECBuilding key="chs_webbing_03_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-16.2888813 3.47448111 20.6280499" rotation="-18.5887547 149.98053 -359.999969" scale="0.999999404 1.20000041 1.19999886"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_03_b"/>
+    </entity>
+    <entity id="14f654bb1f6513a" name="chs_webbing_03_b">
+      <ECBuilding key="chs_webbing_03_b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-46.0452805 10.571949 -7.59684944" rotation="-7.09162855 86.284317 -0.000559913984" scale="0.750000894 0.999999583 0.999999166"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_webbing_03_b"/>
+    </entity>
+    <entity id="14f655429d8513d" name="chs_teeth_base_02">
+      <ECBuilding key="chs_teeth_base_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-31.9813633 -3.71436977 -65.7975006" rotation="0.000110063789 27.9999657 -3.50421983e-011" scale="2.99999928 3 2.99999928"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_02"/>
+    </entity>
+    <entity id="14f65545207513e" name="chs_teeth_base_02">
+      <ECBuilding key="chs_teeth_base_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-65.4068909 -3.71434689 44.5496674" rotation="0.000109283021 128.000183 1.36603776e-005" scale="2.99999881 3 2.99999881"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_02"/>
+    </entity>
+    <entity id="14f6554d2bd513f" name="chs_teeth_base_01">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="4.03287697 -3.25902653 -75.4387512" rotation="1.08574632e-005 -20.4040966 7.10603354e-006" scale="4.50000048 4.50000048 4.50000048"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="14f6554e6665140" name="chs_teeth_base_01">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="90.9093018 -3.25899601 -27.3301868" rotation="7.95653468e-005 -76.4039536 1.28377733e-005" scale="4.50000143 4.50000048 4.50000143"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="14f655504885141" name="chs_teeth_base_01">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="54.803215 -3.25901127 44.2560883" rotation="0.000136603776 233.596069 359.999969" scale="4.50000191 4.50000048 4.50000191"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="14f65551a8e5142" name="chs_teeth_base_01">
+      <ECBuilding key="chs_teeth_base_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.102174759 -3.2590189 93.5693512" rotation="0.000136603776 179.596161 359.999969" scale="4.50000095 4.50000095 4.50000095"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_base_01"/>
+    </entity>
+    <entity id="14f6535a10e5008" name="chs_teeth_01a">
+      <ECBuilding key="chs_teeth_01a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.458719254 5.07134628 93.5957794" rotation="-68.2705154 -3.84646368 179.783157" scale="3.99999166 3.99999356 3.99999595"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_01a"/>
+    </entity>
+    <entity id="14f655c7b315145" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="40.6493454 4.13146591 33.3791962" rotation="-11.281806 49.8683777 0.225455672" scale="2.49999881 2.50000095 2.49999952"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f655ced705146" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="2.36443138 -5.32572174 -71.2905045" rotation="-19.0878639 162.000381 -359.999969" scale="2.92871642 2.92871761 2.9287169"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f655db4655147" name="chs_teeth_02a">
+      <ECBuilding key="chs_teeth_02a" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="true"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="-0.399961472 68.4978409 2.74548149" rotation="2.6369772 40.7312126 0.49434489" scale="1.99999976 1.99999964 2"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="chs_teeth_02a"/>
+    </entity>
+    <entity id="14f656072db5148" name="Point Light 1">
+      <ECPointLight colour="255 90 7 255" colour_scale="10" radius="50" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH"/>
+      <ECTransform position="-21.0790882 6.90842819 -46.7458496" rotation="0 0 0" scale="1 1 1"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

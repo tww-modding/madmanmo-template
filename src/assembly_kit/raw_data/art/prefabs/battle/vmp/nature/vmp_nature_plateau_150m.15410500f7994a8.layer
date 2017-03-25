@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="154105050af94a9">
+      <ECSoundMarker key="Sound_Environment_Rock_Slides"/>
+      <ECTransform position="47.2695198 0 -15.8624191" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="false">
+          <point x="0" y="0"/>
+          <point x="-18.8260193" y="-15.2536049"/>
+          <point x="-39.169529" y="-15.3837395"/>
+          <point x="-68.6468124" y="-14.3666458"/>
+          <point x="-97.0713348" y="-11.3382721"/>
+          <point x="-114.960999" y="-4.55067825"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15410506e9194aa">
+      <ECSoundMarker key="Sound_Environment_Rock_Slides"/>
+      <ECTransform position="41.6130905 0 45.6086197" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="false">
+          <point x="0" y="0"/>
+          <point x="-19.5043755" y="12.2510796"/>
+          <point x="-45.0032272" y="14.474102"/>
+          <point x="-69.7642059" y="11.5756531"/>
+          <point x="-91.9731293" y="5.43987656"/>
+          <point x="-112.993729" y="-6.88845825"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

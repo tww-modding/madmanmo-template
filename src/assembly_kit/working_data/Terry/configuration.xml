@@ -1,0 +1,57 @@
+<configuration>
+  <item key="path">
+    <item key="battle">
+      <item key="prefab">art/prefabs/battle</item>
+      <item key="decal">RigidModels/decals</item>
+      <item key="prop">RigidModels,vfx/models</item>
+      <item key="environment">Weather/terry_default_battle.environment</item>
+    </item>
+    <item key="campaign">
+      <item key="prefab">art/campaign/prefabs</item>
+      <item key="decal">RigidModels/campaign/decals</item>
+      <item key="prop">RigidModels/campaign</item>
+      <item key="environment">Weather/terry_default_campaign.environment</item>
+    </item>
+    <item key="">
+      <item key="composite_scene">composite_scene</item>
+    </item>
+    <item key="grass">terrain/vegetation/battle/grass</item>
+    <item key="vegetation">BattleTerrain/vegetation</item>
+    <item key="vfx">vfx</item>
+    <item key="layout">art/layouts</item>
+  </item>
+  <item key="faction">
+    <item key="Blockout" prefix="blk" prefab_path="blk" default="true" />
+    <item key="Bretonnia" prefix="brt" prefab_path="brt" />
+    <item key="Chaos" prefix="emp" prefab_path="emp" />
+    <item key="Dwarfs" prefix="dwf" prefab_path="dwf" />
+    <item key="Empire" prefix="emp" prefab_path="emp" />
+    <item key="Greenskins" prefix="grn" prefab_path="grn" />
+    <item key="Kislev" prefix="ksl" prefab_path="ksl" />
+    <item key="Norsca" prefix="nor" prefab_path="nor" />
+    <item key="Vampire Counts" prefix="vmp" prefab_path="vmp" />
+  </item>
+  <item key="gridsnap">
+    <item key="grid_def_spacing">1,2,4,5,8,10,20,32,40,50,100</item>
+    <item key="grid_rotation">0,30,45,60</item>
+    <item key="grid_snap_def_radius">1,2,5,10,20</item>
+    <item key="grid_angle_snap_def_spacing">10,30,45,90</item>
+    <item key="grid_angle_snap_def_radius">1,2,5,10,20</item>
+  </item>
+  <item key="project">
+    <item key="tile">
+      <item key="size" min="1" max="64" />
+      <item key="terrain_height" battle="0" campaign="0" />
+      <item key="triangle_density" battle="128" campaign="128" min="1" max="256" />
+      <item key="textures" battle="grass01,grass02,mud01,mud02,forest01,,," campaign="grass_a0,grass_a1,mud_a0,mud_a1,sand_a0,sand_a1,rock0,rock1" />
+      <item key="normal_strength" battle="2" campaign="1000" />
+      <item key="default_climate" battle="default" campaign="default" />
+    </item>
+    <item key="tile_map">
+      <item key="pixels_per_tile" lf_main="8" lf_sea="2" lf_main_large_battle="4" />
+    </item>
+    <item key="prefab">
+      <item key="terrain_texture" battle="grass01" campaign="grass_a0" />
+    </item>
+  </item>
+</configuration>

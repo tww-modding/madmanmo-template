@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="21">
+  <entities>
+    <entity id="1532e40f8d10406" name="dwf_rockmed_02_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/dwf_rockmed_02/dwf_rockmed_02_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="true"/>
+      <ECTransform position="-2.21533203 0.322341919 19.1304016" rotation="6.21979094 -65.9070587 -4.19498777" scale="5 5.00000048 4.99999952"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1532e40f8d10407" name="dwf_rocklrg_02_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/dwf_rocklrg_02/dwf_rocklrg_02_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="true"/>
+      <ECTransform position="25.7609863 0 -19.1304016" rotation="-0.348023891 -22.005661 -2.00955176" scale="5 5 5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1532e40f8d10408" name="dwf_rockmed_03_piece01_destruct01 1">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/dwf_rockmed_03/dwf_rockmed_03_piece01_destruct01.rigid_model_v2" opacity="1" burn="false" burn_amount="0" glow_amount="0" animation_path=""/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECBattleProperties allow_in_outfield="true"/>
+      <ECTransform position="-25.7609863 1.43177032 -5.81108093" rotation="2.50996423 1.03413141 -1.5581584" scale="4.99999952 5 5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

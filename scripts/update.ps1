@@ -33,8 +33,15 @@ if ($new -ne $original)
 	$newVersion = "$($mod.version.breaking).$($mod.version.patch).$($mod.version.build)";
 	
 	$versionDiffUpdateCommandsPath = "$rootDirectoryPath\src\changes\$oldVersion-$newVersion-diff-update_commands.txt";
-	$diff = $new.Replace($original, "");
-	
+	if ([string]::IsNullOrEmpty($original))
+	{
+		$diff = $new;
+	}
+	else 
+	{
+		$diff = $new.Replace($original, "");
+	}
+
 	[System.IO.File]::WriteAllText($versionDiffUpdateCommandsPath, $diff);
 	
     # copy into expected location if different
@@ -45,5 +52,5 @@ if ($new -ne $original)
 }
 else
 {
-	throw "No changes detected. No reason to build";
+	Write-Warning "No changes detected, version not incremented";
 }

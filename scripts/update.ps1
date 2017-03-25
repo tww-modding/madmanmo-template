@@ -24,14 +24,23 @@ $new = [System.IO.File]::ReadAllText($workingUpdateCommandsPath);
 if ($new -ne $original)
 {
 	Write-Verbose "Original update_commands and current are different. Copying and updating version";
+	
+	# increment the build version by 1
+    $modFilePath = "$rootDirectoryPath\mod.json";
+    $mod = ConvertFrom-Json ([System.IO.File]::ReadAllText($modFilePath));
+	$oldVersion = "$($mod.version.breaking).$($mod.version.patch).$($mod.version.build)";
+    $mod.version.build++;
+	$newVersion = "$($mod.version.breaking).$($mod.version.patch).$($mod.version.build)";
+	
+	$versionDiffUpdateCommandsPath = "$rootDirectoryPath\src\changes\$oldVersion-$newVersion-diff-update_commands.txt";
+	$diff = $new.Replace($original, "");
+	
+	[System.IO.File]::WriteAllText($versionDiffUpdateCommandsPath, $diff);
+	
     # copy into expected location if different
     [System.IO.File]::WriteAllText($masterUpdateCommandsPath, $new);
 
-    # increment the minor version by 1
-    $modFilePath = "$rootDirectoryPath\mod.json";
-    $mod = ConvertFrom-Json ([System.IO.File]::ReadAllText($modFilePath));
-    $mod.version.build++;
-
+	# Save versioning changes
     [System.IO.File]::WriteAllText($modFilePath, (ConvertTo-Json $mod));
 }
 else

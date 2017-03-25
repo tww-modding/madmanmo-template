@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBTableEditorConfig>
+  <FreezeKeyColumns>True</FreezeKeyColumns>
+  <UseComboBoxes>True</UseComboBoxes>
+  <ShowAllColumns>False</ShowAllColumns>
+  <ShowFilters>True</ShowFilters>
+  <ImportDirectory />
+  <ExportDirectory />
+  <HiddenColumns>
+    <Entry Key="_kv_morale_tables" />
+    <Entry Key="_kv_ui_tweakers_tables" />
+    <Entry Key="agent_uniforms_tables" />
+    <Entry Key="agents_tables" />
+    <Entry Key="ancillaries_included_agent_subtypes_tables" />
+    <Entry Key="ancillary_included_subcultures_tables" />
+    <Entry Key="armed_citizenry_unit_groups_tables" />
+    <Entry Key="armed_citizenry_units_to_unit_groups_junctions_tables" />
+    <Entry Key="battle_entities_tables" />
+    <Entry Key="battle_set_piece_armies_characters_items_tables" />
+    <Entry Key="battle_set_piece_armies_characters_tables" />
+    <Entry Key="battle_siege_vehicle_permissions_tables" />
+    <Entry Key="building_culture_variants_tables" />
+    <Entry Key="building_downgrade_junctions_tables" />
+    <Entry Key="building_effects_junction_tables" />
+    <Entry Key="building_level_armed_citizenry_junctions_tables" />
+    <Entry Key="building_levels_tables" />
+    <Entry Key="building_units_allowed_tables" />
+    <Entry Key="building_upgrades_junction_tables" />
+    <Entry Key="cai_construction_system_building_values_tables" />
+    <Entry Key="cai_construction_system_strategic_context_template_policy_junctions_tables" />
+    <Entry Key="cai_construction_system_unblocking_buildings_tables" />
+    <Entry Key="cai_personalities_budget_allocations_tables" />
+    <Entry Key="cai_personalities_tables" />
+    <Entry Key="cai_personality_group_overrides_tables" />
+    <Entry Key="cai_task_management_system_task_generator_groups_generators_junctions_tables" />
+    <Entry Key="cai_variables_overides_tables" />
+    <Entry Key="cai_variables_tables" />
+    <Entry Key="campaign_difficulty_handicap_effects_tables" />
+    <Entry Key="campaign_faction_religion_effects_tables" />
+    <Entry Key="campaign_group_abandoned_cultures_overrides_tables" />
+    <Entry Key="campaign_group_member_criteria_attrition_types_tables" />
+    <Entry Key="campaign_map_attrition_unit_immunities_tables" />
+    <Entry Key="campaign_mp_coop_groups_to_factions_tables" />
+    <Entry Key="campaign_stances_factions_junctions_tables" />
+    <Entry Key="campaign_variables_tables" />
+    <Entry Key="cdir_military_generator_template_priorities_tables" />
+    <Entry Key="cdir_military_generator_template_ratios_tables" />
+    <Entry Key="cdir_military_generator_templates_tables" />
+    <Entry Key="cdir_military_generator_unit_qualities_tables" />
+    <Entry Key="character_skill_level_details_tables" />
+    <Entry Key="character_skill_level_to_effects_junctions_tables" />
+    <Entry Key="character_skill_nodes_tables" />
+    <Entry Key="character_skills_tables" />
+    <Entry Key="deployment_area_displays_tables" />
+    <Entry Key="diplomacy_strings_tables" />
+    <Entry Key="diplomatic_action_subculture_restrictions_tables" />
+    <Entry Key="effect_bonus_value_basic_junction_tables" />
+    <Entry Key="effect_bonus_value_ids_unit_sets_tables" />
+    <Entry Key="effect_bonus_value_religion_junction_tables" />
+    <Entry Key="effect_bonus_value_unit_attribute_junctions_tables" />
+    <Entry Key="effect_bundles_tables" />
+    <Entry Key="effect_bundles_to_effects_junctions_tables" />
+    <Entry Key="effects_tables" />
+    <Entry Key="faction_groups_tables" />
+    <Entry Key="faction_political_parties_junctions_tables" />
+    <Entry Key="faction_to_faction_groups_junctions_tables" />
+    <Entry Key="factions_tables" />
+    <Entry Key="frontend_faction_groups_to_factions_tables" />
+    <Entry Key="frontend_faction_top_units_tables" />
+    <Entry Key="frontend_factions_tables" />
+    <Entry Key="land_units_tables" />
+    <Entry Key="land_units_to_unit_abilites_junctions_tables" />
+    <Entry Key="main_units_tables" />
+    <Entry Key="melee_weapons_tables" />
+    <Entry Key="mercenary_pool_to_groups_junctions_tables" />
+    <Entry Key="mercenary_pools_tables" />
+    <Entry Key="ministerial_position_effect_bundles_tables" />
+    <Entry Key="missions_tables" />
+    <Entry Key="mounts_tables" />
+    <Entry Key="political_parties_frontend_leaders_junctions_tables" />
+    <Entry Key="provincial_initiative_records_tables" />
+    <Entry Key="provincial_initiatives_to_subculture_junctions_tables" />
+    <Entry Key="resources_tables" />
+    <Entry Key="special_ability_phase_stat_effects_tables" />
+    <Entry Key="special_ability_phases_tables" />
+    <Entry Key="special_ability_to_auto_deactivate_flags_tables" />
+    <Entry Key="technologies_tables" />
+    <Entry Key="technology_effects_junction_tables" />
+    <Entry Key="technology_node_sets_tables" />
+    <Entry Key="technology_nodes_tables" />
+    <Entry Key="ui_unit_bullet_point_enums_tables" />
+    <Entry Key="ui_unit_bullet_point_unit_overrides_tables" />
+    <Entry Key="ui_unit_groupings_tables" />
+    <Entry Key="unit_attributes_groups_tables" />
+    <Entry Key="unit_attributes_to_groups_junctions_tables" />
+    <Entry Key="unit_description_historical_texts_tables" />
+    <Entry Key="unit_description_short_texts_tables" />
+    <Entry Key="unit_set_to_unit_junctions_tables" />
+    <Entry Key="unit_sets_tables" />
+    <Entry Key="unit_variants_colours_tables" />
+    <Entry Key="unit_variants_tables" />
+    <Entry Key="units_custom_battle_permissions_tables" />
+    <Entry Key="units_to_exclusive_faction_permissions_tables" />
+    <Entry Key="units_to_groupings_military_permissions_tables" />
+    <Entry Key="variants_tables" />
+  </HiddenColumns>
+  <Filters>
+    <Entry Key="building_effects_junction_tables" />
+    <Entry Key="effect_bundles_to_effects_junctions_tables" />
+    <Entry Key="campaign_faction_religion_effects_tables" />
+    <Entry Key="effect_bundles_tables" />
+    <Entry Key="land_units_tables" />
+    <Entry Key="battle_entities_tables">
+      <Value>
+        <IsActive>False</IsActive>
+        <Name>hound</Name>
+        <ApplyToColumn>key</ApplyToColumn>
+        <FilterValue>hound</FilterValue>
+        <MatchMode>Partial</MatchMode>
+      </Value>
+    </Entry>
+    <Entry Key="effect_bonus_value_religion_junction_tables" />
+    <Entry Key="_kv_morale_tables" />
+    <Entry Key="cai_variables_overides_tables" />
+    <Entry Key="cai_variables_tables" />
+    <Entry Key="campaign_difficulty_handicap_effects_tables" />
+    <Entry Key="campaign_variables_tables" />
+    <Entry Key="technology_nodes_tables" />
+    <Entry Key="technology_node_sets_tables" />
+    <Entry Key="building_level_armed_citizenry_junctions_tables">
+      <Value>
+        <IsActive>False</IsActive>
+        <Name>Skarsnik Buildings</Name>
+        <ApplyToColumn>building_level</ApplyToColumn>
+        <FilterValue>skarsnik</FilterValue>
+        <MatchMode>Partial</MatchMode>
+      </Value>
+    </Entry>
+    <Entry Key="main_units_tables" />
+    <Entry Key="political_parties_frontend_leaders_junctions_tables" />
+    <Entry Key="agent_uniforms_tables" />
+    <Entry Key="ancillary_included_subcultures_tables" />
+    <Entry Key="battle_set_piece_armies_characters_items_tables" />
+    <Entry Key="battle_set_piece_armies_characters_tables" />
+    <Entry Key="cai_personalities_tables" />
+    <Entry Key="mounts_tables" />
+    <Entry Key="missions_tables" />
+    <Entry Key="ancillaries_included_agent_subtypes_tables" />
+    <Entry Key="building_units_allowed_tables" />
+    <Entry Key="agents_tables" />
+    <Entry Key="unit_sets_tables" />
+    <Entry Key="unit_set_to_unit_junctions_tables" />
+    <Entry Key="technologies_tables" />
+    <Entry Key="cdir_military_generator_unit_qualities_tables" />
+    <Entry Key="cdir_military_generator_templates_tables" />
+    <Entry Key="cdir_military_generator_template_ratios_tables" />
+    <Entry Key="cdir_military_generator_template_priorities_tables" />
+    <Entry Key="cai_construction_system_strategic_context_template_policy_junctions_tables" />
+    <Entry Key="cai_construction_system_building_values_tables" />
+    <Entry Key="cai_personalities_budget_allocations_tables" />
+    <Entry Key="cai_construction_system_unblocking_buildings_tables" />
+    <Entry Key="melee_weapons_tables" />
+    <Entry Key="land_units_to_unit_abilites_junctions_tables" />
+    <Entry Key="ui_unit_bullet_point_unit_overrides_tables" />
+    <Entry Key="unit_attributes_groups_tables" />
+    <Entry Key="unit_attributes_to_groups_junctions_tables" />
+    <Entry Key="unit_description_short_texts_tables" />
+    <Entry Key="variants_tables" />
+    <Entry Key="units_to_groupings_military_permissions_tables" />
+    <Entry Key="units_custom_battle_permissions_tables" />
+    <Entry Key="unit_variants_tables" />
+    <Entry Key="unit_variants_colours_tables" />
+    <Entry Key="building_levels_tables" />
+    <Entry Key="unit_description_historical_texts_tables" />
+    <Entry Key="building_culture_variants_tables" />
+    <Entry Key="armed_citizenry_units_to_unit_groups_junctions_tables" />
+    <Entry Key="armed_citizenry_unit_groups_tables" />
+    <Entry Key="frontend_faction_top_units_tables" />
+    <Entry Key="frontend_factions_tables" />
+    <Entry Key="mercenary_pool_to_groups_junctions_tables" />
+    <Entry Key="units_to_exclusive_faction_permissions_tables" />
+    <Entry Key="provincial_initiatives_to_subculture_junctions_tables" />
+    <Entry Key="provincial_initiative_records_tables" />
+    <Entry Key="effects_tables" />
+    <Entry Key="effect_bonus_value_ids_unit_sets_tables" />
+    <Entry Key="campaign_stances_factions_junctions_tables" />
+    <Entry Key="campaign_mp_coop_groups_to_factions_tables" />
+    <Entry Key="faction_groups_tables" />
+    <Entry Key="frontend_faction_groups_to_factions_tables" />
+    <Entry Key="factions_tables" />
+    <Entry Key="faction_to_faction_groups_junctions_tables" />
+    <Entry Key="faction_political_parties_junctions_tables" />
+    <Entry Key="mercenary_pools_tables" />
+    <Entry Key="ministerial_position_effect_bundles_tables" />
+    <Entry Key="battle_siege_vehicle_permissions_tables" />
+    <Entry Key="campaign_group_member_criteria_attrition_types_tables" />
+    <Entry Key="cai_task_management_system_task_generator_groups_generators_junctions_tables" />
+    <Entry Key="campaign_group_abandoned_cultures_overrides_tables" />
+    <Entry Key="cai_personality_group_overrides_tables" />
+    <Entry Key="diplomatic_action_subculture_restrictions_tables" />
+    <Entry Key="diplomacy_strings_tables" />
+    <Entry Key="building_downgrade_junctions_tables" />
+    <Entry Key="deployment_area_displays_tables" />
+    <Entry Key="effect_bonus_value_basic_junction_tables" />
+    <Entry Key="_kv_ui_tweakers_tables" />
+    <Entry Key="special_ability_phases_tables" />
+    <Entry Key="special_ability_phase_stat_effects_tables" />
+    <Entry Key="character_skill_level_details_tables" />
+    <Entry Key="character_skill_level_to_effects_junctions_tables" />
+    <Entry Key="character_skill_nodes_tables" />
+    <Entry Key="special_ability_to_auto_deactivate_flags_tables" />
+    <Entry Key="technology_effects_junction_tables" />
+    <Entry Key="effect_bonus_value_unit_attribute_junctions_tables" />
+    <Entry Key="character_skills_tables" />
+    <Entry Key="ui_unit_groupings_tables" />
+    <Entry Key="ui_unit_bullet_point_enums_tables" />
+    <Entry Key="resources_tables" />
+    <Entry Key="building_upgrades_junction_tables" />
+    <Entry Key="campaign_map_attrition_unit_immunities_tables" />
+  </Filters>
+</DBTableEditorConfig>

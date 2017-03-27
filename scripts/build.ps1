@@ -6,11 +6,11 @@ $rootDirectoryPath = & "$here\_Find-RootDirectory.ps1" -SearchStart $here;
 & "$here\update.ps1";
 
 # DAVE Export
-#$answer = Read-Host -Prompt "Have you done an export from DAVE? (y/n)";
-#if ([String]::IsNullOrEmpty($answer) -or $answer -ne "y")
-#{
-#	throw "No point doing a build if there is no exported data";
-#}
+$answer = Read-Host -Prompt "Have you done an export from DAVE? (y/n)";
+if ([String]::IsNullOrEmpty($answer) -or $answer -ne "y")
+{
+	throw "No point doing a build if there is no exported data";
+}
 
 $modFilePath = "$rootDirectoryPath\mod.json";
 $mod = ConvertFrom-Json ([System.IO.File]::ReadAllText($modFilePath));

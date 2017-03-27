@@ -18,7 +18,14 @@ $content = Get-Content $importingUpdateCommandsPath
 [System.IO.File]::WriteAllLines($workingUpdateCommandsPath, $content)
 
 # check if different
-$original = [System.IO.File]::ReadAllText($masterUpdateCommandsPath);
+if (-not (Test-Path $masterUpdateCommandsPath))
+{
+	$original = "";
+}
+else
+{
+	$original = [System.IO.File]::ReadAllText($masterUpdateCommandsPath);
+}
 $new = [System.IO.File]::ReadAllText($workingUpdateCommandsPath);
  
 if ($new -ne $original)
